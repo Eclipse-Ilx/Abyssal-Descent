@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: dimthing
+Specification-Vendor: slab
+Specification-Version: 1
+Implementation-Title: dimthing
+Implementation-Version: 0.2.0
+Implementation-Vendor: slab
+Implementation-Timestamp: 2024-09-24T07:30:28+0200
+

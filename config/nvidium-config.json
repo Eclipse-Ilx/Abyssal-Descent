@@ -1,0 +1,10 @@
+{
+  "extra_rd": 100,
+  "enable_temporal_coherence": true,
+  "max_geometry_memory": 2048,
+  "automatic_memory": true,
+  "async_bfs": true,
+  "region_keep_distance": 32,
+  "translucency_sorting_level": "QUADS",
+  "statistics_level": "NONE"
+}

@@ -1,0 +1,5 @@
+
+["Infinite Abyss configs"]
+	#Show warning about getting the mod from unsafe sites on first world load
+	"Do first load message" = true
+
