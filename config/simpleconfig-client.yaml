@@ -1,0 +1,795 @@
+## Simple Config - Client config
+## Lang: en_us
+## Comments starting with 2 hash symbols (##) are documentation comments and will be reset if modified.
+
+## Menu
+menu:
+  ## Modded Menu from Options Button
+  ##   Replace the options menu with Simple Config's Minecraft mod menu, which wraps them
+  ##   This makes possible to create presets/hotkeys for all Minecraft options
+  ##   A secondary click is either RClick or Shift + Click
+  ## [Options: 'default', 'secondary_click', 'main_click']
+  options_button_behaviour: secondary_click
+  ## Add Options Menu Button
+  ##   Adds a button to the options menu to open Simple Config's Minecraft mod menu, which wraps Minecraft options
+  ##   This makes possible to create presets/hotkeys for all Minecraft options
+  ## [yes/no]
+  add_options_menu_button: 'yes'
+  ## Options Button Position
+  ## [Options: 'top_left_corner', 'top_right_corner', 'bottom_left_corner', 'bottom_right_corner']
+  options_menu_button_position: top_left_corner
+
+## Hotkey Log
+##   Settings regarding config hotkeys
+hotkey_log:
+  ## Hotkey Log Location
+  ##   Where should hotkeys be logged when activated.
+  ##   The chat is the only persistent location.
+  ##   The right overlay is like a temporary chat at the right of the screen.
+  ##   The center toast can only display the title of the hotkey
+  ## [Options: 'chat', 'right_overlay', 'center_toast', 'none']
+  hotkey_log_location: right_overlay
+  ## Log Hotkey Actions
+  ##   Log hotkey actions in addition to the hotkey name.
+  ##   Has no effect if the location does not support multiline messages.
+  ## [yes/no]
+  log_hotkey_actions: 'yes'
+  ## Remote Hotkey Log Location
+  ##   Like the setting above, but applies to hotkeys triggered
+  ##   by other players when they affect server configuration.
+  ##   Only relevant for server operators, which receive said logs.
+  ##   Keep in mind that only authorized players can modify
+  ##   the server configuration, even through hotkeys.
+  ## [Operator] [Options: 'chat', 'right_overlay', 'center_toast', 'none']
+  remote_hotkey_log_location: chat
+  ## Log Remote Hotkey Actions
+  ##   Log remote hotkey actions in addition to the
+  ##   hotkey name and the player who triggered them.
+  ##   Has no effect if the location does not support multiline messages
+  ## [Operator] [yes/no]
+  log_remote_hotkey_actions: 'yes'
+  ## Max Logged Actions/Hotkey
+  ##   Maximum number of actions logged for each hotkey, since hotkeys can affect an arbitrary amount of entries.
+  ##   If hotkeys are not displayed in the chat, you may not be able to read all the actions for a single hotkey.
+  ## [Integer] [Range: >= 1]
+  max_logged_actions: 10
+  
+  ## Hotkey Overlay Style
+  overlay:
+    ## Background Opacity
+    ## [Float] [Range: 0.0 ~ 1.0]
+    background_opacity: 0.5
+    ## Display Time (s)
+    ##   Time to display each hotkey (in seconds)
+    ##   Hotkeys may vanish faster if more push them out to a certain height.
+    ## [Float] [Range: >= 0.0]
+    display_time: 2.0
+  
+  ## Toast Style
+  toast:
+    ## Relative Height
+    ##   Relative height of the toast within the screen
+    ##   0 is at the bottom, 1 is at the top
+    ## [Float] [Range: 0.0 ~ 1.0]
+    relative_height: 0.1
+    ## Background Opacity
+    ## [Float] [Range: 0.0 ~ 1.0]
+    background_opacity: 0.0
+    ## Display Time (s)
+    ##   Time to display the toast for (in seconds)
+    ## [Float] [Range: >= 0.0]
+    display_time: 1.0
+## Confirmation
+##   Configure which actions should require confirmation
+confirm:
+  ## Save
+  ##   Request confirmation before saving a config
+  ## [yes/no]
+  save: 'yes'
+  ## Discard
+  ##   Request confirmation before closing a config with unsaved changes
+  ## [yes/no]
+  discard: 'yes'
+  ## Overwrite External Changes
+  ##   Request confirmation before saving a config with conflicting external changes
+  ## [yes/no]
+  overwrite_external: 'yes'
+  ## Overwrite Remote Changes
+  ##   Request confirmation before saving a config with conflicting remote changes
+  ## [yes/no]
+  overwrite_remote: 'yes'
+  ## Reset
+  ##   Require a drag movement to reset an entry to its default
+  ## [yes/no]
+  reset: 'no'
+  ## Group Reset
+  ##   Require a drag movement to reset a group/list/map of entries to its default
+  ## [yes/no]
+  group_reset: 'yes'
+  ## Restore
+  ##   Require a drag movement to restore an entry's value before opening the config
+  ##   You can restore entries holding [Alt] when clicking a reset button
+  ## [yes/no]
+  restore: 'no'
+  ## Group Restore
+  ##   Require a drag movement to restore a group/list/map of entries to their value before opening the config
+  ##   You can restore entries holding [Alt] when clicking a reset button
+  ## [yes/no]
+  group_restore: 'yes'
+  ## Save Hotkeys
+  ##   Request confirmation before saving config hotkeys
+  ## [yes/no]
+  save_hotkeys: 'yes'
+  ## Discard Hotkeys
+  ##   Request confirmation before closing config hotkeys with unsaved changes
+  ## [yes/no]
+  discard_hotkeys: 'yes'
+
+## Advanced
+##   Advanced Options
+advanced:
+  ## Allow Save With Errors
+  ##   Allow saving a config with errors
+  ##   Entries with errors will not be saved.
+  ##   This is only supported to work around broken mods that report invalid values when they shouldn't (for instance, for their default values).
+  ##   Report this kind of errors in the mod's issue tracker
+  ## [yes/no]
+  allow_save_with_errors: 'no'
+  ## Max Undoable Actions
+  ##   Maximum number of actions which can be undone.
+  ##   Set to 0 to disable the limit.
+  ## [Integer] [Range: >= 0]
+  max_undo: 256
+  ## Show Copy Path Button
+  ##   Display a button next to all entry names to copy their path
+  ## [yes/no]
+  show_copy_path_button: 'no'
+  ## Show UI tips
+  ##   Display UI tips (description for list controls and reset buttons)
+  ##   Can be toggled from the controls dialog.
+  ## [yes/no]
+  show_ui_tips: 'yes'
+  ## Allow Over Scroll
+  ##   Do not snap the scrollbar to its bounds when the maximum height
+  ##   decreases, such as when collapsing groups
+  ## [yes/no]
+  allow_over_scroll: 'no'
+  ## Max tooltip width
+  ##   Maximum tooltip width in screen percentage
+  ##   Not live previewed
+  ## [Float] [Range: 0.0 ~ 100.0]
+  tooltip_max_width: 60.0
+  ## Max Options Before Combo Box
+  ##   Maximum number of options allowed in cycling buttons before being transformed into combo boxes
+  ## [Integer] [Range: ~]
+  prefer_combo_box: 8
+  ## Cycle with Scroll
+  ##   Allow cycling options in selection entries by scrolling over the button
+  ##   Disabled by default, since it's a pain modifying values accidentally if you only meant to scroll
+  ##   A better alternative is dragging middle click to quickly glance over all possible options
+  ## [yes/no]
+  cycle_with_scroll: 'no'
+  ## Commit Keybind When Clicked Outside
+  ##   Save recorded keybind when clicking outside the keybind button.
+  ##   Otherwise, the only way to save the keybind is by pressing Esc, and clicking outside will discard the current recorded value
+  ## [yes/no]
+  commit_keybind_on_click_outside: 'yes'
+  ## Max Options in Config Comments
+  ##   Configure the maximum number of options/suggestions that will be displayed in the config file's comments
+  ##   Entries with many possible options, such as item entries may create very long comments otherwise
+  ## [Requires Restart!] [Integer] [Range: >= 5]
+  max_options_in_config_comment: 16
+  ## Color Picker Saved Colors
+  ##   These are the colors displayed in the color picker palette
+  ##   You can save them from the color picker using [Right Click], so there's no reason to edit them here
+  ## [Map: [Integer] [Range: ~] >> [Color: #AARRGGBB]]
+  color_picker_saved_colors:
+    0: '#FFFF5555'
+    1: '#FFFFAA00'
+    2: '#FFFFFF55'
+    3: '#FF55FF55'
+    4: '#FF55FFFF'
+    5: '#FF5555FF'
+    6: '#FFFF55FF'
+    7: '#FFAAAAAA'
+  
+  ## Search
+  ##   These options store the last state of the search bar
+  ##   There's no reason to edit them manually
+  search:
+    ## Filter Search Mode
+    ## [yes/no]
+    search_filter: 'no'
+    ## Search by RegEx (Java)
+    ## [yes/no]
+    search_regex: 'no'
+    ## Case Sensitive Search
+    ## [yes/no]
+    search_case_sensitive: 'no'
+    ## Search Within Tooltips
+    ## [yes/no]
+    search_tooltips: 'yes'
+    ## Search History
+    ##   Search history shared by all config screens
+    ##   You may change the maximum size too
+    ##   Setting it to 0 will disable the history
+    ## [Caption: [Integer] [Range: 0 ~ 1000]] [List: [Text]]
+    search_history:
+      20: []
+    ## Regex Search History
+    ##   Regular expression search history shared by all config screens
+    ##   You may change the maximum size too
+    ##   Setting it to 0 will disable the history
+    ## [Caption: [Integer] [Range: <= 1000]] [List: [Pattern]]
+    regex_search_history:
+      20: []
+
+## Hotkeys
+hotkeys:
+  ## Open Mod List
+  ##   Configure a keybind to open the mod list.
+  ## [Hotkey: !key+"char"+mouse.left!>:press#game]
+  open_mod_list: right.alt>"m">
+  ## Edit Config Hotkeys
+  ##   Configure a keybind to open the config hotkeys dialog.
+  ## [Hotkey: !key+"char"+mouse.left!>:press#game]
+  edit_config_hotkeys: right.alt>"h">
+  ## Edit Mod Config
+  ##   Add keybinds to open directly the config menu of specific mods.
+  ## [Map: [Hotkey: !key+"char"+mouse.left!>:press#game] >> [Suggestions: "grapplemod", "fabric_renderer_api_v1", "supermartijn642configlib", "geckolib", "fabric_item_api_v1", "com_github_llamalad7_mixinextras", "aether", "fabric_rendering_fluids_v1", "fabric_models_v0", "infinite_abyss", "betternether", "gpumemleakfix", "shroombear", "fabric_convention_tags_v1", "modernfix", "fabric_command_api_v1", ... (omitted 91 more)]]
+  mod_config_hotkeys: {}
+
+## Demo
+##   Demo category with examples for mod developers
+demo:
+  ## Boolean value
+  ## [true/false]
+  bool: true
+  
+  ## Config entry types
+  entries:
+    
+    ## Basic entries
+    basic:
+      ## Int value
+      ## [Integer] [Range: 0 ~ 10]
+      int_value: 0
+      ## Long value
+      ## [Long] [Range: >= 0]
+      long_value: 0
+      ## Float value
+      ## [Float] [Range: 0.0 ~ 1.0]
+      float_value: 0.8
+      ## Double value
+      ## [Double] [Range: -10.0 ~ 10.0]
+      double_value: 0.0
+      ## Long slider
+      ##   All number types support sliders,
+      ##   as long as their bounds are finite
+      ## [Long] [Range: 0 ~ 20]
+      long_slider: 5
+      ## Float slider
+      ## [Float] [Range: >= 0.0]
+      float_slider: 80.0
+      ## [Integer] [Range: 0 ~ 100]
+      sqrt_slider: 50
+      ## [Float] [Range: 0.0 ~ 1000.0]
+      exp_slider: 10.0
+      ## Volume slider
+      ##   Sliders may display different text in their widgets.
+      ## [Float] [Range: 0.0 ~ 1.0]
+      volume_slider: 1.0
+      ## String value
+      ## [Text]
+      string_value: Hello World!
+      ## Regex pattern value
+      ## [Pattern] [Flags: (?i)]
+      regex_value: nice (?<regex>.*+)
+      ## Enum value
+      ## [Options: 'rock', 'paper', 'scissors']
+      enum_value: scissors
+      ## Another enum value
+      ##   Enums may define their own translations
+      ## [Options: 'upright', 'upside_down']
+      enum_value_2: upside_down
+      ## String suggestions
+      ##   String entries may suggest possible values
+      ## [Suggestions: "Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf", "Hotel", "India", "Juliet", "Kilo", "Lima", "Mike", "November", "Oscar", "Papa", ... (omitted 10 more)]
+      str_suggest: Alpha
+      ## String options
+      ##   String entries may also be restricted to a finite set of values
+      ## [Options: "Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf", "Hotel", "India", "Juliet", "Kilo", "Lima", "Mike", "November", "Oscar", "Papa", ... (omitted 10 more)]
+      str_restrict: Alpha
+    
+    ## Colors
+    colors:
+      ## No alpha color
+      ## [Color: #RRGGBB]
+      no_alpha_color: '#0000FF'
+      ## Alpha color
+      ## [Color: #AARRGGBB]
+      alpha_color: '#FFFFFF00'
+    
+    ## Ranges
+    ranges:
+      ## Range entry
+      ##   It's common for pairs of numeric entries to denote ranges
+      ##   You can group this kind of entries in a single range entry
+      ## [Range: [min, max]] [Bounds: 0 ~ 100]
+      range_entry: '[1, 20]'
+      ## Double range entry
+      ##   Ranges can be of long and double types,
+      ##   and inclusive or exclusive, at each end
+      ## [Range: (min, max)] [Bounds: 0.0 ~ 10.0]
+      double_range_entry: (0.5, 1.5)
+      ## Half exclusive range
+      ## [Range: [min, max)] [Bounds: -10.0 ~ 10.0]
+      half_exclusive_range: '[0.0, 1.0)'
+      ## Editable exclusiveness range
+      ##   Exclusiveness of the range bounds can also be made editable, separately for each end
+      ##   In addition to the button controls, try typing "<" or "=" in the range
+      ## [Range: [(min, max)]] [Bounds: -10.0 ~ 10.0]
+      editable_exclusiveness_range: '[0.0, 1.0)'
+    
+    ## Lists
+    lists:
+      ## String list
+      ## [List: Text]
+      string_list:
+      - Lorem ipsum
+      - dolor sit amet
+      ## Int list
+      ## [List: Integer, Range: >= 0]
+      int_list:
+      - 1
+      - 2
+      - 4
+      - 8
+      ## Color list
+      ##   Lists may contain any other entry type that has an entry in the config file
+      ##   This only excludes static text messages and non persistent boolean entries
+      ## [List: [Color: #RRGGBB]]
+      color_list:
+      - '#FF0000'
+      - '#0000FF'
+      - '#00FF00'
+      ## Slider list list
+      ##   Lists may contain other lists
+      ## [List: [List: [Float] [Range: 0.0 ~ 10.0]]]
+      slider_list_list:
+      - - 0.0
+        - 1.0
+      - - 2.0
+        - 3.0
+      ## List of color lists with captions
+      ##   Lists may also have a caption entry, even when nested inside other lists
+      ## [Caption: [Color: #RRGGBB]] [List: [Caption: [Color: #RRGGBB]] [List: [Color: #RRGGBB]]]
+      color_list_list:
+        '#808080':
+        - '#00FFFF':
+          - '#FFFF00'
+          - '#0000FF'
+        - '#FFAFAF':
+          - '#FF0000'
+          - '#00FF00'
+      ## Bean List
+      ##   Lists can contain Java Bean entries, which act as groups of entries
+      ## [List: [Object: 
+      ##   name: [Text]
+      ##   range: [Range: [min, max]] [Bounds: ~]
+      ##   color: [Color: #RRGGBB]
+      ##   pattern: [Pattern]]]
+      bean_list:
+      - name: <unnamed>
+        range: '[0.0, 1.0]'
+        color: '#FFFFFF'
+        pattern: (\d+):(\w+)
+    
+    ## Serializable
+    ##   Types serializable as strings
+    ##   You may define your own serializers
+    serializable:
+      ## Generic resource
+      ## [namespace:path]
+      resource: minecraft:elytra
+      ## Block dropdown
+      ## [Block: namespace:path]
+      block: minecraft:grass_block
+      ## Item dropdown
+      ##   Combo boxes support advanced text search
+      ##   Try typing 'gapple' in this combo box
+      ##   Hitting 'Ctrl + Space' or 'Enter' will trigger autocompletion
+      ## [Item: namespace:path]
+      item: minecraft:netherite_hoe
+      ## Fluid dropdown
+      ## [Fluid: namespace:path]
+      fluid: minecraft:water
+      ## Apple Item
+      ## [Item: namespace:path]
+      apple_item: minecraft:apple
+      ## Item Name
+      ##   Item entries can also allow unknown items
+      ##   (For example, belonging to unloaded mods)
+      ## [Item: namespace:path]
+      item_name: unknown:item
+      ## NBT compound
+      ## [CompoundTag]
+      nbt_compound: '{health: 20, name: "Steve"}'
+      ## NBT value (or compound)
+      ## [Tag]
+      nbt_value: '"NBT"'
+      ## Command Argument
+      ##   Entries can hold specific argument types
+      ##   In this case, this entry only accepts single-entity selectors
+      ## Command Arg
+      command_argument: '@r[distance=0..10]'
+      ## Custom Pair
+      ##   Modders may define their own string serializers
+      ##   This is just an example, if you just want a pair or triple, please use the built-in ones instead
+      ##   Only use serializable types for types that have a natural representation in text form
+      ##   Most players will prefer editing bean entries instead
+      ## [Pair]
+      pair: string, 2
+      ## Java Bean
+      ##   It's also possible to edit Java Beans using group-like entries
+      ##   The main use of these entries is within lists or maps
+      ##   Beans can display a small dynamic icon
+      ## [Object: 
+      ##   name: [Text]
+      ##   range: [Range: [min, max]] [Bounds: ~]
+      ##   color: [Color: #RRGGBB]
+      ##   pattern: [Pattern]]
+      bean:
+        name: <unnamed>
+        range: '[0.0, 1.0]'
+        color: '#FFFFFF'
+        pattern: (\d+):(\w+)
+    
+    ## Maps
+    maps:
+      ## Map of strings
+      ##   Maps may contain any other entry type that is serializable as NBT
+      ##   This currently includes all built-in types and all string-serializable types
+      ##   Map keys can be any entry type that serializes as strings except other lists or maps
+      ## [Map: [Text] >> [Text]]
+      map:
+        first: some_value
+        second: other_value
+      ## Map of lists of strings
+      ##   Of course, maps may contain lists
+      ## [Map: [namespace:path] >> [List: [Text]]]
+      list_map:
+        minecraft:the_nether:
+        - Dev
+        - Dev3
+        minecraft:overworld:
+        - Dev
+        - Dev2
+      ## Map of maps of divisible integers
+      ##   Of course, maps may contain other maps
+      ##   However, don't push it too far, or the config will stop being simple
+      ##   Additionally, this map only allows integers divisible by the caption entry
+      ## [Caption: [Integer] [Range: ~]] [Map: [Text] >> [Map: [Text] >> [Integer] [Range: ~]]]
+      divisible_int_map_map:
+        2:
+          birch forest:
+            Poppy: 8
+            Lily of the Valley: 4
+          plains:
+            Dandelion: 4
+            Cornflower: 2
+      ## Color to Color map
+      ##   The keys to a map can be almost any other kind of entry
+      ##   Obviously, not other lists or maps
+      ## [Map: [Color: #AARRGGBB] >> [Color: #AARRGGBB]]
+      color_color_map:
+        '#FFFF0000': '#FF00FF00'
+        '#FFFFFF00': '#FF0000FF'
+      ## Combobox to Item map
+      ## [Caption: [true/false]] [Map: [Suggestions: "Have", "Some", "Nice", "Suggestions"] >> [Item: namespace:path]]
+      str_suggest_map:
+        true:
+          lol apple: minecraft:apple
+      ## Int to Int linked map
+      ##   Maps can be linked, preserving their order
+      ## [Sorted Map: [Integer] [Range: 0 ~ 1024] >> [Integer] [Range: 0 ~ 2048]]
+      int_to_int_map:
+      - 0: 1
+      - 1: 2
+      - 2: 4
+      - 3: 8
+      ## Instruction List
+      ##   There are also pair lists, which allow duplicate keys
+      ## [Sorted Map: [Options: "move", "rotate", "dig", "tower"] >> [Integer] [Range: ~]]
+      instruction_list:
+      - move: 2
+      - tower: 1
+      ## Key Map
+      ##   Maps can be useful to map keys to actions
+      ## [Map: [Hotkey: !key+"char"+mouse.left!>:press#game] >> [Text]]
+      key_map:
+        left.control+h: /tp 0 0 0
+        unknown+i: /effect give @s minecraft:invisibility 999999 255 true
+      ## Bean Map
+      ##   Maps can contain Java Bean entries, allowing for very complex configurations.
+      ##   Beans can have other Beans, or even maps as properties
+      ## [Map: [Text] >> [Object: 
+      ##   range: [Range: [min, max]] [Bounds: ~]
+      ##   color: [Color: #RRGGBB]
+      ##   pattern: [Pattern]]]
+      bean_map:
+        <unnamed>:
+          range: '[0.0, 1.0]'
+          color: '#FFFFFF'
+          pattern: (\d+):(\w+)
+    
+    ## Pairs & Triples
+    ##   Entries can be grouped to form pairs or triples.
+    pairs_n_triples:
+      ## Int pair
+      ##   Almost any entry (save for lists and maps) can be aggregated to form a pair.
+      ## [Pair: [Integer] [Range: 0 ~ 10], [Integer] [Range: 0 ~ 10]]
+      int_pair: [0, 10]
+      ## Slider pair
+      ##   Paired entries do not need to be of the same type.
+      ## [Pair: [Float] [Range: 0.0 ~ 1.0], [Float] [Range: 0.0 ~ 1.0]]
+      slider_pair: [0.5, 0.5]
+      ## Enum triple
+      ## [Triple: [Options: 'x', 'y', 'z'], [Options: 'upright', 'upside_down'], [Options: 'down', 'up', 'north', 'south', 'west', 'east']]
+      enum_triple: [x, upside_down, north]
+      ## Item/Fluid Pair List
+      ## [Caption: [Pair: [Item: namespace:path], [Fluid: namespace:path]]] [List: [Pair: [Item: namespace:path], [Fluid: namespace:path]]]
+      item_fluid_pair_list:
+        ? ['minecraft:apple', 'minecraft:water']
+        : - ['minecraft:apple', 'minecraft:water']
+          - ['minecraft:beetroot', 'minecraft:lava']
+      ## Mixed Pair
+      ## [Pair: [Integer] [Range: ~], [Text]]
+      mixed_pair: [0, str]
+      ## Range
+      ## [Pair: [Integer] [Range: ~], [Integer] [Range: ~]]
+      range_pair: [0, 10]
+      ## Number pair pair
+      ##   Pairs can contain pairs without a set limit, but users may have trouble editing them in small screens
+      ## [Pair: [Pair: [Integer] [Range: ~], [Long] [Range: ~]], [Pair: [Float] [Range: ~], [Double] [Range: ~]]]
+      pair_pair: [[0, 0], [0.0, 0.0]]
+    
+    ## Special
+    special:
+      ## [Suggestions: "Groups", "can", "hold", "entries", "in", "their", "captions"]
+      caption: Caption entry
+      ## Test list
+      ##   The entry above multiplies all elements of this list
+      ## [List: [Integer] [Range: ~]]
+      button_test:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      
+      ## Preset test
+      ##   These entries can be set using the preset entry above
+      preset_test:
+        ## A
+        ## [Integer] [Range: ~]
+        a: 0
+        ## B
+        ## [Integer] [Range: ~]
+        b: 0
+        ## C
+        ## [Integer] [Range: ~]
+        c: 0
+        ## D
+        ## [Text]
+        d: '"0"'
+        ## E
+        ## [List: [Integer] [Range: ~]]
+        e:
+        - 0
+        - 0
+        - 0
+  
+  ## Tooltips, errors and links
+  errors_tooltips_n_links:
+    ## Lowercase string
+    ##   Entries may define custom restrictions and error messages
+    ## [Text]
+    lowercase_string: lowercase text
+    ## Minimum
+    ##   An entry's validation may rely on other entries
+    ##   For example, you cannot set a greater min than max
+    ## [Integer] [Range: ~]
+    min: 0
+    ## Maximum
+    ##   An entry's validation may rely on other entries
+    ##   For example, you cannot set a greater min than max
+    ## [Integer] [Range: ~]
+    max: 10
+    ## Even int list
+    ##   List entries may also define a validator for its elements, as well as for the whole list
+    ## [List: Integer, Range: -20 ~ 20]
+    even_int_list:
+    - 2
+    - 4
+    ## Greeting name
+    ## [Text]
+    dynamic_tooltip: Steve
+    ## Bool that requires restart
+    ##   Some entries require a restart to be effective
+    ##   You'll be notified about it when you save your changes
+    ## [Requires Restart!] [true/false]
+    restart_bool: false
+    ## Experimental bool
+    ##   Entries can be flagged as experimental.
+    ##   Users will see a banner warning them about currently modified experimental entries.
+    ## [EXPERIMENTAL!] [true/false]
+    experimental_bool: false
+    ## Advanced bool
+    ##   Entries can be flagged as advanced, to warn users to not touch them unless confident.
+    ## [Advanced!] [true/false]
+    advanced_bool: false
+    ## Tagged bool
+    ##   Entries may be tagged with many different tags.
+    ##   Mods may even create their own.
+    ## [Green tag] [Blue tag] [Advanced!] [Yellow bookmark] [Red tag] [EXPERIMENTAL!] [Requires Restart!] [true/false]
+    mixed_bool: false
+    ## Enable Switch
+    ##   This entry can disable the one below it
+    ## [true/false]
+    enable_switch: false
+    ## Enable Test
+    ##   This entry is only editable when the above is True
+    ## [Text]
+    enable_test: text
+
+## Demo
+declarative_demo:
+  ## Entry
+  ## [Text]
+  entry: value
+  
+  ## Group
+  group:
+    ## Built with builder
+    ##   This entry was built with the builder API
+    ## [Text]
+    built_with_builder: ''
+    ## Boolean value
+    ## [true/false]
+    bool: false
+    ## NBT compound
+    ## [CompoundTag]
+    nbt: '{health: 20, name: "Steve"}'
+    ## Direction enum
+    ## [Options: 'down', 'up', 'north', 'south', 'west', 'east']
+    direction: down
+  
+  ## Other group
+  demo_group:
+    ## Even slider
+    ## [Long] [Range: 0 ~ 10]
+    even_score: 10
+    ## Alpha color
+    ## [Color: #AARRGGBB]
+    alpha_color: '#FF808080'
+    ## Speed
+    ## [Float] [Range: ~]
+    speed: 0.5
+    ## Ore gen chance
+    ## [Requires Restart!] [Double] [Range: 0.0 ~ 1.0]
+    ore_gen_chance: 1.0
+    ## Speed (m/s)
+    ##   A baker method may be used to translate entry units
+    ##   For example, this entry is translated to m/tick on bake
+    ## [Float] [Range: >= 0.0]
+    speed_m_s: 2.0
+    
+    ## Nested group
+    nested_group:
+      ## [Text]
+      caption: Caption entry
+      ## No alpha color
+      ## [Color: #RRGGBB]
+      no_alpha_color: '#0000FF'
+      ## Alpha color
+      ## [Color: #AARRGGBB]
+      alpha_color: '#FFFFFF00'
+      ## Long list
+      ## [List: [Long] [Range: >= 0]]
+      long_list:
+      - 0
+      - 2
+      ## Double list
+      ## [List: [Double] [Range: 0.0 ~ 1.0]]
+      double_list:
+      - 0.1
+      - 0.2
+      - 0.3
+      - 0.4
+      ## List list
+      ## [List: [List: [Text]]]
+      list_list:
+      - - a
+        - b
+        - c
+        - d
+      - - e
+        - f
+        - g
+        - h
+      ## Int Map
+      ## [Map: [Text] >> [Integer] [Range: 0 ~ 20]]
+      int_map:
+        key: 0
+      ## String Int Pair List
+      ## [Sorted Map: [Suggestions: "move", "rotate", "tower", "dig"] >> [Integer] [Range: >= 0]]
+      string_int_pair_list:
+      - move: 4
+      - rotate: 90
+      - move: 2
+      ## Captioned list
+      ## [Caption: [Text]] [List: [Integer] [Range: 0 ~ 10]]
+      captioned_list:
+        caption:
+        - 4
+        - 2
+      ## Set with caption
+      ## [Caption: [Text]] [Set: [Integer] [Range: 0 ~ 10]]
+      set_with_caption:
+        caption: !!set {}
+      ## Int (0-10~20)
+      ##   Slider entries can allow values beyond their slider range.
+      ##   This entry lets you introduce values between 10 and 20 by switching to text input mode
+      ## [Integer] [Range: 0 ~ 20]
+      int10: 5
+      ## Lowercase string
+      ## [Text]
+      lower_str: lowercase
+      ## Extra slider
+      ## [Integer] [Range: 0 ~ 200]
+      extra_slider: 50
+      ## Extra slider 2
+      ## [Integer] [Range: 0 ~ 300]
+      extra_slider_300: 250
+      ## Mapped float
+      ##   This entry is mapped to a different range when baked with a custom annotation providing a baking traansformation.
+      ## [Float] [Range: 0.0 ~ 1.0]
+      mapped_float: 0.0
+      ## Mapped double
+      ## [Double] [Range: 0.0 ~ 1.0]
+      mapped_double: 0.0
+      ## Demo Bean
+      ## [Object: 
+      ##   name: [Text]
+      ##   number: [Integer] [Range: 0 ~ 10]
+      ##   pair: [Pair: [Text], [Integer] [Range: 0 ~ 10]]
+      ##   subBean: [Object: 
+      ##     name: [Text]
+      ##     value: [Integer] [Range: ~]]]
+      demo_bean:
+        name: Name
+        number: 0
+        pair: [a, 0]
+        subBean:
+          name: ''
+          value: 0
+      ## Set of beans
+      ## [Set: [Object: 
+      ##   name: [Text]
+      ##   number: [Integer] [Range: 0 ~ 10]
+      ##   pair: [Pair: [Text], [Integer] [Range: 0 ~ 10]]
+      ##   subBean: [Object: 
+      ##     name: [Text]
+      ##     value: [Integer] [Range: ~]]]]
+      bean_set: !!set
+        ? name: Name
+          number: 0
+          pair: [a, 0]
+          subBean:
+            name: ''
+            value: 0
+        : null

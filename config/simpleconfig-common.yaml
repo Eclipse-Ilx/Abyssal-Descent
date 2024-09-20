@@ -1,0 +1,56 @@
+## Simple Config - Common config
+## Lang: en_us
+## Comments starting with 2 hash symbols (##) are documentation comments and will be reset if modified.
+
+## Menus & Commands
+menu:
+  ## Provide Menus & Commands
+  ##   Provide configuration menus and commands under "/config" to edit configs of other mods.
+  ##   Mods that use the Simple Config API always have menus and commands.
+  ##   In order to provide menus for the server config of another mod, it must be enabled both in the client and the server.
+  ## [Requires Restart!] [yes/no]
+  wrap_configs: 'yes'
+  ## Provide Menus & Commands Exceptions
+  ##   Exceptions to the above setting.
+  ##   If enabled, mods in this list will not receive menus nor commands.
+  ##   Otherwise, mods in this list will be the only ones to receive menus & commands.
+  ##   Mods that use the Simple Config API always have menus & commands
+  ## [Requires Restart!] [List: [Suggestions: "grapplemod", "fabric_renderer_api_v1", "supermartijn642configlib", "geckolib", "fabric_item_api_v1", "com_github_llamalad7_mixinextras", "aether", "fabric_rendering_fluids_v1", "fabric_models_v0", "infinite_abyss", "betternether", "gpumemleakfix", "shroombear", "fabric_convention_tags_v1", "modernfix", "fabric_command_api_v1", ... (omitted 91 more)]]
+  wrap_config_exceptions: []
+  ## Replace Config Menus
+  ##   Replace configuration menus of mods that already had one.
+  ##   Only applies to mods that receive menus according to the above settings.
+  ## [Requires Restart!] [yes/no]
+  replace_config_menus: 'no'
+  ## Replace Menu Exceptions
+  ##   Exceptions to the above setting
+  ##   If enabled, mods in this list won't have their menus replaced
+  ##   Otherwise, the mods in this list will be the only replaced ones.
+  ## [Requires Restart!] [List: [Suggestions: "grapplemod", "fabric_renderer_api_v1", "supermartijn642configlib", "geckolib", "fabric_item_api_v1", "com_github_llamalad7_mixinextras", "aether", "fabric_rendering_fluids_v1", "fabric_models_v0", "infinite_abyss", "betternether", "gpumemleakfix", "shroombear", "fabric_convention_tags_v1", "modernfix", "fabric_command_api_v1", ... (omitted 91 more)]]
+  replace_menu_exceptions: []
+  ## Wrap Top Groups as Tabs
+  ##   Wraps top level groups in other mods' configs as tabs rather than normal groups.
+  ## [Requires Restart!] [yes/no]
+  wrap_top_level_groups_as_categories: 'yes'
+  ## Prevent External Menu Replacement
+  ##   Prevents other mods from replacing Simple Config menus
+  ## [Requires Restart!] [yes/no]
+  prevent_external_menu_replacement: 'yes'
+
+## Demo
+demo:
+  ## Yes/No
+  ## [yes/no]
+  bool: 'yes'
+  ## Number
+  ## [Integer] [Range: >= 0]
+  number: 0
+  ## Slider
+  ## [Double] [Range: 0.0 ~ 1.0]
+  slider: 0.5
+  ## Color list
+  ## [List: [Color: #AARRGGBB]]
+  color_list:
+  - '#FFFF0000'
+  - '#FF00FF00'
+  - '#FF0000FF'

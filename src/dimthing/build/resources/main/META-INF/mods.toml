@@ -1,0 +1,24 @@
+modLoader="javafml" 
+loaderVersion="[47,)" 
+license="0BSD"
+
+[[mods]] 
+modId="dimthing" 
+version="0.2.0" 
+displayName="Dim Overlay" 
+authors="slab" 
+
+description='''"Correct" coordinate display created for the Abyssal Modpacks.'''
+[[dependencies.dimthing]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[47,)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dimthing]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"

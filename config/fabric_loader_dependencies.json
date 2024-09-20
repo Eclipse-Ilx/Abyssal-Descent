@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "overrides": {
+    "immersive_portals": {
+      "-breaks": {
+        "sodium": "BYE",
+        "iris": "BYE"
+      }
+    }
+  }
+}
