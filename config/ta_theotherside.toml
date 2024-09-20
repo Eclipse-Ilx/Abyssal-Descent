@@ -1,0 +1,21 @@
+
+[SomniumBar]
+	#Modify the Somnium Bar's position by adjusting the Y and X coordinates.
+	PositionX = 0.0
+	#Modify the Somnium Bar's position by adjusting the Y and X coordinates.
+	PositionY = 0.0
+
+[DimensionSettings]
+	#Adjust the difficulty level in the Abyss by entering a numerical value between 0 and 5. Choose 0 for very easy and 5 for ultra hardcore. This modification will impact the strength of entities, influence mob spawn rates, and determine the speed at which a player succumbs to infection.
+	Difficulty = 3.0
+	#Enable the Guide Book to be automatically provided to each player upon their first join. When enabled, every new player will receive a guide book specifically designed for the Abyss.
+	GuideBook = true
+	#If set to true, particle generation will be reduced, leading to an overall improvement in performance.
+	PotatoParticles = false
+	#If set to true, internal post shaders will be reduced, resulting in improved performance.
+	PotatoShaders = false
+	#Adjust this value between 0 and 30 to modify the frequency of ore vein generation. A setting of 0 corresponds to very rare, while 30 indicates a very common occurrence.
+	OreRarity = 10.0
+	#Modify this value within the range of 0 to 30 to alter the frequency of structure generation, including dungeons, houses, or giant trees. A setting of 0 makes them rare, while 30 makes them more common.
+	StructureGen = 15.0
+
