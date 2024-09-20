@@ -297,6 +297,14 @@
     "deeperdarker:gloomslate_gold_ore",
     "deeperdarker:gloomslate_redstone_ore",
     "deeperdarker:gloomslate_lapis_ore",
-    "deeperdarker:gloomslate_coal_ore"
+    "deeperdarker:gloomslate_coal_ore",
+    "abyssal_descent_resources:amogus",
+    "abyssal_descent_resources:amogusundergarden",
+    "abyssal_descent_resources:amogus2",
+    "abyssal_descent_resources:amogus3",
+    "abyssal_descent_resources:amogus4",
+    "abyssal_descent_resources:amogus5",
+    "abyssal_descent_resources:amogus6",
+    "deeperdarker:gloomslate_copper_ore"
   ]
 }

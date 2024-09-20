@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "sh.slb.breakingthing.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "refmap": "breakingthing.refmap.json",
+  "mixins": [
+    "BlocksMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

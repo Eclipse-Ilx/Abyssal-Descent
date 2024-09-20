@@ -70,7 +70,7 @@
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "abyssal_descent_resources:hardened_deepstone",
+        "bedrockReplacementStr": "abyssal_descent_resources:amogus",
         "connectsPrevious": true,
         "connectsNext": true
       },
@@ -79,7 +79,7 @@
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
+        "bedrockReplacementStr": "abyssal_descent_resources:amogusundergarden",
         "connectsPrevious": true,
         "connectsNext": true
       },
@@ -88,7 +88,7 @@
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
+        "bedrockReplacementStr": "abyssal_descent_resources:amogus2",
         "connectsPrevious": true,
         "connectsNext": true
       },
@@ -97,7 +97,7 @@
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
+        "bedrockReplacementStr": "abyssal_descent_resources:amogus3",
         "connectsPrevious": true,
         "connectsNext": true
       },
@@ -106,7 +106,7 @@
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:air",
+        "bedrockReplacementStr": "abyssal_descent_resources:amogus4",
         "connectsPrevious": true,
         "connectsNext": true
       },
@@ -116,7 +116,7 @@
         "flipped": false,
         "horizontalRotation": 0.0,
         "topY": 170,
-        "bedrockReplacementStr": "minecraft:air",
+        "bedrockReplacementStr": "",
         "connectsPrevious": true,
         "connectsNext": true
       },
@@ -125,7 +125,7 @@
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
+        "bedrockReplacementStr": "abyssal_descent_resources:amogus5",
         "connectsPrevious": true,
         "connectsNext": true
       },
@@ -134,7 +134,7 @@
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
+        "bedrockReplacementStr": "abyssal_descent_resources:amogus6",
         "connectsPrevious": true,
         "connectsNext": true
       },

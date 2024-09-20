@@ -1,0 +1,25 @@
+This project wouldn't have been possible without these awesome people:
+- EminGT - The developer of Complementary Shaders, a very patient individual who we made suffer with our code and someone who helped us when frustration kicked in
+- Capt Tatsu - Screenspace Multi-Colored Blocklight
+- gri573 - End Crystal Vortex effect, guidance and assistance in many areas! Has been a huge help.
+- SixthSurge, WoMspace (aka Sasha), Septonious, fayer3 - Always assisted us when we needed some help
+- Xonk for the directional lightning bolts and being amazing!
+- Memokii - Euphoria Patches banner and watermark
+- dragoncat - Overimagined logo and helpful suggestions
+- TheNukeLore - IntegratedPBR Normals Resolution
+- dbrighthd - Fresnel Multiplier
+- Chinese Translation by Surisen (Ruri) https://github.com/NakiriRuri/Minecraft-Shaders-zh_CN-Lang-Files. Translations might be outdated. We can't guarantee that.
+- Acer (Alex) - Polish Translation, a lot of suggestions and helpful feedback
+- Helgust - Initial Code for Pixelated Procedural Water Option
+
+Other honorable mentions:
+- IMS
+- sp614x
+- coderbot
+- motyl
+- Tigerblood
+- Renko
+- Baconbacon123
+- Slooshie
+- Chareflex77
+- LilyBot :ioa:
