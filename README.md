@@ -11,3 +11,6 @@ PR's and Issues welcome, but please read [CONTRIBUTING.md](CONTRIBUTING.md)
 ```bash
 make all # downloads mods, builds from source, and applies overrides
 ```
+
+> **For Windows:**  
+> You'll need to build this in `wsl` or with `cygwin`, the build system doesnt work with pure win
