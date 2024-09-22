@@ -8,3 +8,4 @@
 - It's possible to enter a gap between the portal and ceiling of the dimension
 - Inexplicit lag spikes lasting few seconds.
 - Intel CPU's only: Instant crash (chunk loading overallocated memory) when falling into a portal too fast
+- When a new layer comes into view with shaders you may get a lag spike. i.e mining a block revealing the new layers first block
