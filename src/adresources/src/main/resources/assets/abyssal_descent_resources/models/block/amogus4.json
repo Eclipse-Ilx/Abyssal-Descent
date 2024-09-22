@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "abyssal_descent_resources:block/cobbled_deepstone_purple",
+    "particle": "abyssal_descent_resources:block/cobbled_deepstone_purple"
+  },
+  "render_type": "solid"
+}
