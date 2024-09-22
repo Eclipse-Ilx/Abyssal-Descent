@@ -1,0 +1,4 @@
+deps: java 17
+
+export INSTALL_DIR=/path/to/mods/dir/
+make clean install
