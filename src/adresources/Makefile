@@ -1,4 +1,5 @@
 default: 
+	dos2unix gradlew &2>/dev/null
 	./gradlew build --quiet
 	mv build/libs/*.jar .
 
