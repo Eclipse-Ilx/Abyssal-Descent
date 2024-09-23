@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "abyssal_descent_resources:block/deepstone",
-    "particle": "abyssal_descent_resources:block/deepstone"
-  },
-  "render_type": "solid"
-}
