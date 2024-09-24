@@ -236,7 +236,7 @@ hotkeys:
   edit_config_hotkeys: right.alt>"h">
   ## Edit Mod Config
   ##   Add keybinds to open directly the config menu of specific mods.
-  ## [Map: [Hotkey: !key+"char"+mouse.left!>:press#game] >> [Suggestions: "grapplemod", "fabric_renderer_api_v1", "supermartijn642configlib", "geckolib", "fabric_item_api_v1", "com_github_llamalad7_mixinextras", "aether", "fabric_rendering_fluids_v1", "fabric_models_v0", "infinite_abyss", "betternether", "gpumemleakfix", "shroombear", "fabric_convention_tags_v1", "modernfix", "fabric_command_api_v1", ... (omitted 91 more)]]
+  ## [Map: [Hotkey: !key+"char"+mouse.left!>:press#game] >> [Suggestions: "grapplemod", "fabric_renderer_api_v1", "supermartijn642configlib", "geckolib", "connectorextras_kubejs_bridge", "fabric_item_api_v1", "com_github_llamalad7_mixinextras", "aether", "fabric_rendering_fluids_v1", "fabric_models_v0", "infinite_abyss", "betternether", "shroombear", "fabric_convention_tags_v1", "fabric_command_api_v1", "fabric_block_view_api_v2", ... (omitted 105 more)]]
   mod_config_hotkeys: {}
 
 ## Demo
@@ -635,7 +635,7 @@ demo:
     ## Tagged bool
     ##   Entries may be tagged with many different tags.
     ##   Mods may even create their own.
-    ## [Green tag] [Blue tag] [Advanced!] [Yellow bookmark] [Red tag] [EXPERIMENTAL!] [Requires Restart!] [true/false]
+    ## [Yellow bookmark] [Red tag] [Advanced!] [Blue tag] [Green tag] [Requires Restart!] [EXPERIMENTAL!] [true/false]
     mixed_bool: false
     ## Enable Switch
     ##   This entry can disable the one below it
