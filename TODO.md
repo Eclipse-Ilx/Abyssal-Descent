@@ -4,3 +4,7 @@
 - Add audio to play alongside traveler's titles
 - Sounds for breaking separator blocks, and for shaped charge explosions
 - create transition layers (10-20 blocks to mix biomes)
+- Shift mining levels of blocks to make copper a separate one above stone
+- Make deepslate (and corresponding ores) mining level copper 
+- Iron in the overworld should only spawn in deepslate
+- remove diamond ore spawn from overworld
