@@ -1,2 +1,6 @@
 - Improve the vanilla non shader skybox for The Ceilands & all underground biomes
 - Drastically increase loot table in ceilinglands village
+- Port modlist to 1.19.2
+- Add audio to play alongside traveler's titles
+- Sounds for breaking separator blocks, and for shaped charge explosions
+- create transition layers (10-20 blocks to mix biomes)
