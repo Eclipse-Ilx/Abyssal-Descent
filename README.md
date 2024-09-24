@@ -14,6 +14,6 @@ EXPORT_DIR="path/to/.minecraft/" make export # copies build dir to your instance
 ```
 
 > **For Windows:**  
-> Additional dependencies: `dos2unix`
+> Additional dependencies: `dos2unix`  
 > You'll need to build this in `wsl` or with `cygwin`, the build system doesnt work with pure win  
 > **Note:** the `Makefile` may missbehave, try running `dos2unix Makefile` if that happens
