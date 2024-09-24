@@ -1,4 +1,6 @@
 # Abyssal Descent
+Run on `forge 47.3.10`
+
 Join the [Discord](https://discord.gg/S43xbbHAe2) for more information  
 
 > **Note:**  
