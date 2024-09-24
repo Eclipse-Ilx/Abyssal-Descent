@@ -15,7 +15,7 @@ menu:
   ##   If enabled, mods in this list will not receive menus nor commands.
   ##   Otherwise, mods in this list will be the only ones to receive menus & commands.
   ##   Mods that use the Simple Config API always have menus & commands
-  ## [Requires Restart!] [List: [Suggestions: "grapplemod", "fabric_renderer_api_v1", "supermartijn642configlib", "geckolib", "fabric_item_api_v1", "com_github_llamalad7_mixinextras", "aether", "fabric_rendering_fluids_v1", "fabric_models_v0", "infinite_abyss", "betternether", "gpumemleakfix", "shroombear", "fabric_convention_tags_v1", "modernfix", "fabric_command_api_v1", ... (omitted 91 more)]]
+  ## [Requires Restart!] [List: [Suggestions: "grapplemod", "fabric_renderer_api_v1", "supermartijn642configlib", "geckolib", "connectorextras_kubejs_bridge", "fabric_item_api_v1", "com_github_llamalad7_mixinextras", "aether", "fabric_rendering_fluids_v1", "fabric_models_v0", "infinite_abyss", "betternether", "shroombear", "fabric_convention_tags_v1", "fabric_command_api_v1", "fabric_block_view_api_v2", ... (omitted 105 more)]]
   wrap_config_exceptions: []
   ## Replace Config Menus
   ##   Replace configuration menus of mods that already had one.
@@ -26,7 +26,7 @@ menu:
   ##   Exceptions to the above setting
   ##   If enabled, mods in this list won't have their menus replaced
   ##   Otherwise, the mods in this list will be the only replaced ones.
-  ## [Requires Restart!] [List: [Suggestions: "grapplemod", "fabric_renderer_api_v1", "supermartijn642configlib", "geckolib", "fabric_item_api_v1", "com_github_llamalad7_mixinextras", "aether", "fabric_rendering_fluids_v1", "fabric_models_v0", "infinite_abyss", "betternether", "gpumemleakfix", "shroombear", "fabric_convention_tags_v1", "modernfix", "fabric_command_api_v1", ... (omitted 91 more)]]
+  ## [Requires Restart!] [List: [Suggestions: "grapplemod", "fabric_renderer_api_v1", "supermartijn642configlib", "geckolib", "connectorextras_kubejs_bridge", "fabric_item_api_v1", "com_github_llamalad7_mixinextras", "aether", "fabric_rendering_fluids_v1", "fabric_models_v0", "infinite_abyss", "betternether", "shroombear", "fabric_convention_tags_v1", "fabric_command_api_v1", "fabric_block_view_api_v2", ... (omitted 105 more)]]
   replace_menu_exceptions: []
   ## Wrap Top Groups as Tabs
   ##   Wraps top level groups in other mods' configs as tabs rather than normal groups.

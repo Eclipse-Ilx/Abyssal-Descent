@@ -40,3 +40,7 @@ export:
 .PHONY: clean
 clean:
 	rm -r build
+
+.PHONY: zip
+zip:
+	zip build.zip build
