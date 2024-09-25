@@ -5,4 +5,5 @@
 - Sounds for breaking separator blocks, and for shaped charge explosions
 - create transition layers (10-20 blocks to mix biomes)
 - Shift mining levels of blocks to make copper a separate one above stone
-- Make deepslate (and corresponding ores) mining level copper 
+    - Make deepslate (and corresponding ores) mining level copper 
+- Fix Aether skybox so the transition is less jarring when looking from the overworld
