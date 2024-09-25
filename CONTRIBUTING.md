@@ -2,6 +2,7 @@
 - Bugs:
     - Crash logs with backtraces
     - Info about your machine
+    - Version (there should be a `release.txt` file)
     - Minimal reproducible example
     - Screenshots/detailed descriptions
 - Feature Requests:
