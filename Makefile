@@ -41,6 +41,9 @@ export:
 clean:
 	rm -r build
 
-.PHONY: zip
-zip:
-	zip build.zip build
+.PHONY: fetch
+fetch: 
+	git fetch && git reset --hard origin/master
+
+.PHONY: rebuild
+rebuild: fetch clean all
