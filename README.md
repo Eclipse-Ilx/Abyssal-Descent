@@ -6,7 +6,7 @@ Join the [Discord](https://discord.gg/S43xbbHAe2) for more information
 > **Note:**  
 > This project is still in development, read [Known Issues](KNOWN_ISSUES.md)
 
-PR's and Issues welcome, but please read [CONTRIBUTING.md](CONTRIBUTING.md)
+PR's and Issues welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Building
 **Dependencies:** `make`, `curl`, `awk`, JDK 17
@@ -14,6 +14,12 @@ PR's and Issues welcome, but please read [CONTRIBUTING.md](CONTRIBUTING.md)
 make all # downloads mods, builds from source, and applies overrides
 EXPORT_DIR="path/to/.minecraft/" make export # copies build dir to your instance
 ```
+
+> **Note:**  
+> When rebuilding run the following to grab the newest changes and delete the old build.
+> ```bash
+> git fetch && git reset --hard origin/master && make clean
+> ```
 
 <details>
 <summary><b>For Windows 11:</b></summary>
@@ -38,7 +44,24 @@ EXPORT_DIR="path/to/.minecraft/" make export # copies build dir to your instance
 <details>
 <summary><b>For Windows 10:</b></summary>
 
-I dont actually know how; You'll likely want to use `cygwin`.  
-If you have a windows 10 machine and can provide instructions, please do so.
+1. Install [Cygwin](https://cygwin.com/)
+2. Select `Install from Internet`, choosing the install location.
+   Pick where you want the `Local Package Direcotry` to be,
+   then select `Use System Proxy Settings` and choose a download site.
+   (I don't think it matters which one you choose.)
+3. Change `Pending` to `Full` and search for `git`, `make`, `gawk`, and `curl`.
+   For each package change `Skip` to the latest version.
+   Hit next, next, then finish.
+   Be sure to make a shortcut when it asks you to, unless you're already familiar with Cygwin.
+4. Download the MSI Installer for the [JDK 17](https://www.oracle.com/java/technologies/downloads/) and skip through the wizard.
+5. Open `Cygwin64 Terminal`, then run the following commands (Right click to copy paste).
+   ```bash
+   git clone https://github.com/Eclipse-Ilx/Abyssal-Descent
+   cd Abyssal-Descent
+   make all
+   ```
+   This will build the pack, which will now be in the `build` directory.
+6. Move the contents of the pack to the Launcher of your choice. 
+   This can either be done through `EXPORT_DIR="path/to/dir" make export` or manually through your file manager.
 
 </details>
