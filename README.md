@@ -38,7 +38,19 @@ EXPORT_DIR="path/to/.minecraft/" make export # copies build dir to your instance
 <details>
 <summary><b>For Windows 10:</b></summary>
 
-I dont actually know how; You'll likely want to use `cygwin`.  
-If you have a windows 10 machine and can provide instructions, please do so.
+1. Install Cygwin (https://cygwin.com/)
+
+2. Select, "Install from Internet," choose where to install it at, choose where you want the, "Local Package Directory," to be, select "Use System Proxy Settings," and then choose a download site (I don't think it matters which one you choose.)
+
+3. Make this new menu wide enough for everything to fit. Next to the word "View," in the dropdown menu, change "Pending," to "Full." Search, "git," (without the comma or quotation marks) and in the dropdown menu for it change, "Skip," to, the latest version. After that, do the same thing but instead of, "git," you'll want, "make," "gawk," and, "curl." After that hit next, next, finish and you're done with this part. Be sure to make a shortcut when it asks you to, unless you're already familiar with Cygwin.
+
+4. Go here (https://www.oracle.com/java/technologies/downloads/), select JDK 17 then select Windows, download the MSI Installer and run through the wizard. Don't worry about, "Next Steps."
+
+5. Run the Cygwin64 Terminal shortcut. Run the following commands (you can copy paste with right click but not with ctrl+v):
+`git clone https://github.com/Eclipse-Ilx/Abyssal-Descent`
+`cd Abyssal-Descent`
+`make all`
+
+6. Go to the file you installed Cygwin to, then go into `\home\[YOUR USERNAME]\Abyssal Descent`. The build file is the modpack. You can drag the contents of that folder into the profile folder in a mod manager of your choice, then you're done!
 
 </details>
