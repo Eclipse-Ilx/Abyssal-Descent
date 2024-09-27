@@ -40,6 +40,9 @@ betterend,413596,4971487
 grappling_hook:_restitched,820533,5226155
 made_in_abyss:_shroombears,1029082,5390423
 immersive_portals,332273,4766130
+<<<<<<< HEAD
 
 # Dev
 open_loader,354339,5368592
+=======
+>>>>>>> f8b9fab (change: using vanilla instead of open loader)
