@@ -39,6 +39,12 @@ EXPORT_DIR="path/to/.minecraft/" make export # copies build dir to your instance
    Windows uses `\` for paths and `C:\` for the mountpoint, so you'll need to adjust the paths.  
    `C:\Users\user\Documents\` becomes `/mnt/c/Users/user/Documents/`
 
+> **Note:**  
+> Windows uses `\r\n` as line separators. If you've cloned the repo outside of WSL, you'll need to remove the `\r`.
+> ```bash
+> find . -type f -name Makefile -exec sed -i 's/\r//' {} \;
+> ```
+
 </details>
 
 <details>
