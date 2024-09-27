@@ -1,54 +1,65 @@
 # filename,projectID,fileID
-just_enough_resources,240630,5057220
-starlight,526854,4631193
+
+# Libs
 patchouli,306770,4966125
-world_stripper,250603,4578579
-betternether,311377,4971478
-jade,324717,5672013
 bookshelf,228525,5423987
-betterf3,401648,4863626
-the_abyss_ii_the_other_side,440647,5129404
 geckolib,388172,5675221
 cerbon's_api,955605,4992038
 sinytra_connector,890127,5605667
-just_enough_breeding,899386,5682439
 yung's_api,421850,5331703
-configured,457570,5180900
 architectury_api,419699,5137938
 rhino,416294,5655836
 kotlin_for_forge,351264,5402061
-the_ceilands,646626,5743080
-bosses_of_mass_destruction,941573,5057880
-just_enough_items,238222,5626488
 bclib,495191,4971470
-appleskin,248787,4770828
-the_undergarden,379849,5182632
-made_in_abyss:_shroombears,1029082,5390423
-grappling_hook:_restitched,820533,5226155
 cloth_config_api,348521,5729105
-jade_addons,583345,5693124
-deeper_and_darker,659011,5698212
 supermartijn642's_config_lib,438332,4715408
 iris_oculus_geckolib_compat,959388,5018199
 lazurite,928687,5070069
-tool_stats,377109,5727383
-stoneborn_dwarven-fantasy_inspired_ui_overhaul,455845,4931158
-the_aether,255308,5302178
-complementary_shaders_unbound,385587,5507479
-cupboard,326652,5470032
-oculus,581495,4767500
-just_enough_effect_descriptions,532286,5589681
-jei_integration,265917,4999754
 forgified_fabric_api,889079,5387432
 connector_extras,913445,5490637
-infinite_abyss,677576,5340597
-embeddium,908741,5034486
-kubejs,238086,5454840
-traveler's_titles,504908,5065825
+cupboard,326652,5470032
 konkrete,410295,5028413
 simple_config,670630,5179457
-harvest_level_tweaker,833035,5001632
-betterend,413596,4971487
 euphoria_patches,915902,5511963
+
+# Utility
+just_enough_items,238222,5626488
+just_enough_resources,240630,5057220
+just_enough_breeding,899386,5682439
+just_enough_effect_descriptions,532286,5589681
+jei_integration,265917,4999754
+jade,324717,5672013
+jade_addons,583345,5693124
+configured,457570,5180900
+appleskin,248787,4770828
+tool_stats,377109,5727383
+
+# Performance
+embeddium,908741,5034486
+
+# Visual
+starlight,526854,4631193
+stoneborn_dwarven-fantasy_inspired_ui_overhaul,455845,4931158
+complementary_shaders_unbound,385587,5507479
+traveler's_titles,504908,5065825
+oculus,581495,4767500
+
+# Biomes/Dimensions
+betternether,311377,4971478
+the_abyss_ii_the_other_side,440647,5129404
+the_ceilands,646626,5743080
+the_undergarden,379849,5182632
+deeper_and_darker,659011,5698212
+the_aether,255308,5302178
+infinite_abyss,677576,5340597
+betterend,413596,4971487
+
+# Other
+bosses_of_mass_destruction,941573,5057880
+grappling_hook:_restitched,820533,5226155
+made_in_abyss:_shroombears,1029082,5390423
 immersive_portals,332273,4766130
+
+# Dev
+harvest_level_tweaker,833035,5001632
 open_loader,354339,5368592
