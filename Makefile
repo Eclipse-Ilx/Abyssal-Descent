@@ -19,10 +19,10 @@ build-ports:
 .PHONY: install
 install:
 	@mkdir -p build/mods 2>/dev/null
-	tail -n +2 mods.csv | awk 'BEGIN {FS = ","} { \
+	awk 'BEGIN {FS = ","} !/^#/ && NF { \
 		gsub(/[\n\r]/, "", $$3); \
 		cmd = "curl -sSLo \"build/mods/"$$1".jar\" \"https://www.curseforge.com/api/v1/mods/"$$2"/files/"$$3"/download""\""; \
-		print cmd; system(cmd) }'
+		print cmd; system(cmd) }' mods.csv
 
 .PHONY: copy
 copy:
@@ -35,7 +35,7 @@ all: build install copy
 
 .PHONY: export
 export:
-	cp -r build/* "$(EXPORT_DIR)/"
+	rm -r "$(EXPORT_DIR) && mkdir -p "$(EXPORT_DIR)" && cp -r build/* "$(EXPORT_DIR)/"
 
 .PHONY: clean
 clean:
