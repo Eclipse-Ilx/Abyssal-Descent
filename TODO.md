@@ -7,3 +7,6 @@
 - Shift mining levels of blocks to make copper a separate one above stone
     - Make deepslate (and corresponding ores) mining level copper 
 - Fix Aether skybox so the transition is less jarring when looking from the overworld
+- garbage collect unneeded mods
+- Diamond ores should spawn within the pink crystals on layer 1
+    - Add the new ore block
