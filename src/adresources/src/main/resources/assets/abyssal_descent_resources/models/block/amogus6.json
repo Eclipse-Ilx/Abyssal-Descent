@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "minecraft:block/packed_ice",
-    "particle": "minecraft:block/packed_ice"
-  },
-  "render_type": "solid"
-}
