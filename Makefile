@@ -35,7 +35,8 @@ all: build install copy
 
 .PHONY: export
 export:
-	rm -r "$(EXPORT_DIR) && mkdir -p "$(EXPORT_DIR)" && cp -r build/* "$(EXPORT_DIR)/"
+	rm -r $$(realpath "$(EXPORT_DIR)/*") 
+	cp -r build/* "$(EXPORT_DIR)/"
 
 .PHONY: clean
 clean:
