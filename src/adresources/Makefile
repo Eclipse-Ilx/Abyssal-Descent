@@ -1,5 +1,5 @@
 default: 
-	dos2unix gradlew 2>/dev/null && chmod +x gradlew
+	@chmod +x gradlew
 	./gradlew build --quiet
 	mv build/libs/*.jar .
 

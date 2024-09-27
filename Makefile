@@ -6,27 +6,26 @@ default:
 
 .PHONY: build
 build:
-	@mkdir -p build/mods 2>/dev/null
+	-@mkdir -p build/mods
 	cd "$(REPO)/src/dimthing" && INSTALL_DIR="$(REPO)/build/mods" make install
 	cd "$(REPO)/src/adresources" && INSTALL_DIR="$(REPO)/build/mods" make install
 
 .PHONY: build-ports
 build-ports:
-	@mkdir -p build/mods 2>/dev/null
+	-@mkdir -p build/mods
 	cd "$(REPO)/src/ports/dimthing" && INSTALL_DIR="$(REPO)/build/mods" make install
 	cd "$(REPO)/src/ports/adresources" && INSTALL_DIR="$(REPO)/build/mods" make install
 
 .PHONY: install
 install:
-	@mkdir -p build/mods 2>/dev/null
-	awk 'BEGIN {FS = ","} !/^#/ && NF { \
-		gsub(/[\n\r]/, "", $$3); \
+	-@mkdir -p build/mods
+	awk 'BEGIN {FS = ","; RS = "\r?\n"} !/^#/ && NF { \
 		cmd = "curl -sSLo \"build/mods/"$$1".jar\" \"https://www.curseforge.com/api/v1/mods/"$$2"/files/"$$3"/download""\""; \
 		print cmd; system(cmd) }' mods.csv
 
 .PHONY: copy
 copy:
-	@mkdir -p build 2>/dev/null
+	-@mkdir -p build
 	cp -r overrides/* build/
 
 .PHONY: all
@@ -35,15 +34,10 @@ all: build install copy
 
 .PHONY: export
 export:
-	rm -r "$(EXPORT_DIR) && mkdir -p "$(EXPORT_DIR)" && cp -r build/* "$(EXPORT_DIR)/"
+	rm -r "$(EXPORT_DIR)/"
+	@mkdir -p "$(EXPORT_DIR)/"
+	cp -r build/* "$(EXPORT_DIR)/"
 
 .PHONY: clean
 clean:
-	rm -r build
-
-.PHONY: fetch
-fetch: 
-	git fetch && git reset --hard origin/master
-
-.PHONY: rebuild
-rebuild: fetch clean all
+	-rm -r build
