@@ -207,10 +207,10 @@ key_key.worldstripper.increase_range:key.keyboard.page.up:SHIFT
 key_key.worldstripper.decrease_range:key.keyboard.page.down:SHIFT
 key_key.worldstripper.big_increase_range:key.keyboard.page.up:ALT
 key_key.worldstripper.big_decrease_range:key.keyboard.page.down:ALT
-soundCategory_master:0.0
-soundCategory_music:0.0
+soundCategory_master:0.5
+soundCategory_music:1.0
 soundCategory_record:1.0
-soundCategory_weather:0.0
+soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
