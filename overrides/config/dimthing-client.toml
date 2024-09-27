@@ -1,7 +1,0 @@
-#Overlay X offset
-#Range: > 0
-offset_x = 5
-#Overlay Y offset
-#Range: > 0
-offset_y = 15
-
