@@ -42,7 +42,7 @@ EXPORT_DIR="path/to/.minecraft/" make export # copies build dir to your instance
 > **Note:**  
 > Windows uses `\r\n` as line separators. If you've cloned the repo outside of WSL, you'll need to remove the `\r`.
 > ```bash
-> find . -type f -name Makefile -exec sed -i 's/\r//' {} \;
+> find . -type f -name Makefile -o -name gradlew -exec sed -i 's/\r//' {} \;
 > ```
 
 </details>
