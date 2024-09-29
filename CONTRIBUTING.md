@@ -1,18 +1,10 @@
 ## Issues
-- Bugs:
-    - Crash logs with backtraces
-    - Info about your machine
-    - Version (there should be a `release.txt` file)
-    - Minimal reproducible example
-    - Screenshots/detailed descriptions
-- Feature Requests:
-    - Detailed description
-    - Use cases
-    - Reasoning behind the request
-    - Prioritization
+- We will not work on bugs that are not reproducible
+- Check the `Wontfix` section in [TODO.md](TODO.md)
+- Feature Requests must be as descriptive as possible.
 
 ## Pull Requests
 - Use conventional commits
 - Dont include binaries 
-- Any code created should be commented
-- check the [TODO.md](TODO.md)  for reference
+- Code created should include comments
+- check the [TODO.md](TODO.md) for reference
