@@ -15,4 +15,4 @@
 - Use conventional commits
 - Dont include binaries 
 - Any code created should be commented
-- check the [TODO.md](TODO.md) and [KNOWN_ISSUES.md](KNOWN_ISSUES.md) for reference
+- check the [TODO.md](TODO.md)  for reference
