@@ -57,6 +57,7 @@
 - Shader TAA causes artifacting when looking into a immersive portal portal  
 - Potential shader related issues in the end on Linux, fuck nvidia
 - fix all skyboxes for underground biomes (we want pitch black)
+- shader bug in top left of screen when irradiated
 
 ## Performance
 - Inexplicit lag spikes lasting few seconds.
