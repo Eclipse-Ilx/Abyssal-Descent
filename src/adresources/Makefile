@@ -1,6 +1,7 @@
+GRADLEW=sed -e 's/\r//' gradlew | sh -s
+
 default: 
-	@chmod +x gradlew
-	./gradlew build --quiet
+	$(GRADLEW) build --quiet
 	mv build/libs/*.jar .
 
 .PHONY: install
@@ -9,4 +10,4 @@ install: default
 
 .PHONY: clean
 clean:
-	./gradlew clean --quiet
+	$(GRADLEW) clean --quiet

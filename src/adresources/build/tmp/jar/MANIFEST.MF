@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: adresources
-Specification-Vendor: slab
-Specification-Version: 1
-Implementation-Title: adresources
-Implementation-Version: 0.1.0
-Implementation-Vendor: slab
-Implementation-Timestamp: 2024-09-24T07:30:36+0200
-
