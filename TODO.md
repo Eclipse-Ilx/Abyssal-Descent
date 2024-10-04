@@ -19,9 +19,9 @@
 ## Textures
 
 ## Visual
-- update euphoria patches and complementary unbound version while keeping the preset included with pack.
 - make adresources:bedrock2 emit particles similar to [corundum](https://media.discordapp.net/attachments/1285851264684523591/1291495321469190235/2024-10-03_13.21.06.png?ex=67004e3f&is=66fefcbf&hm=d28e13401c8d4f9254583492be917e7305a016e752d3e98a58c9ba65dc006595&=&format=webp&quality=lossless&width=1708&height=897) from quark
-- create low, medium, high and ultra shader presets while keeping the current shader settings intact
+- create low, medium, high and ultra shader presets while keeping the current shader settings and look intact
+- add deeper darker plants to block.properties for shader side advanced colored lighting
 
 ## Progression
 - create transition layers (10-20 blocks to mix biomes)
@@ -45,6 +45,7 @@
 
 ## Other
 - create a jeresources preset for new ore generation
+- remove the spelunkery dimensional tears from the bottom of the end
 
 
 -----
@@ -64,6 +65,7 @@
 
 ## Other
 - It's possible to enter a gap between the portal and ceiling of the dimension
+- Possible issue when you get to the end your ears will be destroyed by an unknown sound
 
 -----
 ## Wontfix
