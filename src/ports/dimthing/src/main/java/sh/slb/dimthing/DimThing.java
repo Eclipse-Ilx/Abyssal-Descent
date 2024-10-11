@@ -59,10 +59,10 @@ public class DimThing {
             final var dim = inst.player.level.dimension().toString();
 
             inst.font.draw(event.getPoseStack(),
-               String.format("X: %d, Y: %d, Z: %d", 
-                  (int) Math.round(inst.player.getX()),
-                  (int) Math.round(inst.player.getY() - get_offset(dim)),
-                  (int) Math.round(inst.player.getZ())
+               String.format("X: %.0f, Y: %.0f, Z: %.0f",
+                  inst.player.getX(),
+                  inst.player.getY() - get_offset(dim),
+                  inst.player.getZ()
                ),
                5, 5, DimThing.COLOUR
             );
