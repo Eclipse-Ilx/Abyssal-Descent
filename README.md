@@ -26,9 +26,9 @@ EXPORT_DIR="path/to/.minecraft/" make export # copies build dir to your instance
 
 1. Install [WSL](https://docs.microsoft.com/en-us/windows/wsl/install)  
    **TLDR:** Open PowerShell as admin and run `wsl --install`. This will likely require a reboot.
-2. Open WSL by running `wsl` in the shell, then install `make`, `curl`, `git, and `openjdk-17-jdk`
+2. Open WSL by running `wsl` in the shell, then install `make`, `curl`, `git`, and `openjdk-17-jdk`:
     ```bash
-    sudo apt update && sudo apt upgrade && sudo apt install make curl git openjdk-17-jdk`
+    sudo apt update && sudo apt upgrade && sudo apt install make curl git openjdk-17-jdk
     ```
 3. Clone the repo and `cd` into it
     ```bash
