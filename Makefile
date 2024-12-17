@@ -1,5 +1,5 @@
-VERSION="0.1.0"
 REPO=$(shell pwd)
+VERSION=$(shell echo "dev-0.1.0-$$(git rev-parse --short HEAD)")
 
 default:
 	@echo "No target specified"
@@ -9,12 +9,6 @@ build:
 	-@mkdir -p build/mods
 	cd "$(REPO)/src/dimthing" && INSTALL_DIR="$(REPO)/build/mods" make install
 	cd "$(REPO)/src/adresources" && INSTALL_DIR="$(REPO)/build/mods" make install
-
-.PHONY: build-ports
-build-ports:
-	-@mkdir -p build/mods
-	cd "$(REPO)/src/ports/dimthing" && INSTALL_DIR="$(REPO)/build/mods" make install
-	cd "$(REPO)/src/ports/adresources" && INSTALL_DIR="$(REPO)/build/mods" make install
 
 .PHONY: install
 install:
@@ -30,13 +24,11 @@ copy:
 
 .PHONY: all
 all: build install copy
-	echo "dev-$(VERSION)" $$(git rev-parse --short HEAD) > build/release.txt
+	echo "$(VERSION)"> build/release.txt
 
 .PHONY: export
 export:
-	rm -r "$(EXPORT_DIR)/"
-	@mkdir -p "$(EXPORT_DIR)/"
-	cp -r build/* "$(EXPORT_DIR)/"
+	@zip -r "Abyssal-Descent-$(VERSION).zip" build
 
 .PHONY: clean
 clean:
