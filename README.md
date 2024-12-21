@@ -26,9 +26,9 @@ make all export # downloads mods, builds from source, applies overrides, and pac
 
 1. Install [WSL](https://docs.microsoft.com/en-us/windows/wsl/install)  
    **TLDR:** Open PowerShell as admin and run `wsl --install`. This will likely require a reboot.
-2. Open WSL by running `wsl` in the shell, then install `make`, `curl`, `git`, and `openjdk-17-jdk`:
+2. Open WSL by running `wsl` in the shell, then install `make`, `curl`, `git`, `zip`, and `openjdk-17-jdk`:
     ```bash
-    sudo apt update && sudo apt upgrade && sudo apt install make curl git openjdk-17-jdk
+    sudo apt update && sudo apt upgrade && sudo apt install make curl git zip openjdk-17-jdk
     ```
 3. Clone the repo and `cd` into it
     ```bash
@@ -72,4 +72,3 @@ make all export # downloads mods, builds from source, applies overrides, and pac
 > ```bash
 > git fetch && git reset --hard origin/master && make clean
 > ```
-
