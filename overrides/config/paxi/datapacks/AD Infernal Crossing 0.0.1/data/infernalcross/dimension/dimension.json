@@ -1,0 +1,48 @@
+{
+  "type": "infernalcross:dimension",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "infernalcross:dimension",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "infinite_abyss:second_layer_cavern",
+          "parameters": {
+            "temperature": 1.0,
+            "humidity": 0.4,
+            "continentalness": 0.2,
+            "erosion": 0.2,
+            "depth": 0.2,
+            "weirdness": 0.4,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "alexscaves:forlorn_hollows",
+          "parameters": {
+            "temperature": 1.0,
+            "humidity": 0.8,
+            "continentalness": 0.2,
+            "erosion": 0.2,
+            "depth": 0.2,
+            "weirdness": 0.4,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "yungscavebiomes:lost_caves",
+          "parameters": {
+            "temperature": 1.0,
+            "humidity": 0.6,
+            "continentalness": 0.2,
+            "erosion": 0.2,
+            "depth": 0.2,
+            "weirdness": 0.4,
+            "offset": 0.2
+          }
+        }        
+      ]
+    }
+  }
+}
