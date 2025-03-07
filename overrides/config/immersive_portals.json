@@ -66,11 +66,13 @@
         "connectsNext": true
       },
       {
-        "dimensionIdStr": "infinite_abyss:first_layer",
+        "dimensionIdStr": "delverbegin:dimension",
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "abyssal_descent_resources:amogus",
+        "topY": 64,
+        "bottomY": -64,
+        "bedrockReplacementStr": "minecraft:obsidian",
         "connectsPrevious": true,
         "connectsNext": true
       },
@@ -79,16 +81,18 @@
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "abyssal_descent_resources:amogusundergarden",
+        "bedrockReplacementStr": "minecraft:obsidian",
         "connectsPrevious": true,
         "connectsNext": true
       },
       {
-        "dimensionIdStr": "infinite_abyss:second_layer",
+        "dimensionIdStr": "infernalcross:dimension",
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "abyssal_descent_resources:amogus2",
+        "topY": 64,
+        "bottomY": -64,
+        "bedrockReplacementStr": "minecraft:obsidian",
         "connectsPrevious": true,
         "connectsNext": true
       },
@@ -97,16 +101,18 @@
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "abyssal_descent_resources:amogus3",
+        "bedrockReplacementStr": "minecraft:obsidian",
         "connectsPrevious": true,
         "connectsNext": true
       },
       {
-        "dimensionIdStr": "infinite_abyss:fourth_layer",
+        "dimensionIdStr": "dinolayer:dimension",
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "abyssal_descent_resources:amogus4",
+        "topY": 64,
+        "bottomY": -64,
+        "bedrockReplacementStr": "minecraft:obsidian",
         "connectsPrevious": true,
         "connectsNext": true
       },
@@ -116,39 +122,13 @@
         "flipped": false,
         "horizontalRotation": 0.0,
         "topY": 170,
-        "bedrockReplacementStr": "minecraft:air",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "infinite_abyss:fifth_layer",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "abyssal_descent_resources:amogus5",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "infinite_abyss:sixth_layer",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "abyssal_descent_resources:amogus6",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "deeperdarker:otherside",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
+        "bottomY": -64,
         "bedrockReplacementStr": "minecraft:obsidian",
         "connectsPrevious": true,
         "connectsNext": true
       },
       {
-        "dimensionIdStr": "infinite_abyss:seventh_layer",
+        "dimensionIdStr": "deeperdarker:otherside",
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
@@ -167,6 +147,15 @@
       },
       {
         "dimensionIdStr": "minecraft:the_end",
+        "scale": 1.0,
+        "flipped": false,
+        "horizontalRotation": 0.0,
+        "bedrockReplacementStr": "minecraft:obsidian",
+        "connectsPrevious": true,
+        "connectsNext": true
+      },
+      {
+        "dimensionIdStr": "voidscape:void",
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
