@@ -4,7 +4,7 @@
 patchouli,306770,4966125
 geckolib,388172,5675221
 sinytra_connector,890127,5605667
-yung's_api,421850,5331703
+yung's_api,421850,5769971
 bclib,495191,4971470
 iris_oculus_geckolib_compat,959388,5018199
 forgified_fabric_api,889079,5387432
@@ -12,6 +12,8 @@ zeta,968868,5597406
 curios_api,309927,5680164
 moonlightlib,499980,5768751
 citadel,331936,5633260
+obscure_api,638417,4616364
+terrablender,563928,5378180
 
 # Utility
 just_enough_items,238222,5626488
@@ -19,6 +21,7 @@ just_enough_items,238222,5626488
 jade,324717,5672013
 appleskin,248787,4770828
 mouse_tweaks,60089,5338457
+paxi,515708,4749994
 
 # Performance
 embeddium,908741,5034486
@@ -44,6 +47,9 @@ galosphere,631098,4983871
 spelunkers_charm,886997,5333907
 spelunkery,790530,5727135
 alexs_caves,924854,5633305
+aquamirae,536254,4616373
+yungs_cave_biomes,1111586,6241006
+voidscape,251730,5179872
 
 # Other
 grappling_hook:_restitched,820533,5226155
