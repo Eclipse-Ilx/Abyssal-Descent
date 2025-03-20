@@ -25,11 +25,11 @@ public class ADResources {
    public ADResources() {
       IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-      register_block("bedrock1", 3);
-      register_block("bedrock2", 4);
-      register_block("bedrock3", 5);
-      register_block("bedrock4", 6);
-      register_block("bedrock5", 7);
+      register_block("bedrock1", 2);
+      register_block("bedrock2", 3);
+      register_block("bedrock3", 4);
+      register_block("bedrock4", 5);
+      register_block("bedrock5", 6);
 
       BLOCKS.register(modEventBus);
       ITEMS.register(modEventBus);
