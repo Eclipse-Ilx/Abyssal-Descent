@@ -61,7 +61,7 @@
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
+        "bedrockReplacementStr": "adresources:bedrock1",
         "connectsPrevious": true,
         "connectsNext": true
       },
@@ -72,7 +72,7 @@
         "horizontalRotation": 0.0,
         "topY": 64,
         "bottomY": -64,
-        "bedrockReplacementStr": "minecraft:obsidian",
+        "bedrockReplacementStr": "adresources:bedrock1",
         "connectsPrevious": true,
         "connectsNext": true
       },
@@ -81,7 +81,7 @@
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
+        "bedrockReplacementStr": "adresources:bedrock2",
         "connectsPrevious": true,
         "connectsNext": true
       },
