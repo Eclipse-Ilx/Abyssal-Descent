@@ -1,0 +1,1 @@
+function replace_diamond_ore:replace_diamonds
