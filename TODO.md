@@ -1,8 +1,5 @@
 ## High Priority
-- Replace infinite abyss layer 1 with a new dimension consisting of all galosphere cave biomes, spelunkers charm II "the mantle" at the bottom of the dimension and some quark biomes and shiiii. (ie. ore turtle, corundum, etc...)
-    - Remove overworld amethyst geode gen, and move it to new layer 1
-    - Remove biomes added to layer 1 from overworld so they're exclusive to layer 1
-- make [forlorn hollows](https://alexscaves.wiki.gg/wiki/Forlorn_Hollows) generate in the current layer 2 magma cave aka infernal crossing
+
 
 ## Balance
 - Drastically increase loot table in ceilinglands structures
@@ -19,29 +16,21 @@
 ## Textures
 
 ## Visual
-- make adresources:bedrock2 emit particles similar to [corundum](https://media.discordapp.net/attachments/1285851264684523591/1291495321469190235/2024-10-03_13.21.06.png?ex=67004e3f&is=66fefcbf&hm=d28e13401c8d4f9254583492be917e7305a016e752d3e98a58c9ba65dc006595&=&format=webp&quality=lossless&width=1708&height=897) from quark
 - create low, medium, high and ultra shader presets while keeping the current shader settings and look intact
 - add deeper darker plants to block.properties for shader side advanced colored lighting
 
 ## Progression
 - create transition layers (10-20 blocks to mix biomes)
-- Shift mining levels of blocks to make copper a separate one above stone
-    - Make deepslate (and corresponding ores) mining level copper 
 
 ## Aesthetic
-- Fix Aether skybox so the transition is less jarring when looking from the overworld
 - Improve the vanilla non shader skybox for The Ceilands & all underground biomes
 - Remove clouds from the Aether and Ceilands
 
 ## Worldgen
-- Improve Ceilands generation of some structures
-- Increase the size of all biomes
 - Drastically increase end island size and height variation
-- Remove/disable infinite abyss structure spawns
-- Remove infinite abyss layer (crystal layer) and infinite abyss layer 4 (mushroom layer) from dimension stack
 
 ## Mobs
-- make some alex's mobs spawn exclusively in the magma cave biome on layer 2 i.e [cave centipede](https://alexs-mobs-unofficial.fandom.com/wiki/Cave_Centipede) as it is lacking in content.
+- add alex's mob spawns to spawns in each layer according to the #fill the layers channels in discord
 
 ## Other
 - create a jeresources preset for new ore generation
