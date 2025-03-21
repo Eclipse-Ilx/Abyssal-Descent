@@ -1,0 +1,2 @@
+execute as @a at @s in minecraft:overworld run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:deepslate replace minecraft:deepslate_diamond_ore
+execute as @a at @s in minecraft:overworld run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:stone replace minecraft:diamond_ore
