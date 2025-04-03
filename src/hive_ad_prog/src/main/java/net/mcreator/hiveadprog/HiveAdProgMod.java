@@ -18,7 +18,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.hiveadprog.init.HiveAdProgModTabs;
-import net.mcreator.hiveadprog.init.HiveAdProgModSounds;
 import net.mcreator.hiveadprog.init.HiveAdProgModItems;
 import net.mcreator.hiveadprog.init.HiveAdProgModBlocks;
 import net.mcreator.hiveadprog.init.HiveAdProgModBlockEntities;
@@ -42,7 +41,7 @@ public class HiveAdProgMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		HiveAdProgModSounds.REGISTRY.register(bus);
+
 		HiveAdProgModBlocks.REGISTRY.register(bus);
 		HiveAdProgModBlockEntities.REGISTRY.register(bus);
 		HiveAdProgModItems.REGISTRY.register(bus);

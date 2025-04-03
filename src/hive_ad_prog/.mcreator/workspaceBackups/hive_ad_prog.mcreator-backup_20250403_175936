@@ -1,19 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "SayItAintSo",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "say_it_aint_so",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hive_ad_prog/models/item/say_it_aint_so.json",
-          "src/main/java/net/mcreator/hiveadprog/item/SayItAintSoItem.java"
-        ]
-      }
-    },
-    {
       "name": "Adstufffromhive",
       "type": "tab",
       "compiles": true,
@@ -170,22 +157,16 @@
       "subtitle": "say it aint so - weezer"
     }
   ],
-  "tag_elements": {
-    "ITEMS:minecraft:music_discs": [
-      "~CUSTOM:SayItAintSo"
-    ]
-  },
+  "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "block.hive_ad_prog.underblight": "Underblight",
       "item_group.hive_ad_prog.adstufffromhive": "Abyssal Descent stuff that hive contributed cause hes awesome",
-      "item.hive_ad_prog.say_it_aint_so": "Say It Aint So",
       "block.hive_ad_prog.underblight_1": "Underblight",
       "block.hive_ad_prog.underblight_2": "Underblight",
       "subtitles.sayitaintso": "say it aint so - weezer",
-      "block.hive_ad_prog.underblight_3": "Underblight",
-      "item.hive_ad_prog.say_it_aint_so.desc": "say it aint so - weezer"
+      "block.hive_ad_prog.underblight_3": "Underblight"
     }
   },
   "foldersRoot": {

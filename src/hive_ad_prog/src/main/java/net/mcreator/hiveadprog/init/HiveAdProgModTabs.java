@@ -17,8 +17,8 @@ import net.mcreator.hiveadprog.HiveAdProgMod;
 public class HiveAdProgModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, HiveAdProgMod.MODID);
 	public static final RegistryObject<CreativeModeTab> ADSTUFFFROMHIVE = REGISTRY.register("adstufffromhive",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hive_ad_prog.adstufffromhive")).icon(() -> new ItemStack(HiveAdProgModItems.SAY_IT_AINT_SO.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(HiveAdProgModItems.SAY_IT_AINT_SO.get());
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hive_ad_prog.adstufffromhive")).icon(() -> new ItemStack(HiveAdProgModBlocks.UNDERBLIGHT_3.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HiveAdProgModBlocks.UNDERBLIGHT.get().asItem());
+				tabData.accept(HiveAdProgModBlocks.SPIKEROOT_3.get().asItem());
 			}).build());
 }

@@ -14,6 +14,7 @@ import net.mcreator.hiveadprog.block.UnderblightBlock;
 import net.mcreator.hiveadprog.block.Underblight3Block;
 import net.mcreator.hiveadprog.block.Underblight2Block;
 import net.mcreator.hiveadprog.block.Underblight1Block;
+import net.mcreator.hiveadprog.block.Spikeroot3Block;
 import net.mcreator.hiveadprog.HiveAdProgMod;
 
 public class HiveAdProgModBlocks {
@@ -22,6 +23,7 @@ public class HiveAdProgModBlocks {
 	public static final RegistryObject<Block> UNDERBLIGHT_1 = REGISTRY.register("underblight_1", () -> new Underblight1Block());
 	public static final RegistryObject<Block> UNDERBLIGHT_2 = REGISTRY.register("underblight_2", () -> new Underblight2Block());
 	public static final RegistryObject<Block> UNDERBLIGHT_3 = REGISTRY.register("underblight_3", () -> new Underblight3Block());
+	public static final RegistryObject<Block> SPIKEROOT_3 = REGISTRY.register("spikeroot_3", () -> new Spikeroot3Block());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

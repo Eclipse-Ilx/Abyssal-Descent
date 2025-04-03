@@ -1,10 +1,9 @@
 {
   "block.hive_ad_prog.underblight": "Underblight",
+  "block.hive_ad_prog.spikeroot_3": "Spikeroot",
   "item_group.hive_ad_prog.adstufffromhive": "Abyssal Descent stuff that hive contributed cause hes awesome",
-  "item.hive_ad_prog.say_it_aint_so": "Say It Aint So",
   "block.hive_ad_prog.underblight_1": "Underblight",
   "block.hive_ad_prog.underblight_2": "Underblight",
   "subtitles.sayitaintso": "say it aint so - weezer",
-  "block.hive_ad_prog.underblight_3": "Underblight",
-  "item.hive_ad_prog.say_it_aint_so.desc": "say it aint so - weezer"
+  "block.hive_ad_prog.underblight_3": "Underblight"
 }
