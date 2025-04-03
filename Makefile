@@ -9,6 +9,7 @@ build:
 	-@mkdir -p build/mods
 	cd "$(REPO)/src/dimthing" && INSTALL_DIR="$(REPO)/build/mods" make install
 	cd "$(REPO)/src/adresources" && INSTALL_DIR="$(REPO)/build/mods" make install
+	cd "$(REPO)/src/hive_ad_prog" && INSTALL_DIR="$(REPO)/build/mods" make install
 
 .PHONY: install
 install:

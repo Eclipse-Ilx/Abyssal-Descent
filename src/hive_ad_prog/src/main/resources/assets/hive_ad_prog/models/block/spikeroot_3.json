@@ -1,0 +1,9 @@
+{
+  "parent": "hive_ad_prog:custom/spikeroot",
+  "textures": {
+    "all": "hive_ad_prog:block/spikeroot",
+    "particle": "hive_ad_prog:block/spikeroot",
+    "0": "hive_ad_prog:block/spikeroot"
+  },
+  "render_type": "cutout"
+}
