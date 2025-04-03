@@ -1,0 +1,11 @@
+{
+  "sayitaintso": {
+    "subtitle": "subtitles.sayitaintso",
+    "sounds": [
+      {
+        "name": "hive_ad_prog:weezer_-_say_it_aint_so_2024_remaster",
+        "stream": true
+      }
+    ]
+  }
+}

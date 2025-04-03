@@ -1,0 +1,7 @@
+{
+  "_fv": 73,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"return_logic\"><value name=\"return\"><block type=\"compare_mcblocks\"><value name=\"a\"><block type=\"world_data_blockat\"><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"math_dual_ops\"><field name=\"OP\">MINUS</field><value name=\"A\"><block type=\"coord_y\"></block></value><value name=\"B\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value></block></value><value name=\"z\"><block type=\"coord_z\"></block></value></block></value><value name=\"b\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.FARMLAND</field></block></value></block></value></block></next></block></xml>"
+  }
+}
