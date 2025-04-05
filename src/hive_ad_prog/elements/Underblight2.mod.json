@@ -100,7 +100,10 @@
     "luminance": 0,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
-    "isBonemealable": false,
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "UnderblightOnBlockRightClicked"
+    },
     "hasInventory": true,
     "openGUIOnRightClick": false,
     "inventorySize": 0,

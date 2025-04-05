@@ -1,0 +1,259 @@
+{
+  "_fv": 73,
+  "_type": "block",
+  "definition": {
+    "texture": "spikeroot",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "spikeroot3:default",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "CUTOUT",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 6.5,
+        "my": 0.0,
+        "mz": 6.5,
+        "Mx": 9.5,
+        "My": 2.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 6.25,
+        "my": 1.0,
+        "mz": 6.25,
+        "Mx": 9.75,
+        "My": 5.0,
+        "Mz": 9.75,
+        "subtract": false
+      },
+      {
+        "mx": 6.5,
+        "my": 3.0,
+        "mz": 6.5,
+        "Mx": 9.5,
+        "My": 7.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 4.0,
+        "mz": 7.0,
+        "Mx": 9.0,
+        "My": 8.0,
+        "Mz": 9.0,
+        "subtract": false
+      },
+      {
+        "mx": 7.5,
+        "my": 3.0,
+        "mz": 7.5,
+        "Mx": 8.5,
+        "My": 7.0,
+        "Mz": 8.5,
+        "subtract": false
+      },
+      {
+        "mx": 9.5,
+        "my": 0.0,
+        "mz": 6.0,
+        "Mx": 9.5,
+        "My": 8.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 6.5,
+        "my": 0.0,
+        "mz": 6.0,
+        "Mx": 6.5,
+        "My": 8.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 6.0,
+        "my": 0.0,
+        "mz": 9.5,
+        "Mx": 10.0,
+        "My": 8.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 6.0,
+        "my": 0.0,
+        "mz": 6.5,
+        "Mx": 10.0,
+        "My": 8.0,
+        "Mz": 6.5,
+        "subtract": false
+      },
+      {
+        "mx": 9.5,
+        "my": 0.0,
+        "mz": 5.0,
+        "Mx": 15.5,
+        "My": 0.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 9.5,
+        "my": 0.0,
+        "mz": 5.0,
+        "Mx": 15.5,
+        "My": 0.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.5,
+        "my": 0.0,
+        "mz": 5.0,
+        "Mx": 6.5,
+        "My": 0.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 5.0,
+        "my": 0.0,
+        "mz": 0.5,
+        "Mx": 11.0,
+        "My": 0.0,
+        "Mz": 6.5,
+        "subtract": false
+      },
+      {
+        "mx": 5.0,
+        "my": 0.0,
+        "mz": 9.5,
+        "Mx": 11.0,
+        "My": 0.0,
+        "Mz": 15.5,
+        "subtract": false
+      }
+    ],
+    "customProperties": [],
+    "name": "Spikeroot",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTabs": [],
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": "CUSTOM:Spikeroot"
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "NONE"
+    },
+    "tickRate": 1,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "GRASS",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "DESTROY",
+    "isNotColidable": true,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "CROP"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "NONE",
+    "placingCondition": {
+      "name": "UnderblightBlockValidPlacementCondition"
+    },
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "UnderblightOnBlockRightClicked"
+    },
+    "hasInventory": true,
+    "openGUIOnRightClick": false,
+    "inventorySize": 0,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": false,
+    "inventoryComparatorPower": false,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "SpikerootOnTickUpdate"
+    },
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

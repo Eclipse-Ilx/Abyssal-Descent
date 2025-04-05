@@ -1,19 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "SayItAintSo",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "say_it_aint_so",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hive_ad_prog/models/item/say_it_aint_so.json",
-          "src/main/java/net/mcreator/hiveadprog/item/SayItAintSoItem.java"
-        ]
-      }
-    },
-    {
       "name": "Adstufffromhive",
       "type": "tab",
       "compiles": true,
@@ -157,35 +144,41 @@
         ]
       },
       "path": "~/plants"
+    },
+    {
+      "name": "Spikeroot3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spikeroot_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/block/entity/Spikeroot3BlockEntity.java",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/spikeroot_3.json",
+          "src/main/resources/assets/hive_ad_prog/blockstates/spikeroot_3.json",
+          "src/main/java/net/mcreator/hiveadprog/block/Spikeroot3Block.java",
+          "src/main/resources/assets/hive_ad_prog/models/block/spikeroot_3.json",
+          "src/main/resources/assets/hive_ad_prog/models/item/spikeroot_3.json"
+        ]
+      },
+      "path": "~/plants"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [
-    {
-      "name": "sayitaintso",
-      "files": [
-        "weezer_-_say_it_aint_so_2024_remaster"
-      ],
-      "category": "music",
-      "subtitle": "say it aint so - weezer"
-    }
-  ],
+  "sound_elements": [],
   "tag_elements": {
-    "ITEMS:minecraft:music_discs": [
-      "~CUSTOM:SayItAintSo"
-    ]
+    "ITEMS:minecraft:bonemealitems": []
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "block.hive_ad_prog.underblight": "Underblight",
+      "block.hive_ad_prog.spikeroot_3": "Spikeroot",
       "item_group.hive_ad_prog.adstufffromhive": "Abyssal Descent stuff that hive contributed cause hes awesome",
-      "item.hive_ad_prog.say_it_aint_so": "Say It Aint So",
       "block.hive_ad_prog.underblight_1": "Underblight",
       "block.hive_ad_prog.underblight_2": "Underblight",
       "subtitles.sayitaintso": "say it aint so - weezer",
-      "block.hive_ad_prog.underblight_3": "Underblight",
-      "item.hive_ad_prog.say_it_aint_so.desc": "say it aint so - weezer"
+      "block.hive_ad_prog.underblight_3": "Underblight"
     }
   },
   "foldersRoot": {

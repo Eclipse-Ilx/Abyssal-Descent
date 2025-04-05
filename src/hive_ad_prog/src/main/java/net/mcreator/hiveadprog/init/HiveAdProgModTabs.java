@@ -19,6 +19,6 @@ public class HiveAdProgModTabs {
 	public static final RegistryObject<CreativeModeTab> ADSTUFFFROMHIVE = REGISTRY.register("adstufffromhive",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hive_ad_prog.adstufffromhive")).icon(() -> new ItemStack(HiveAdProgModBlocks.UNDERBLIGHT_3.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HiveAdProgModBlocks.UNDERBLIGHT.get().asItem());
-				tabData.accept(HiveAdProgModBlocks.SPIKEROOT_3.get().asItem());
+				tabData.accept(HiveAdProgModBlocks.SPIKEROOT.get().asItem());
 			}).build());
 }

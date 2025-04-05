@@ -24,12 +24,129 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
-        "my": 0.01,
-        "mz": 0.0,
-        "Mx": 16.0,
-        "My": 4.0,
-        "Mz": 16.0,
+        "mx": 6.5,
+        "my": 0.0,
+        "mz": 6.5,
+        "Mx": 9.5,
+        "My": 2.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 6.25,
+        "my": 2.0,
+        "mz": 6.25,
+        "Mx": 9.75,
+        "My": 6.0,
+        "Mz": 9.75,
+        "subtract": false
+      },
+      {
+        "mx": 6.5,
+        "my": 6.0,
+        "mz": 6.5,
+        "Mx": 9.5,
+        "My": 10.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 10.0,
+        "mz": 7.0,
+        "Mx": 9.0,
+        "My": 14.0,
+        "Mz": 9.0,
+        "subtract": false
+      },
+      {
+        "mx": 7.5,
+        "my": 14.0,
+        "mz": 7.5,
+        "Mx": 8.5,
+        "My": 18.0,
+        "Mz": 8.5,
+        "subtract": false
+      },
+      {
+        "mx": 9.5,
+        "my": 0.0,
+        "mz": 6.0,
+        "Mx": 9.5,
+        "My": 8.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 6.5,
+        "my": 0.0,
+        "mz": 6.0,
+        "Mx": 6.5,
+        "My": 8.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 6.0,
+        "my": 0.0,
+        "mz": 9.5,
+        "Mx": 10.0,
+        "My": 8.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 6.0,
+        "my": 0.0,
+        "mz": 6.5,
+        "Mx": 10.0,
+        "My": 8.0,
+        "Mz": 6.5,
+        "subtract": false
+      },
+      {
+        "mx": 9.5,
+        "my": 0.0,
+        "mz": 5.0,
+        "Mx": 15.5,
+        "My": 0.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 9.5,
+        "my": 0.0,
+        "mz": 5.0,
+        "Mx": 15.5,
+        "My": 0.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.5,
+        "my": 0.0,
+        "mz": 5.0,
+        "Mx": 6.5,
+        "My": 0.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 5.0,
+        "my": 0.0,
+        "mz": 0.5,
+        "Mx": 11.0,
+        "My": 0.0,
+        "Mz": 6.5,
+        "subtract": false
+      },
+      {
+        "mx": 5.0,
+        "my": 0.0,
+        "mz": 9.5,
+        "Mx": 11.0,
+        "My": 0.0,
+        "Mz": 15.5,
         "subtract": false
       }
     ],
@@ -42,16 +159,12 @@
     "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:Adstufffromhive"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Spikeroot"
     },
-    "dropAmount": 1,
+    "dropAmount": 3,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
@@ -108,6 +221,9 @@
       "name": "UnderblightBlockValidPlacementCondition"
     },
     "isBonemealable": false,
+    "onBonemealSuccess": {
+      "name": "UnderblightOnBlockRightClicked"
+    },
     "hasInventory": true,
     "openGUIOnRightClick": false,
     "inventorySize": 0,
@@ -124,6 +240,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "SpikerootOnTickUpdate"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

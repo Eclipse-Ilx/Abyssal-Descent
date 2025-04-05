@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.BonemealableBlock;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelReader;
@@ -24,10 +25,11 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.hiveadprog.procedures.UnderblightOnTickUpdateProcedure;
+import net.mcreator.hiveadprog.procedures.UnderblightOnBlockRightClickedProcedure;
 import net.mcreator.hiveadprog.procedures.UnderblightBlockValidPlacementConditionProcedure;
 import net.mcreator.hiveadprog.block.entity.UnderblightBlockEntity;
 
-public class UnderblightBlock extends Block implements EntityBlock {
+public class UnderblightBlock extends Block implements EntityBlock, BonemealableBlock {
 	public UnderblightBlock() {
 		super(BlockBehaviour.Properties.of().mapColor(MapColor.GRASS).sound(SoundType.CROP).instabreak().noCollission().noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false));
 	}
@@ -82,6 +84,21 @@ public class UnderblightBlock extends Block implements EntityBlock {
 		int z = pos.getZ();
 		UnderblightOnTickUpdateProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 1);
+	}
+
+	@Override
+	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate, boolean clientSide) {
+		return true;
+	}
+
+	@Override
+	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
+		return true;
+	}
+
+	@Override
+	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
+		UnderblightOnBlockRightClickedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

@@ -18,10 +18,13 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.MenuProvider;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.hiveadprog.procedures.UnderblightBlockValidPlacementConditionProcedure;
+import net.mcreator.hiveadprog.procedures.SpikerootOnTickUpdateProcedure;
 import net.mcreator.hiveadprog.block.entity.Spikeroot3BlockEntity;
 
 public class Spikeroot3Block extends Block implements EntityBlock {
@@ -46,7 +49,7 @@ public class Spikeroot3Block extends Block implements EntityBlock {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(0, 0.01, 0, 16, 4, 16);
+		return Shapes.or(box(6.5, 0, 6.5, 9.5, 2, 9.5), box(6.25, 2, 6.25, 9.75, 6, 9.75), box(6.5, 6, 6.5, 9.5, 10, 9.5), box(7, 10, 7, 9, 14, 9), box(7.5, 14, 7.5, 8.5, 18, 8.5));
 	}
 
 	@Override
@@ -63,6 +66,22 @@ public class Spikeroot3Block extends Block implements EntityBlock {
 	@Override
 	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos, BlockPos facingPos) {
 		return !state.canSurvive(world, currentPos) ? Blocks.AIR.defaultBlockState() : super.updateShape(state, facing, facingState, world, currentPos, facingPos);
+	}
+
+	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		world.scheduleTick(pos, this, 1);
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		SpikerootOnTickUpdateProcedure.execute(world, x, y, z);
+		world.scheduleTick(pos, this, 1);
 	}
 
 	@Override
