@@ -1,0 +1,6 @@
+{
+  "type": "galosphere:noise_patch",
+  "config": {
+    "surface": "floor"
+  }
+}

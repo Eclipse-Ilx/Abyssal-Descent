@@ -1,0 +1,146 @@
+[
+    {
+      "mob": "alexsmobs:centipede_head",
+      "persecond": 0.1,
+      "attempts": 3,
+      "amount": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "conditions": {
+        "dimension": "infernalcross:dimension",
+        "norestrictions": true,
+        "mindist": 40,
+        "maxdist": 100,
+        "minheight": 0,
+        "maxheight": 50,
+        "maxthis": 2
+      }
+    },
+    {
+      "mob": "alexsmobs:cockroach",
+      "persecond": 0.1,
+      "attempts": 3,
+      "amount": {
+        "minimum": 8,
+        "maximum": 15
+      },
+      "conditions": {
+        "dimension": "infernalcross:dimension",
+        "norestrictions": true,
+        "mindist": 20,
+        "maxdist": 60,
+        "minheight": 0,
+        "maxheight": 50,
+        "maxthis": 50
+      }
+    },
+    {
+        "mob": "alexsmobs:potoo",
+        "persecond": 0.5,
+        "attempts": 2,
+        "amount": {
+          "minimum": 1,
+          "maximum": 1
+        },
+        "conditions": {
+          "dimension": "infernalcross:dimension",
+          "norestrictions": true,
+          "mindist": 50,
+          "maxdist": 100,
+          "minheight": 0,
+          "maxheight": 120,
+          "maxthis": 2
+        }
+      },
+      {
+        "mob": "alexsmobs:fly",
+        "persecond": 0.5,
+        "attempts": 2,
+        "amount": {
+          "minimum": 1,
+          "maximum": 1
+        },
+        "conditions": {
+          "dimension": "infernalcross:dimension",
+          "norestrictions": true,
+          "mindist": 25,
+          "maxdist": 100,
+          "minheight": 0,
+          "maxheight": 40,
+          "maxthis": 1
+        }
+      },
+      {
+        "mob": "alexsmobs:murmur",
+        "persecond": 1,
+        "attempts": 1,
+        "amount": {
+          "minimum": 1,
+          "maximum": 1
+        },
+        "conditions": {
+          "dimension": "infernalcross:dimension",
+          "norestrictions": true,
+          "mindist": 50,
+          "maxdist": 150,
+          "minheight": 0,
+          "maxheight": 50,
+          "maxthis": 1
+        }
+      },
+      {
+        "mob": "alexsmobs:rocky_roller",
+        "persecond": 0.1,
+        "attempts": 1,
+        "amount": {
+          "minimum": 1,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "delverbegin:dimension",
+          "norestrictions": true,
+          "mindist": 1,
+          "maxdist": 40,
+          "minheight": 0,
+          "maxheight": 128,
+          "maxthis": 15
+        }
+      },
+      {
+        "mob": "alexsmobs:underminer",
+        "persecond": 0.1,
+        "attempts": 1,
+        "amount": {
+          "minimum": 1,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "delverbegin:dimension",
+          "norestrictions": true,
+          "mindist": 1,
+          "maxdist": 40,
+          "minheight": 0,
+          "maxheight": 128,
+          "maxthis": 15
+        }
+      },
+      {
+        "mob": "caverns_and_chasms:peeper",
+        "persecond": 0.1,
+        "attempts": 1,
+        "amount": {
+          "minimum": 1,
+          "maximum": 1
+        },
+        "conditions": {
+          "dimension": "infernalcross:dimension",
+          "norestrictions": true,
+          "mindist": 50,
+          "maxdist": 100,
+          "minheight": 0,
+          "maxheight": 128,
+          "maxthis": 3
+        }
+      }
+  ]  

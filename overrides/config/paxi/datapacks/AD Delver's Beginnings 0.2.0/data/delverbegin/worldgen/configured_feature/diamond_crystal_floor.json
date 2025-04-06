@@ -1,0 +1,32 @@
+{
+    "type": "galosphere:crystal_spike",
+    "config": {
+      "cluster_state": {
+        "Name": "minecraft:diamond_block",
+        "Properties": {
+          "facing": "up",
+          "pollinated": "false",
+          "waterlogged": "false"
+        }
+      },
+      "crystal_direction": "floor",
+      "crystal_state": {
+        "Name": "minecraft:diamond_ore"
+      },
+      "glinted_cluster": {
+        "Name": "galosphere:glinted_allurite_cluster",
+        "Properties": {
+          "facing": "up",
+          "waterlogged": "false"
+        }
+      },
+      "glinted_cluster_chance": 0.25,
+      "xz_radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "max_inclusive": 3,
+          "min_inclusive": 1
+        }
+      }
+    }
+  }
