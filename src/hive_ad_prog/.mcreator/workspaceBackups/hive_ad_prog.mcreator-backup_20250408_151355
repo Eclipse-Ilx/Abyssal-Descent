@@ -224,6 +224,78 @@
         ]
       },
       "path": "~/plants"
+    },
+    {
+      "name": "Spikeroot2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spikeroot_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/spikeroot_2.json",
+          "src/main/resources/assets/hive_ad_prog/models/item/spikeroot_2.json",
+          "src/main/resources/assets/hive_ad_prog/blockstates/spikeroot_2.json",
+          "src/main/java/net/mcreator/hiveadprog/block/Spikeroot2Block.java",
+          "src/main/java/net/mcreator/hiveadprog/block/entity/Spikeroot2BlockEntity.java",
+          "src/main/resources/assets/hive_ad_prog/models/block/spikeroot_2.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Spikeroot1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spikeroot_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/block/Spikeroot1Block.java",
+          "src/main/java/net/mcreator/hiveadprog/block/entity/Spikeroot1BlockEntity.java",
+          "src/main/resources/assets/hive_ad_prog/models/item/spikeroot_1.json",
+          "src/main/resources/assets/hive_ad_prog/blockstates/spikeroot_1.json",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/spikeroot_1.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/spikeroot_1.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Spikeroot",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spikeroot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hive_ad_prog/blockstates/spikeroot.json",
+          "src/main/java/net/mcreator/hiveadprog/block/entity/SpikerootBlockEntity.java",
+          "src/main/resources/assets/hive_ad_prog/models/item/spikeroot.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/spikeroot.json",
+          "src/main/java/net/mcreator/hiveadprog/block/SpikerootBlock.java",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/spikeroot.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "PoisonousSpikeroot",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonous_spikeroot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hive_ad_prog/blockstates/poisonous_spikeroot.json",
+          "src/main/java/net/mcreator/hiveadprog/block/PoisonousSpikerootBlock.java",
+          "src/main/java/net/mcreator/hiveadprog/block/entity/PoisonousSpikerootBlockEntity.java",
+          "src/main/resources/assets/hive_ad_prog/models/block/poisonous_spikeroot.json",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/poisonous_spikeroot.json",
+          "src/main/resources/assets/hive_ad_prog/models/item/poisonous_spikeroot.json"
+        ]
+      },
+      "path": "~/plants"
     }
   ],
   "variable_elements": [],
@@ -238,11 +310,15 @@
     "en_us": {
       "block.hive_ad_prog.underblight": "Underblight",
       "block.hive_ad_prog.spikeroot_3": "Spikeroot",
+      "block.hive_ad_prog.spikeroot": "Spikeroot",
+      "block.hive_ad_prog.spikeroot_1": "Spikeroot",
       "item_group.hive_ad_prog.adstufffromhive": "Abyssal Descent stuff that hive contributed cause hes awesome",
+      "block.hive_ad_prog.spikeroot_2": "Spikeroot",
       "block.hive_ad_prog.underblight_1": "Underblight",
       "block.hive_ad_prog.underblight_2": "Underblight",
       "subtitles.sayitaintso": "say it aint so - weezer",
-      "block.hive_ad_prog.underblight_3": "Underblight"
+      "block.hive_ad_prog.underblight_3": "Underblight",
+      "block.hive_ad_prog.poisonous_spikeroot": "Spikeroot"
     }
   },
   "foldersRoot": {
@@ -265,8 +341,11 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.hiveadprog"
   },
   "mcreatorVersion": 202400452410

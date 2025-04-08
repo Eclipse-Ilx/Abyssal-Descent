@@ -20,5 +20,6 @@ public class HiveAdProgModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hive_ad_prog.adstufffromhive")).icon(() -> new ItemStack(HiveAdProgModBlocks.UNDERBLIGHT_3.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HiveAdProgModBlocks.UNDERBLIGHT.get().asItem());
 				tabData.accept(HiveAdProgModBlocks.SPIKEROOT.get().asItem());
+				tabData.accept(HiveAdProgModBlocks.POISONOUS_SPIKEROOT.get().asItem());
 			}).build());
 }

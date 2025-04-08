@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "hive_ad_prog:item/spikerootitem"
+    "layer0": "hive_ad_prog:item/poisonous_spikerootitem"
   },
   "render_type": "translucent"
 }

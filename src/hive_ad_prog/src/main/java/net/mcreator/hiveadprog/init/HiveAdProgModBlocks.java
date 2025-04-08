@@ -18,6 +18,10 @@ import net.mcreator.hiveadprog.block.SpikerootBlock;
 import net.mcreator.hiveadprog.block.Spikeroot3Block;
 import net.mcreator.hiveadprog.block.Spikeroot2Block;
 import net.mcreator.hiveadprog.block.Spikeroot1Block;
+import net.mcreator.hiveadprog.block.PoisonousSpikerootBlock;
+import net.mcreator.hiveadprog.block.PoisonousSpikeroot3Block;
+import net.mcreator.hiveadprog.block.PoisonousSpikeroot2Block;
+import net.mcreator.hiveadprog.block.PoisonousSpikeroot1Block;
 import net.mcreator.hiveadprog.HiveAdProgMod;
 
 public class HiveAdProgModBlocks {
@@ -30,6 +34,10 @@ public class HiveAdProgModBlocks {
 	public static final RegistryObject<Block> SPIKEROOT_2 = REGISTRY.register("spikeroot_2", () -> new Spikeroot2Block());
 	public static final RegistryObject<Block> SPIKEROOT_1 = REGISTRY.register("spikeroot_1", () -> new Spikeroot1Block());
 	public static final RegistryObject<Block> SPIKEROOT = REGISTRY.register("spikeroot", () -> new SpikerootBlock());
+	public static final RegistryObject<Block> POISONOUS_SPIKEROOT = REGISTRY.register("poisonous_spikeroot", () -> new PoisonousSpikerootBlock());
+	public static final RegistryObject<Block> POISONOUS_SPIKEROOT_1 = REGISTRY.register("poisonous_spikeroot_1", () -> new PoisonousSpikeroot1Block());
+	public static final RegistryObject<Block> POISONOUS_SPIKEROOT_2 = REGISTRY.register("poisonous_spikeroot_2", () -> new PoisonousSpikeroot2Block());
+	public static final RegistryObject<Block> POISONOUS_SPIKEROOT_3 = REGISTRY.register("poisonous_spikeroot_3", () -> new PoisonousSpikeroot3Block());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

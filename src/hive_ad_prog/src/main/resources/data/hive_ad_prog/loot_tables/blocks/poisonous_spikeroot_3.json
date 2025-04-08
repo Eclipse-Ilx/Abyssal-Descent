@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "hive_ad_prog:blocks/poisonous_spikeroot_3",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hive_ad_prog:poisonous_spikeroot",
+          "functions": [
+            {
+              "count": 3,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

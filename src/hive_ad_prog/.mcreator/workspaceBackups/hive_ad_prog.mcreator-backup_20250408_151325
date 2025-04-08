@@ -18,12 +18,12 @@
       "registry_name": "underblight",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hive_ad_prog/models/block/underblight.json",
+          "src/main/resources/assets/hive_ad_prog/models/item/underblight.json",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/underblight.json",
           "src/main/resources/assets/hive_ad_prog/blockstates/underblight.json",
           "src/main/java/net/mcreator/hiveadprog/block/entity/UnderblightBlockEntity.java",
-          "src/main/java/net/mcreator/hiveadprog/block/UnderblightBlock.java",
-          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/underblight.json",
-          "src/main/resources/assets/hive_ad_prog/models/item/underblight.json"
+          "src/main/resources/assets/hive_ad_prog/models/block/underblight.json",
+          "src/main/java/net/mcreator/hiveadprog/block/UnderblightBlock.java"
         ]
       },
       "path": "~/plants"
@@ -67,12 +67,12 @@
       "registry_name": "underblight_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hive_ad_prog/blockstates/underblight_1.json",
-          "src/main/java/net/mcreator/hiveadprog/block/Underblight1Block.java",
           "src/main/java/net/mcreator/hiveadprog/block/entity/Underblight1BlockEntity.java",
-          "src/main/resources/assets/hive_ad_prog/models/item/underblight_1.json",
           "src/main/resources/data/hive_ad_prog/loot_tables/blocks/underblight_1.json",
-          "src/main/resources/assets/hive_ad_prog/models/block/underblight_1.json"
+          "src/main/resources/assets/hive_ad_prog/models/item/underblight_1.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/underblight_1.json",
+          "src/main/java/net/mcreator/hiveadprog/block/Underblight1Block.java",
+          "src/main/resources/assets/hive_ad_prog/blockstates/underblight_1.json"
         ]
       },
       "path": "~/plants"
@@ -85,12 +85,12 @@
       "registry_name": "underblight_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hiveadprog/block/entity/Underblight2BlockEntity.java",
-          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/underblight_2.json",
           "src/main/resources/assets/hive_ad_prog/blockstates/underblight_2.json",
           "src/main/resources/assets/hive_ad_prog/models/block/underblight_2.json",
+          "src/main/resources/assets/hive_ad_prog/models/item/underblight_2.json",
+          "src/main/java/net/mcreator/hiveadprog/block/entity/Underblight2BlockEntity.java",
           "src/main/java/net/mcreator/hiveadprog/block/Underblight2Block.java",
-          "src/main/resources/assets/hive_ad_prog/models/item/underblight_2.json"
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/underblight_2.json"
         ]
       },
       "path": "~/plants"
@@ -103,12 +103,12 @@
       "registry_name": "underblight_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hiveadprog/block/Underblight3Block.java",
           "src/main/java/net/mcreator/hiveadprog/block/entity/Underblight3BlockEntity.java",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/underblight_3.json",
           "src/main/resources/assets/hive_ad_prog/models/block/underblight_3.json",
-          "src/main/resources/assets/hive_ad_prog/blockstates/underblight_3.json",
+          "src/main/java/net/mcreator/hiveadprog/block/Underblight3Block.java",
           "src/main/resources/assets/hive_ad_prog/models/item/underblight_3.json",
-          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/underblight_3.json"
+          "src/main/resources/assets/hive_ad_prog/blockstates/underblight_3.json"
         ]
       },
       "path": "~/plants"
@@ -162,17 +162,140 @@
         ]
       },
       "path": "~/plants"
+    },
+    {
+      "name": "UnderblightOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underblight_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/procedures/UnderblightOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "SpikerootOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spikeroot_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/procedures/SpikerootOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Spikeroot2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spikeroot_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/spikeroot_2.json",
+          "src/main/resources/assets/hive_ad_prog/models/item/spikeroot_2.json",
+          "src/main/resources/assets/hive_ad_prog/blockstates/spikeroot_2.json",
+          "src/main/java/net/mcreator/hiveadprog/block/Spikeroot2Block.java",
+          "src/main/java/net/mcreator/hiveadprog/block/entity/Spikeroot2BlockEntity.java",
+          "src/main/resources/assets/hive_ad_prog/models/block/spikeroot_2.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Spikeroot1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spikeroot_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/block/Spikeroot1Block.java",
+          "src/main/java/net/mcreator/hiveadprog/block/entity/Spikeroot1BlockEntity.java",
+          "src/main/resources/assets/hive_ad_prog/models/item/spikeroot_1.json",
+          "src/main/resources/assets/hive_ad_prog/blockstates/spikeroot_1.json",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/spikeroot_1.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/spikeroot_1.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Spikeroot",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spikeroot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hive_ad_prog/blockstates/spikeroot.json",
+          "src/main/java/net/mcreator/hiveadprog/block/entity/SpikerootBlockEntity.java",
+          "src/main/resources/assets/hive_ad_prog/models/item/spikeroot.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/spikeroot.json",
+          "src/main/java/net/mcreator/hiveadprog/block/SpikerootBlock.java",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/spikeroot.json"
+        ]
+      },
+      "path": "~/plants"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:bonemealitems": [
+      "Items.DYE#15"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "block.hive_ad_prog.underblight": "Underblight",
       "block.hive_ad_prog.spikeroot_3": "Spikeroot",
+      "block.hive_ad_prog.spikeroot": "Spikeroot",
+      "block.hive_ad_prog.spikeroot_1": "Spikeroot",
       "item_group.hive_ad_prog.adstufffromhive": "Abyssal Descent stuff that hive contributed cause hes awesome",
+      "block.hive_ad_prog.spikeroot_2": "Spikeroot",
       "block.hive_ad_prog.underblight_1": "Underblight",
       "block.hive_ad_prog.underblight_2": "Underblight",
       "subtitles.sayitaintso": "say it aint so - weezer",
@@ -199,8 +322,11 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.hiveadprog"
   },
   "mcreatorVersion": 202400452410

@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "spikerootitem",
+    "itemTexture": "poisonous_spikerootitem",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

@@ -1,0 +1,9 @@
+{
+  "parent": "hive_ad_prog:custom/spikerootp",
+  "textures": {
+    "all": "hive_ad_prog:block/poisonous_spikeroot",
+    "particle": "hive_ad_prog:block/poisonous_spikeroot",
+    "0": "hive_ad_prog:block/poisonous_spikeroot"
+  },
+  "render_type": "cutout"
+}

@@ -3,10 +3,14 @@
   "block.hive_ad_prog.spikeroot_3": "Spikeroot",
   "block.hive_ad_prog.spikeroot": "Spikeroot",
   "block.hive_ad_prog.spikeroot_1": "Spikeroot",
+  "block.hive_ad_prog.poisonous_spikeroot_3": "Poisonous Spikeroot",
   "item_group.hive_ad_prog.adstufffromhive": "Abyssal Descent stuff that hive contributed cause hes awesome",
   "block.hive_ad_prog.spikeroot_2": "Spikeroot",
+  "block.hive_ad_prog.poisonous_spikeroot_1": "Poisonous Spikeroot",
+  "block.hive_ad_prog.poisonous_spikeroot_2": "Poisonous Spikeroot",
   "block.hive_ad_prog.underblight_1": "Underblight",
   "block.hive_ad_prog.underblight_2": "Underblight",
   "subtitles.sayitaintso": "say it aint so - weezer",
-  "block.hive_ad_prog.underblight_3": "Underblight"
+  "block.hive_ad_prog.underblight_3": "Underblight",
+  "block.hive_ad_prog.poisonous_spikeroot": "Poisonous Spikeroot"
 }

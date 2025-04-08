@@ -24,6 +24,10 @@ public class HiveAdProgModItems {
 	public static final RegistryObject<Item> SPIKEROOT_2 = block(HiveAdProgModBlocks.SPIKEROOT_2);
 	public static final RegistryObject<Item> SPIKEROOT_1 = block(HiveAdProgModBlocks.SPIKEROOT_1);
 	public static final RegistryObject<Item> SPIKEROOT = block(HiveAdProgModBlocks.SPIKEROOT);
+	public static final RegistryObject<Item> POISONOUS_SPIKEROOT = block(HiveAdProgModBlocks.POISONOUS_SPIKEROOT);
+	public static final RegistryObject<Item> POISONOUS_SPIKEROOT_1 = block(HiveAdProgModBlocks.POISONOUS_SPIKEROOT_1);
+	public static final RegistryObject<Item> POISONOUS_SPIKEROOT_2 = block(HiveAdProgModBlocks.POISONOUS_SPIKEROOT_2);
+	public static final RegistryObject<Item> POISONOUS_SPIKEROOT_3 = block(HiveAdProgModBlocks.POISONOUS_SPIKEROOT_3);
 
 	// Start of user code block custom items
 	// End of user code block custom items
