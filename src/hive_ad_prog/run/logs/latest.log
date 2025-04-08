@@ -1,90 +1,216 @@
-[08Apr2025 15:37:18.480] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\User\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[08Apr2025 15:37:18.486] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[08Apr2025 15:37:18.653] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[08Apr2025 15:37:18.755] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[08Apr2025 15:37:19.295] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[08Apr2025 15:37:19.445] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/User/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[08Apr2025 15:37:19.490] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon RX 6600 XT GL version 4.6.0 Core Profile Context 25.3.1.250220, ATI Technologies Inc.
-[08Apr2025 15:37:19.875] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[08Apr2025 15:37:19.878] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[08Apr2025 15:37:19.882] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[08Apr2025 15:37:19.886] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[08Apr2025 15:37:20.049] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[08Apr2025 15:37:21.521] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[08Apr2025 15:37:21.523] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\User\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[08Apr2025 15:37:21.862] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\User\Abyssal-Descent\src\hive_ad_prog/build/createSrgToMcp/output.srg
-[08Apr2025 15:37:23.193] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[08Apr2025 15:37:26.932] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 297 milliseconds
-[08Apr2025 15:37:29.495] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/User/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_official_1.20.1/forge-1.20.1-47.4.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[08Apr2025 15:37:29.496] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/User/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_official_1.20.1/forge-1.20.1-47.4.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[08Apr2025 15:37:29.523] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08Apr2025 15:37:29.530] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[08Apr2025 15:37:29.645] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[08Apr2025 15:37:30.028] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[08Apr2025 15:37:30.028] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[08Apr2025 15:37:31.232] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[08Apr2025 15:37:31.600] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[08Apr2025 15:37:31.813] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08Apr2025 15:37:31.920] [Worker-Main-10/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[08Apr2025 15:37:32.601] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
-[08Apr2025 15:37:35.352] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[08Apr2025 15:37:35.352] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[08Apr2025 15:37:35.387] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
-[08Apr2025 15:37:35.389] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[08Apr2025 15:37:35.532] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
-[08Apr2025 15:37:35.544] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[08Apr2025 15:37:35.544] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[08Apr2025 15:37:35.545] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[08Apr2025 15:37:35.545] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[08Apr2025 15:37:35.551] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[08Apr2025 15:37:35.551] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[08Apr2025 15:37:35.551] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[08Apr2025 15:37:35.552] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[08Apr2025 15:37:35.738] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[08Apr2025 15:37:35.854] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[08Apr2025 15:37:35.858] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[08Apr2025 15:37:35.858] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[08Apr2025 15:37:35.996] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[08Apr2025 15:37:43.365] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[08Apr2025 15:37:45.600] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[08Apr2025 15:37:45.720] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[08Apr2025 15:37:46.307] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[08Apr2025 15:37:46.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Apr2025 15:37:48.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Apr2025 15:37:50.249] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Apr2025 15:37:50.266] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Apr2025 15:37:50.266] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Apr2025 15:37:50.286] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Apr2025 15:37:50.286] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Apr2025 15:37:50.565] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Apr2025 15:37:51.068] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[08Apr2025 15:37:51.370] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[08Apr2025 15:37:51.372] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3319 ms
-[08Apr2025 15:37:51.586] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[08Apr2025 15:37:51.589] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[08Apr2025 15:37:51.717] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[08Apr2025 15:37:52.239] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[08Apr2025 15:37:52.301] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:1cc24933] logged in with entity id 245 at (2.511115480159442, 80.0, 4.967651370328242)
-[08Apr2025 15:37:52.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[08Apr2025 15:37:52.640] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Received passengers for unknown entity
-[08Apr2025 15:37:52.870] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 6 advancements
-[08Apr2025 15:38:05.885] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 8 advancements
-[08Apr2025 15:38:47.755] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Received passengers for unknown entity
-[08Apr2025 15:38:47.821] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[08Apr2025 15:38:47.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[08Apr2025 15:38:47.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[08Apr2025 15:38:47.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[08Apr2025 15:38:48.089] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[08Apr2025 15:38:48.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[08Apr2025 15:38:48.116] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[08Apr2025 15:38:48.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[08Apr2025 15:38:48.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[08Apr2025 15:38:48.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[08Apr2025 15:38:48.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[08Apr2025 15:38:49.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[08Apr2025 15:38:49.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[08Apr2025 15:38:49.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[08Apr2025 15:38:49.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08Apr2025 15:38:49.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08Apr2025 15:38:49.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[08Apr2025 15:39:03.099] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[08Apr2025 17:35:17.771] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\User\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[08Apr2025 17:35:17.776] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[08Apr2025 17:35:17.927] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[08Apr2025 17:35:18.007] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[08Apr2025 17:35:18.107] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[08Apr2025 17:35:18.202] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/User/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[08Apr2025 17:35:18.248] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon RX 6600 XT GL version 4.6.0 Core Profile Context 25.3.1.250220, ATI Technologies Inc.
+[08Apr2025 17:35:18.586] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[08Apr2025 17:35:18.590] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[08Apr2025 17:35:18.593] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[08Apr2025 17:35:18.597] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\User\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[08Apr2025 17:35:18.791] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[08Apr2025 17:35:20.418] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[08Apr2025 17:35:20.421] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\User\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[08Apr2025 17:35:20.815] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\User\Abyssal-Descent\src\hive_ad_prog/build/createSrgToMcp/output.srg
+[08Apr2025 17:35:22.027] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[08Apr2025 17:35:26.023] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 213 milliseconds
+[08Apr2025 17:35:28.262] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/User/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_official_1.20.1/forge-1.20.1-47.4.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[08Apr2025 17:35:28.262] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/User/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_official_1.20.1/forge-1.20.1-47.4.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[08Apr2025 17:35:28.280] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08Apr2025 17:35:28.285] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[08Apr2025 17:35:28.404] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[08Apr2025 17:35:28.697] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[08Apr2025 17:35:28.697] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[08Apr2025 17:35:29.704] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[08Apr2025 17:35:30.005] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[08Apr2025 17:35:30.151] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08Apr2025 17:35:30.183] [Worker-Main-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[08Apr2025 17:35:30.673] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[08Apr2025 17:35:33.274] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[08Apr2025 17:35:33.275] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[08Apr2025 17:35:33.327] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
+[08Apr2025 17:35:33.329] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[08Apr2025 17:35:33.509] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
+[08Apr2025 17:35:33.523] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[08Apr2025 17:35:33.524] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[08Apr2025 17:35:33.524] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[08Apr2025 17:35:33.525] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[08Apr2025 17:35:33.530] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[08Apr2025 17:35:33.530] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[08Apr2025 17:35:33.530] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[08Apr2025 17:35:33.531] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[08Apr2025 17:35:33.700] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[08Apr2025 17:35:33.781] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[08Apr2025 17:35:33.783] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[08Apr2025 17:35:33.783] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[08Apr2025 17:35:33.951] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[08Apr2025 17:35:39.878] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[08Apr2025 17:35:41.918] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[08Apr2025 17:35:42.030] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[08Apr2025 17:35:42.566] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[08Apr2025 17:35:42.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08Apr2025 17:35:44.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Apr2025 17:35:46.887] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Apr2025 17:35:46.887] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Apr2025 17:35:46.887] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Apr2025 17:35:46.887] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Apr2025 17:35:46.887] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Apr2025 17:35:46.887] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Apr2025 17:35:47.091] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Apr2025 17:35:47.589] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
+[08Apr2025 17:35:47.817] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[08Apr2025 17:35:47.825] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3739 ms
+[08Apr2025 17:35:47.988] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[08Apr2025 17:35:48.006] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[08Apr2025 17:35:48.111] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[08Apr2025 17:35:48.488] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[08Apr2025 17:35:48.541] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:6a8ca0ad] logged in with entity id 221 at (-13.10848581578711, 79.0, 8.240410775892896)
+[08Apr2025 17:35:48.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[08Apr2025 17:35:49.071] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 18 advancements
+[08Apr2025 17:35:57.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 6000]
+[08Apr2025 17:35:57.784] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 6000
+[08Apr2025 17:36:03.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gamerule doDaylightCycle is now set to: false]
+[08Apr2025 17:36:03.346] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gamerule doDaylightCycle is now set to: false
+[08Apr2025 17:36:06.928] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops2.0
+[08Apr2025 17:36:06.928] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer42.0
+[08Apr2025 17:36:06.928] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:36:06.928] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:36:07.127] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops2.0
+[08Apr2025 17:36:07.128] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer46.0
+[08Apr2025 17:36:07.128] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:36:07.128] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:36:13.726] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops2.0
+[08Apr2025 17:36:13.726] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer178.0
+[08Apr2025 17:36:13.726] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:36:13.726] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:36:56.526] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops1.0
+[08Apr2025 17:36:56.527] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:36:56.527] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:spikeroot_3
+[08Apr2025 17:36:56.527] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBnone
+[08Apr2025 17:36:57.126] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops1.0
+[08Apr2025 17:36:57.126] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:36:57.126] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:spikeroot_3
+[08Apr2025 17:36:57.126] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBnone
+[08Apr2025 17:37:16.775] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:16.775] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:16.775] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:16.776] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:17.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:17.177] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:17.177] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:17.177] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:17.426] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:17.426] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:17.426] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:17.426] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:17.625] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:17.626] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:17.626] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:17.626] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:17.876] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:17.876] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:17.876] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:17.876] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:18.076] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:18.076] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:18.076] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:18.077] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:18.326] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:18.326] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:18.326] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:18.327] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:18.576] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:18.576] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:18.576] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:18.576] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:18.776] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:18.778] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:18.778] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:18.778] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:18.976] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:18.977] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:18.977] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:18.977] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:19.226] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:19.226] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:19.226] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:19.226] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:19.427] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:19.427] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:19.427] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:19.427] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:19.627] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:19.628] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:19.628] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:19.628] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:19.826] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:19.826] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:19.826] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:19.826] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:19.976] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:19.976] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:19.976] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:19.976] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:20.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:20.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:20.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:20.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:20.376] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:20.376] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:20.376] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:20.376] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:20.626] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:20.626] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:20.626] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:20.626] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:20.776] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:20.776] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:20.776] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:20.778] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:20.977] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:20.977] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:20.977] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:20.977] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:21.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:21.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:21.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:21.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:21.425] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:21.426] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:21.426] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:21.426] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:21.627] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:21.628] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:21.628] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:21.628] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:21.826] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:21.826] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:21.826] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:21.827] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:22.026] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:22.026] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:22.026] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:22.026] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:22.277] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] adjacentcrops3.0
+[08Apr2025 17:37:22.277] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] mixtimer0.0
+[08Apr2025 17:37:22.277] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossAhive_ad_prog:underblight_3
+[08Apr2025 17:37:22.278] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] crossBhive_ad_prog:spikeroot_3
+[08Apr2025 17:37:26.718] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08Apr2025 17:37:26.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[08Apr2025 17:37:26.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[08Apr2025 17:37:26.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[08Apr2025 17:37:27.932] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[08Apr2025 17:37:27.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[08Apr2025 17:37:27.955] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[08Apr2025 17:37:27.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08Apr2025 17:37:27.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08Apr2025 17:37:27.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08Apr2025 17:37:28.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[08Apr2025 17:37:29.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[08Apr2025 17:37:29.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[08Apr2025 17:37:29.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[08Apr2025 17:37:29.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08Apr2025 17:37:29.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08Apr2025 17:37:29.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08Apr2025 17:37:31.164] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

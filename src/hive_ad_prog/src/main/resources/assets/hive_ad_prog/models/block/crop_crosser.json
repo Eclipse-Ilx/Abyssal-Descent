@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "hive_ad_prog:block/cropcrosser",
+    "particle": "hive_ad_prog:block/cropcrosser"
+  },
+  "render_type": "cutout"
+}

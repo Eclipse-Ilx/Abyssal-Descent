@@ -278,13 +278,269 @@
         ]
       },
       "path": "~/plants"
+    },
+    {
+      "name": "PoisonousSpikeroot",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonous_spikeroot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hive_ad_prog/blockstates/poisonous_spikeroot.json",
+          "src/main/java/net/mcreator/hiveadprog/block/PoisonousSpikerootBlock.java",
+          "src/main/java/net/mcreator/hiveadprog/block/entity/PoisonousSpikerootBlockEntity.java",
+          "src/main/resources/assets/hive_ad_prog/models/block/poisonous_spikeroot.json",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/poisonous_spikeroot.json",
+          "src/main/resources/assets/hive_ad_prog/models/item/poisonous_spikeroot.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "PoisonousSpikerootOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonous_spikeroot_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/procedures/PoisonousSpikerootOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "PoisonousSpikeroot1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonous_spikeroot_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/block/entity/PoisonousSpikeroot1BlockEntity.java",
+          "src/main/java/net/mcreator/hiveadprog/block/PoisonousSpikeroot1Block.java",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/poisonous_spikeroot_1.json",
+          "src/main/resources/assets/hive_ad_prog/blockstates/poisonous_spikeroot_1.json",
+          "src/main/resources/assets/hive_ad_prog/models/item/poisonous_spikeroot_1.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/poisonous_spikeroot_1.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "PoisonousSpikeroot2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonous_spikeroot_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/poisonous_spikeroot_2.json",
+          "src/main/resources/assets/hive_ad_prog/models/item/poisonous_spikeroot_2.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/poisonous_spikeroot_2.json",
+          "src/main/java/net/mcreator/hiveadprog/block/entity/PoisonousSpikeroot2BlockEntity.java",
+          "src/main/java/net/mcreator/hiveadprog/block/PoisonousSpikeroot2Block.java",
+          "src/main/resources/assets/hive_ad_prog/blockstates/poisonous_spikeroot_2.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "PoisonousSpikeroot3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonous_spikeroot_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/block/PoisonousSpikeroot3Block.java",
+          "src/main/java/net/mcreator/hiveadprog/block/entity/PoisonousSpikeroot3BlockEntity.java",
+          "src/main/resources/assets/hive_ad_prog/blockstates/poisonous_spikeroot_3.json",
+          "src/main/resources/assets/hive_ad_prog/models/item/poisonous_spikeroot_3.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/poisonous_spikeroot_3.json",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/poisonous_spikeroot_3.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "CropCrosser",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_crosser",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/block/entity/CropCrosserBlockEntity.java",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/crop_crosser.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/crop_crosser.json",
+          "src/main/resources/assets/hive_ad_prog/blockstates/crop_crosser.json",
+          "src/main/java/net/mcreator/hiveadprog/block/CropCrosserBlock.java",
+          "src/main/resources/assets/hive_ad_prog/models/item/crop_crosser.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "CropCrosserOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_crosser_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/procedures/CropCrosserOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "CropCrosserNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_crosser_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/procedures/CropCrosserNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "CropCrosserOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_crosser_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/procedures/CropCrosserOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "CropCrosserRecipes",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_crosser_recipes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/procedures/CropCrosserRecipesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:CropCrosser"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CropCrosser"
+    ],
     "ITEMS:minecraft:bonemealitems": [
       "Items.DYE#15"
+    ],
+    "BLOCKS:hive_ad_prog:crossablecrops": [
+      "CUSTOM:Underblight3",
+      "CUSTOM:Spikeroot3",
+      "CUSTOM:PoisonousSpikeroot3"
     ]
   },
   "tab_element_order": {},
@@ -294,12 +550,17 @@
       "block.hive_ad_prog.spikeroot_3": "Spikeroot",
       "block.hive_ad_prog.spikeroot": "Spikeroot",
       "block.hive_ad_prog.spikeroot_1": "Spikeroot",
+      "block.hive_ad_prog.poisonous_spikeroot_3": "Poisonous Spikeroot",
       "item_group.hive_ad_prog.adstufffromhive": "Abyssal Descent stuff that hive contributed cause hes awesome",
       "block.hive_ad_prog.spikeroot_2": "Spikeroot",
+      "block.hive_ad_prog.poisonous_spikeroot_1": "Poisonous Spikeroot",
+      "block.hive_ad_prog.poisonous_spikeroot_2": "Poisonous Spikeroot",
       "block.hive_ad_prog.underblight_1": "Underblight",
       "block.hive_ad_prog.underblight_2": "Underblight",
+      "block.hive_ad_prog.crop_crosser": "Crop Crosser",
       "subtitles.sayitaintso": "say it aint so - weezer",
-      "block.hive_ad_prog.underblight_3": "Underblight"
+      "block.hive_ad_prog.underblight_3": "Underblight",
+      "block.hive_ad_prog.poisonous_spikeroot": "Poisonous Spikeroot"
     }
   },
   "foldersRoot": {

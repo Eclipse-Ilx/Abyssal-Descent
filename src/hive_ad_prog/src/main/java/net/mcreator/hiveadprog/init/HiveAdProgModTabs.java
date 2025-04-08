@@ -21,5 +21,6 @@ public class HiveAdProgModTabs {
 				tabData.accept(HiveAdProgModBlocks.UNDERBLIGHT.get().asItem());
 				tabData.accept(HiveAdProgModBlocks.SPIKEROOT.get().asItem());
 				tabData.accept(HiveAdProgModBlocks.POISONOUS_SPIKEROOT.get().asItem());
+				tabData.accept(HiveAdProgModBlocks.CROP_CROSSER.get().asItem());
 			}).build());
 }

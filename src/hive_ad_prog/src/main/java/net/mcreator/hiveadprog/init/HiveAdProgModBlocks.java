@@ -22,6 +22,7 @@ import net.mcreator.hiveadprog.block.PoisonousSpikerootBlock;
 import net.mcreator.hiveadprog.block.PoisonousSpikeroot3Block;
 import net.mcreator.hiveadprog.block.PoisonousSpikeroot2Block;
 import net.mcreator.hiveadprog.block.PoisonousSpikeroot1Block;
+import net.mcreator.hiveadprog.block.CropCrosserBlock;
 import net.mcreator.hiveadprog.HiveAdProgMod;
 
 public class HiveAdProgModBlocks {
@@ -38,6 +39,7 @@ public class HiveAdProgModBlocks {
 	public static final RegistryObject<Block> POISONOUS_SPIKEROOT_1 = REGISTRY.register("poisonous_spikeroot_1", () -> new PoisonousSpikeroot1Block());
 	public static final RegistryObject<Block> POISONOUS_SPIKEROOT_2 = REGISTRY.register("poisonous_spikeroot_2", () -> new PoisonousSpikeroot2Block());
 	public static final RegistryObject<Block> POISONOUS_SPIKEROOT_3 = REGISTRY.register("poisonous_spikeroot_3", () -> new PoisonousSpikeroot3Block());
+	public static final RegistryObject<Block> CROP_CROSSER = REGISTRY.register("crop_crosser", () -> new CropCrosserBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

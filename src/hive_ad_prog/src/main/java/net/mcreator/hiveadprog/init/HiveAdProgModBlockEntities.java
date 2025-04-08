@@ -23,6 +23,7 @@ import net.mcreator.hiveadprog.block.entity.PoisonousSpikerootBlockEntity;
 import net.mcreator.hiveadprog.block.entity.PoisonousSpikeroot3BlockEntity;
 import net.mcreator.hiveadprog.block.entity.PoisonousSpikeroot2BlockEntity;
 import net.mcreator.hiveadprog.block.entity.PoisonousSpikeroot1BlockEntity;
+import net.mcreator.hiveadprog.block.entity.CropCrosserBlockEntity;
 import net.mcreator.hiveadprog.HiveAdProgMod;
 
 public class HiveAdProgModBlockEntities {
@@ -39,6 +40,7 @@ public class HiveAdProgModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> POISONOUS_SPIKEROOT_1 = register("poisonous_spikeroot_1", HiveAdProgModBlocks.POISONOUS_SPIKEROOT_1, PoisonousSpikeroot1BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> POISONOUS_SPIKEROOT_2 = register("poisonous_spikeroot_2", HiveAdProgModBlocks.POISONOUS_SPIKEROOT_2, PoisonousSpikeroot2BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> POISONOUS_SPIKEROOT_3 = register("poisonous_spikeroot_3", HiveAdProgModBlocks.POISONOUS_SPIKEROOT_3, PoisonousSpikeroot3BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> CROP_CROSSER = register("crop_crosser", HiveAdProgModBlocks.CROP_CROSSER, CropCrosserBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities

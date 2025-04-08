@@ -381,13 +381,135 @@
         ]
       },
       "path": "~/plants"
+    },
+    {
+      "name": "CropCrosser",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_crosser",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/block/entity/CropCrosserBlockEntity.java",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/crop_crosser.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/crop_crosser.json",
+          "src/main/resources/assets/hive_ad_prog/blockstates/crop_crosser.json",
+          "src/main/java/net/mcreator/hiveadprog/block/CropCrosserBlock.java",
+          "src/main/resources/assets/hive_ad_prog/models/item/crop_crosser.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "CropCrosserOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_crosser_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/procedures/CropCrosserOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "CropCrosserNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_crosser_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/procedures/CropCrosserNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "CropCrosserOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_crosser_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/procedures/CropCrosserOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:CropCrosser"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CropCrosser"
+    ],
     "ITEMS:minecraft:bonemealitems": [
       "Items.DYE#15"
+    ],
+    "BLOCKS:hive_ad_prog:crossablecrops": [
+      "CUSTOM:Underblight3",
+      "CUSTOM:Spikeroot3",
+      "CUSTOM:PoisonousSpikeroot3"
     ]
   },
   "tab_element_order": {},
@@ -404,6 +526,7 @@
       "block.hive_ad_prog.poisonous_spikeroot_2": "Poisonous Spikeroot",
       "block.hive_ad_prog.underblight_1": "Underblight",
       "block.hive_ad_prog.underblight_2": "Underblight",
+      "block.hive_ad_prog.crop_crosser": "Crop Crosser",
       "subtitles.sayitaintso": "say it aint so - weezer",
       "block.hive_ad_prog.underblight_3": "Underblight",
       "block.hive_ad_prog.poisonous_spikeroot": "Poisonous Spikeroot"
