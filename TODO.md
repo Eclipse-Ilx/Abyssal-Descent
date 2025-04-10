@@ -1,26 +1,62 @@
-## High Priority
+# High Priority (Teaser pack MVP)
 
+## Universal
++ further adjust biome size/frequency in custom dimensions
++ Fix in house coordinate overlay mod
++ Pathouli or questing support
++ Disable biomes used in each layer from generating in the its normal dimension i.e overworld nether end.
++ Block Bench traveler's titles for every dimension
++ Alloying mod
++ QOL Mods
++ Resource packs
++ Textures for layer seperator blocks
++ create low, medium, high and ultra shader presets while keeping the current shader settings and look intact
++ Update shader presets
++ Update mods that need to be updated
+
+## Aether
++ Aether Redux + Deep Aether
++ curios "sun spirit charm" drop from Sun spirit (curios support)
++ Block access to Aether via clouds
+
+## Overworld
+- Remove stronghold
++ make nether portals explode when someone tries to light one.
+- Remove mob spawns for mobs added to certain layers from overworld
++ Add Launch pad structure
+
+## Delver's Beginning
++ Regions Unexplored cave biomes
+- Remove galosphere Floor Crystal
++ Custom diamond floor crystal? (requires Spelunkery grindstone)
+
+## The Undergarden (Subject to change)
++ Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)
++ Trading item from crocodile maze with Stoneborn to get forgotten alloy?
++ Crocidile maze gets special item you can trade along with the forgotten nuggets to get forgotten ingot to then craft forgotten pickaxe. Must also beat void blossom to get acid to weaken the new bedrock floor root block
+
+## Infernal Crossing
++ Item to get/craft glider
++ ores? 
++ Red Crystals
++ boss?
++ Desolate biomes (Scorching Caves)
++ Spelunkers Charm 2 Cave stuff
+
+# General
 
 ## Balance
 - Drastically increase loot table in ceilinglands structures
 
 ## Sound
-- Sounds for breaking layer separator blocks, and for shaped charge explosions
 - Add audio to play alongside traveler's titles
-- Add sounds for new diamond crystal block; it will be encased within the crystals shown below
-    [picture1](https://cdn.discordapp.com/attachments/1285851264684523591/1291489661885222933/2024-10-03_12.46.55.png?ex=670048fa&is=66fef77a&hm=6c61ca509377ec9bd80bf70b0689f27d3e572a225677ae7256c1052e984d1c01&) 
-    [picture2](https://media.discordapp.net/attachments/1285851264684523591/1291489662606639175/2024-10-03_12.46.59.png?ex=670048fa&is=66fef77a&hm=9a3ee5d0645c42180274fab128a6cbf920614740d98e035c8c2e65bbd5d40b40&=&format=webp&quality=lossless&width=1708&height=897) 
-    [picture3](https://media.discordapp.net/attachments/1285851264684523591/1291489663164350546/2024-10-03_12.47.02.png?ex=670048fa&is=66fef77a&hm=aed53e6dfc3b9da148ae8530ad4230e61975bb99f6592a3d2e8e79a4abf7c693&=&format=webp&quality=lossless&width=1708&height=897) 
-    [diamond_crystal_block](https://media.discordapp.net/attachments/1285851264684523591/1291489663625990276/2024-10-03_12.56.22.png?ex=670048fa&is=66fef77a&hm=19da090594fb20e45c0bb53c32c853f684f3d178c65096eaf8d02116101c93c1&=&format=webp&quality=lossless&width=1708&height=897)
 
 ## Textures
 
 ## Visual
-- create low, medium, high and ultra shader presets while keeping the current shader settings and look intact
-- add deeper darker plants to block.properties for shader side advanced colored lighting
+- add deeper darker plants to shader block.properties for shader side advanced colored lighting
 
 ## Progression
-- create transition layers (10-20 blocks to mix biomes)
 
 ## Aesthetic
 - Improve the vanilla non shader skybox for The Ceilands & all underground biomes
@@ -36,9 +72,8 @@
 - create a jeresources preset for new ore generation
 - remove the spelunkery dimensional tears from the bottom of the end
 
-
 -----
-## Bugs/Issues
+# Bugs/Issues
 
 ## Critical / Game-Breaking
 - #11 Ceiland's ceiling cannot be broken and is transparent for some reason when coming from above.
