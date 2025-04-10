@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hive_ad_prog:block/mazedoorkey",
+    "up": "hive_ad_prog:block/mazedoorkey",
+    "north": "hive_ad_prog:block/mazedoorkey",
+    "east": "hive_ad_prog:block/mazedoorkey",
+    "south": "hive_ad_prog:block/mazedoorkey",
+    "west": "hive_ad_prog:block/mazedoorkey",
+    "particle": "hive_ad_prog:block/mazedoorkey"
+  },
+  "render_type": "solid"
+}

@@ -10,6 +10,10 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.hiveadprog.block.UnderbloomsBlock;
+import net.mcreator.hiveadprog.block.Underbloom4Block;
+import net.mcreator.hiveadprog.block.Underbloom3Block;
+import net.mcreator.hiveadprog.block.Underbloom2Block;
 import net.mcreator.hiveadprog.block.UnderblightBlock;
 import net.mcreator.hiveadprog.block.Underblight3Block;
 import net.mcreator.hiveadprog.block.Underblight2Block;
@@ -22,6 +26,8 @@ import net.mcreator.hiveadprog.block.PoisonousSpikerootBlock;
 import net.mcreator.hiveadprog.block.PoisonousSpikeroot3Block;
 import net.mcreator.hiveadprog.block.PoisonousSpikeroot2Block;
 import net.mcreator.hiveadprog.block.PoisonousSpikeroot1Block;
+import net.mcreator.hiveadprog.block.MazedoorkeyBlock;
+import net.mcreator.hiveadprog.block.MazedoorBlock;
 import net.mcreator.hiveadprog.block.CropCrosserBlock;
 import net.mcreator.hiveadprog.HiveAdProgMod;
 
@@ -40,6 +46,12 @@ public class HiveAdProgModBlocks {
 	public static final RegistryObject<Block> POISONOUS_SPIKEROOT_2 = REGISTRY.register("poisonous_spikeroot_2", () -> new PoisonousSpikeroot2Block());
 	public static final RegistryObject<Block> POISONOUS_SPIKEROOT_3 = REGISTRY.register("poisonous_spikeroot_3", () -> new PoisonousSpikeroot3Block());
 	public static final RegistryObject<Block> CROP_CROSSER = REGISTRY.register("crop_crosser", () -> new CropCrosserBlock());
+	public static final RegistryObject<Block> MAZEDOOR = REGISTRY.register("mazedoor", () -> new MazedoorBlock());
+	public static final RegistryObject<Block> MAZEDOORKEY = REGISTRY.register("mazedoorkey", () -> new MazedoorkeyBlock());
+	public static final RegistryObject<Block> UNDERBLOOMS = REGISTRY.register("underblooms", () -> new UnderbloomsBlock());
+	public static final RegistryObject<Block> UNDERBLOOM_2 = REGISTRY.register("underbloom_2", () -> new Underbloom2Block());
+	public static final RegistryObject<Block> UNDERBLOOM_3 = REGISTRY.register("underbloom_3", () -> new Underbloom3Block());
+	public static final RegistryObject<Block> UNDERBLOOM_4 = REGISTRY.register("underbloom_4", () -> new Underbloom4Block());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

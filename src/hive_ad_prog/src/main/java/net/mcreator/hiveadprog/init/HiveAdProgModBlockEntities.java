@@ -11,6 +11,10 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.hiveadprog.block.entity.UnderbloomsBlockEntity;
+import net.mcreator.hiveadprog.block.entity.Underbloom4BlockEntity;
+import net.mcreator.hiveadprog.block.entity.Underbloom3BlockEntity;
+import net.mcreator.hiveadprog.block.entity.Underbloom2BlockEntity;
 import net.mcreator.hiveadprog.block.entity.UnderblightBlockEntity;
 import net.mcreator.hiveadprog.block.entity.Underblight3BlockEntity;
 import net.mcreator.hiveadprog.block.entity.Underblight2BlockEntity;
@@ -41,6 +45,10 @@ public class HiveAdProgModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> POISONOUS_SPIKEROOT_2 = register("poisonous_spikeroot_2", HiveAdProgModBlocks.POISONOUS_SPIKEROOT_2, PoisonousSpikeroot2BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> POISONOUS_SPIKEROOT_3 = register("poisonous_spikeroot_3", HiveAdProgModBlocks.POISONOUS_SPIKEROOT_3, PoisonousSpikeroot3BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> CROP_CROSSER = register("crop_crosser", HiveAdProgModBlocks.CROP_CROSSER, CropCrosserBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> UNDERBLOOMS = register("underblooms", HiveAdProgModBlocks.UNDERBLOOMS, UnderbloomsBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> UNDERBLOOM_2 = register("underbloom_2", HiveAdProgModBlocks.UNDERBLOOM_2, Underbloom2BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> UNDERBLOOM_3 = register("underbloom_3", HiveAdProgModBlocks.UNDERBLOOM_3, Underbloom3BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> UNDERBLOOM_4 = register("underbloom_4", HiveAdProgModBlocks.UNDERBLOOM_4, Underbloom4BlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities

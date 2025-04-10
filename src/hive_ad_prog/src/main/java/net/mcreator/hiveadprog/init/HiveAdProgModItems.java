@@ -12,6 +12,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.hiveadprog.item.MazeKeyItem;
+import net.mcreator.hiveadprog.item.KeymoldItem;
 import net.mcreator.hiveadprog.HiveAdProgMod;
 
 public class HiveAdProgModItems {
@@ -29,6 +31,14 @@ public class HiveAdProgModItems {
 	public static final RegistryObject<Item> POISONOUS_SPIKEROOT_2 = block(HiveAdProgModBlocks.POISONOUS_SPIKEROOT_2);
 	public static final RegistryObject<Item> POISONOUS_SPIKEROOT_3 = block(HiveAdProgModBlocks.POISONOUS_SPIKEROOT_3);
 	public static final RegistryObject<Item> CROP_CROSSER = block(HiveAdProgModBlocks.CROP_CROSSER);
+	public static final RegistryObject<Item> KEYMOLD = REGISTRY.register("keymold", () -> new KeymoldItem());
+	public static final RegistryObject<Item> MAZE_KEY = REGISTRY.register("maze_key", () -> new MazeKeyItem());
+	public static final RegistryObject<Item> MAZEDOOR = block(HiveAdProgModBlocks.MAZEDOOR);
+	public static final RegistryObject<Item> MAZEDOORKEY = block(HiveAdProgModBlocks.MAZEDOORKEY);
+	public static final RegistryObject<Item> UNDERBLOOMS = block(HiveAdProgModBlocks.UNDERBLOOMS);
+	public static final RegistryObject<Item> UNDERBLOOM_2 = block(HiveAdProgModBlocks.UNDERBLOOM_2);
+	public static final RegistryObject<Item> UNDERBLOOM_3 = block(HiveAdProgModBlocks.UNDERBLOOM_3);
+	public static final RegistryObject<Item> UNDERBLOOM_4 = block(HiveAdProgModBlocks.UNDERBLOOM_4);
 
 	// Start of user code block custom items
 	// End of user code block custom items

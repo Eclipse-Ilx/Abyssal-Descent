@@ -523,6 +523,218 @@
         ]
       },
       "path": "~/plants"
+    },
+    {
+      "name": "Keymold",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keymold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/item/KeymoldItem.java",
+          "src/main/resources/assets/hive_ad_prog/models/item/keymold.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "MazeKey",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maze_key",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hive_ad_prog/models/item/maze_key.json",
+          "src/main/java/net/mcreator/hiveadprog/item/MazeKeyItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Mazedoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mazedoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hive_ad_prog/blockstates/mazedoor.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/mazedoor.json",
+          "src/main/java/net/mcreator/hiveadprog/block/MazedoorBlock.java",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/mazedoor.json",
+          "src/main/resources/assets/hive_ad_prog/models/item/mazedoor.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Mazedoorkey",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mazedoorkey",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hive_ad_prog/models/item/mazedoorkey.json",
+          "src/main/java/net/mcreator/hiveadprog/block/MazedoorkeyBlock.java",
+          "src/main/resources/assets/hive_ad_prog/blockstates/mazedoorkey.json",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/mazedoorkey.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/mazedoorkey.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "MazedoorkeyOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mazedoorkey_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/procedures/MazedoorkeyOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "UnderbloomTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underbloom_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/procedures/UnderbloomTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Underblooms",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underblooms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hive_ad_prog/models/block/underblooms.json",
+          "src/main/resources/assets/hive_ad_prog/blockstates/underblooms.json",
+          "src/main/java/net/mcreator/hiveadprog/block/UnderbloomsBlock.java",
+          "src/main/java/net/mcreator/hiveadprog/block/entity/UnderbloomsBlockEntity.java",
+          "src/main/resources/assets/hive_ad_prog/models/item/underblooms.json",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/underblooms.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Underbloom2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underbloom_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hive_ad_prog/models/item/underbloom_2.json",
+          "src/main/java/net/mcreator/hiveadprog/block/Underbloom2Block.java",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/underbloom_2.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/underbloom_2.json",
+          "src/main/java/net/mcreator/hiveadprog/block/entity/Underbloom2BlockEntity.java",
+          "src/main/resources/assets/hive_ad_prog/blockstates/underbloom_2.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Underbloom3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underbloom_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hiveadprog/block/entity/Underbloom3BlockEntity.java",
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/underbloom_3.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/underbloom_3.json",
+          "src/main/resources/assets/hive_ad_prog/blockstates/underbloom_3.json",
+          "src/main/resources/assets/hive_ad_prog/models/item/underbloom_3.json",
+          "src/main/java/net/mcreator/hiveadprog/block/Underbloom3Block.java"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Underbloom4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underbloom_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hive_ad_prog/blockstates/underbloom_4.json",
+          "src/main/resources/assets/hive_ad_prog/models/block/underbloom_4.json",
+          "src/main/java/net/mcreator/hiveadprog/block/Underbloom4Block.java",
+          "src/main/java/net/mcreator/hiveadprog/block/entity/Underbloom4BlockEntity.java",
+          "src/main/resources/assets/hive_ad_prog/models/item/underbloom_4.json"
+        ]
+      },
+      "path": "~/plants"
+    },
+    {
+      "name": "Underbloom4drop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underbloom_4drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hive_ad_prog/loot_tables/blocks/underbloom_4.json"
+        ]
+      },
+      "path": "~/loottables"
     }
   ],
   "variable_elements": [],
@@ -540,21 +752,31 @@
     "BLOCKS:hive_ad_prog:crossablecrops": [
       "CUSTOM:Underblight3",
       "CUSTOM:Spikeroot3",
-      "CUSTOM:PoisonousSpikeroot3"
+      "CUSTOM:PoisonousSpikeroot3",
+      "CUSTOM:Underbloom4"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "block.hive_ad_prog.underblight": "Underblight",
-      "block.hive_ad_prog.spikeroot_3": "Spikeroot",
       "block.hive_ad_prog.spikeroot": "Spikeroot",
-      "block.hive_ad_prog.spikeroot_1": "Spikeroot",
+      "block.hive_ad_prog.mazedoorkey": "Mazedoor",
       "block.hive_ad_prog.poisonous_spikeroot_3": "Poisonous Spikeroot",
       "item_group.hive_ad_prog.adstufffromhive": "Abyssal Descent stuff that hive contributed cause hes awesome",
-      "block.hive_ad_prog.spikeroot_2": "Spikeroot",
       "block.hive_ad_prog.poisonous_spikeroot_1": "Poisonous Spikeroot",
+      "item.hive_ad_prog.maze_key": "Maze Key",
+      "block.hive_ad_prog.underbloom_2": "Underbloom",
       "block.hive_ad_prog.poisonous_spikeroot_2": "Poisonous Spikeroot",
+      "block.hive_ad_prog.underbloom_3": "Underbloom",
+      "block.hive_ad_prog.underbloom_4": "Underbloom",
+      "item.hive_ad_prog.maze_key.description_0": "Used to access the labyrinth in the Undergarden.",
+      "block.hive_ad_prog.mazedoor": "Mazedoor",
+      "block.hive_ad_prog.spikeroot_3": "Spikeroot",
+      "block.hive_ad_prog.spikeroot_1": "Spikeroot",
+      "block.hive_ad_prog.spikeroot_2": "Spikeroot",
+      "item.hive_ad_prog.keymold": "Maze Key Mold",
+      "block.hive_ad_prog.underblooms": "Underbloom Seeds",
       "block.hive_ad_prog.underblight_1": "Underblight",
       "block.hive_ad_prog.underblight_2": "Underblight",
       "block.hive_ad_prog.crop_crosser": "Crop Crosser",
@@ -568,6 +790,18 @@
     "children": [
       {
         "name": "plants",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "loottables",
         "children": []
       }
     ]

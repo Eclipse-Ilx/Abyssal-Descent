@@ -22,5 +22,11 @@ public class HiveAdProgModTabs {
 				tabData.accept(HiveAdProgModBlocks.SPIKEROOT.get().asItem());
 				tabData.accept(HiveAdProgModBlocks.POISONOUS_SPIKEROOT.get().asItem());
 				tabData.accept(HiveAdProgModBlocks.CROP_CROSSER.get().asItem());
+				tabData.accept(HiveAdProgModItems.KEYMOLD.get());
+				tabData.accept(HiveAdProgModItems.MAZE_KEY.get());
+				tabData.accept(HiveAdProgModBlocks.MAZEDOOR.get().asItem());
+				tabData.accept(HiveAdProgModBlocks.MAZEDOORKEY.get().asItem());
+				tabData.accept(HiveAdProgModBlocks.UNDERBLOOMS.get().asItem());
+				tabData.accept(HiveAdProgModBlocks.UNDERBLOOM_4.get().asItem());
 			}).build());
 }
