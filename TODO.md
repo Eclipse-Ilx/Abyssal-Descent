@@ -18,6 +18,7 @@
 ## Visual
 - create low, medium, high and ultra shader presets while keeping the current shader settings and look intact
 - add deeper darker plants to block.properties for shader side advanced colored lighting
+- bump complementary + euphoria patches
 
 ## Progression
 - create transition layers (10-20 blocks to mix biomes)
