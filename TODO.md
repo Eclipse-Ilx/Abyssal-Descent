@@ -13,6 +13,7 @@
 + create low, medium, high and ultra shader presets while keeping the current shader settings and look intact
 + Update shader presets
 + Update mods that need to be updated
++ Custom Main menu
 
 ## Aether
 + Aether Redux + Deep Aether
@@ -21,12 +22,13 @@
 
 ## Overworld
 - Remove stronghold
+- remove weird regions unexplored biomes (eucalyptus forest,mauve hills,rocky meadow)
 + make nether portals explode when someone tries to light one.
 - Remove mob spawns for mobs added to certain layers from overworld
 + Add Launch pad structure
 
 ## Delver's Beginning
-+ Regions Unexplored cave biomes
++ Regions Unexplored cave biomes (redstone caves,prismachasm,ancient delta,bioshroom cave)
 - Remove galosphere Floor Crystal
 + Custom diamond floor crystal? (requires Spelunkery grindstone)
 
@@ -40,7 +42,7 @@
 + ores? 
 + Red Crystals
 + boss?
-+ Desolate biomes (Scorching Caves)
++ add desolate biomes (Scorching Caves,blackstone basin?)
 + Spelunkers Charm 2 Cave stuff
 
 # General
