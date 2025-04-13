@@ -1,5 +1,5 @@
 {
-  "type": "frozenshores:dimension",
+  "type": "theabyss:frost_world",
   "generator": {
     "type": "minecraft:noise",
     "settings": "minecraft:overworld",
