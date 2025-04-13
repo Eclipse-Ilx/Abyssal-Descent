@@ -142,5 +142,23 @@
           "maxheight": 128,
           "maxthis": 3
         }
+      },
+      {
+        "mob": "alexsmobs:dropbear",
+        "persecond": 0.1,
+        "attempts": 1,
+        "amount": {
+          "minimum": 1,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "infernalcross:dimension",
+          "norestrictions": true,
+          "mindist": 50,
+          "maxdist": 100,
+          "minheight": 0,
+          "maxheight": 128,
+          "maxthis": 3
+        }
       }
   ]  
