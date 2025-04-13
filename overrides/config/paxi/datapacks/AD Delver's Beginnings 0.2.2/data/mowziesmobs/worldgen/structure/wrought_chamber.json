@@ -1,7 +1,7 @@
 {
   "replace": true,
   "type": "mowziesmobs:wrought_chamber",
-  "biomes": "#delverbegin:has_structure/has_mowzie_structure",
+  "biomes": "#mowziesmobs:has_structure/has_mowzie_structure",
   "spawn_overrides": {},
   "step": "surface_structures",
   "terrain_adaptation": "none"
