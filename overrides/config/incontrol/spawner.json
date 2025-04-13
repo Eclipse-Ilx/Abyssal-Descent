@@ -160,5 +160,77 @@
           "maxheight": 128,
           "maxthis": 3
         }
+      },
+      {
+        "mob": "alexsmobs:crocodile",
+        "persecond": 0.1,
+        "attempts": 20,
+        "amount": {
+          "minimum": 1,
+          "maximum": 10
+        },
+        "conditions": {
+          "dimension": "undergarden:undergarden",
+          "norestrictions": true,
+          "mindist": 50,
+          "maxdist": 100,
+          "minheight": 0,
+          "maxheight": 128,
+          "maxthis": 3
+        }
+      },
+      {
+        "mob": "alexsmobs:mudskipper",
+        "persecond": 0.1,
+        "attempts": 5,
+        "amount": {
+          "minimum": 1,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "undergarden:undergarden",
+          "norestrictions": true,
+          "mindist": 50,
+          "maxdist": 100,
+          "minheight": 0,
+          "maxheight": 128,
+          "maxthis": 3
+        }
+      },
+      {
+        "mob": "alexsmobs:anaconda",
+        "persecond": 0.1,
+        "attempts": 5,
+        "amount": {
+          "minimum": 1,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "undergarden:undergarden",
+          "norestrictions": true,
+          "mindist": 50,
+          "maxdist": 100,
+          "minheight": 0,
+          "maxheight": 128,
+          "maxthis": 3
+        }
+      },
+      {
+        "mob": "alexsmobs:komodo_dragon",
+        "persecond": 0.1,
+        "attempts": 5,
+        "amount": {
+          "minimum": 1,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "undergarden:undergarden",
+          "norestrictions": true,
+          "mindist": 50,
+          "maxdist": 100,
+          "minheight": 0,
+          "maxheight": 128,
+          "maxthis": 3
+        }
       }
   ]  
