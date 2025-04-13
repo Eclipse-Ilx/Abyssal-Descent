@@ -146,7 +146,7 @@
       {
         "mob": "alexsmobs:dropbear",
         "persecond": 0.1,
-        "attempts": 1,
+        "attempts": 5,
         "amount": {
           "minimum": 1,
           "maximum": 3
