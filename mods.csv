@@ -2,7 +2,7 @@
 
 # Libs
 patchouli,306770,4966125
-geckolib,388172,5675221
+geckolib,388172,6333474
 sinytra_connector,890127,5605667
 yungs_api,421850,5769971
 bclib,495191,4971470
@@ -13,8 +13,10 @@ curios_api,309927,5680164
 moonlightlib,499980,5768751
 citadel,331936,5633260
 obscure_api,638417,4616364
-terrablender,563928,5378180
+terrablender,563928,6290448
 necronomicon_api,586157,5772681
+aeroblender,879879,4789008
+blueprint,382216,6408581
 
 # Utility
 just_enough_items,238222,5626488
@@ -32,10 +34,10 @@ embeddium,908741,5034486
 lazurite,928687,5070069
 
 # Visual
-complementary_shaders_unbound,385587,5507479
+complementary_shaders_unbound,385587,6137622
 traveler's_titles,504908,5065825
 oculus,581495,4767500
-euphoria_patches,915902,5511963
+euphoria_patches,915902,6137786
 dynamic_crosshair,623800,5027231
 
 # Biomes/Dimensions
@@ -43,16 +45,16 @@ betternether,311377,4971478
 the_abyss_ii_the_other_side,440647,5129404
 the_ceilands,646626,6070357
 the_undergarden,379849,5182632
-deeper_and_darker,659011,5698212
-the_aether,255308,5302178
-infinite_abyss,677576,5340597
+deeper_and_darker,659011,5906086
+the_aether,255308,6134920
+infinite_abyss,677576,5951275
 betterend,413596,4971487
 galosphere,631098,4983871
 spelunkers_charm,886997,5333907
 # spelunkery,790530,5727135
-alexs_caves,924854,5633305
+alexs_caves,924854,5848216
 aquamirae,536254,4616373
-yungs_cave_biomes,1111586,6241006
+yungs_cave_biomes,1111586,6304088
 voidscape,251730,5179872
 cavernsandchasms,438005,6040957
 regionsunexplored,659110,5558225
