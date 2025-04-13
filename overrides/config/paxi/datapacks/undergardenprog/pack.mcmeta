@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "name": "frozendimension",
+        "id": "glory",
+        "pack_format": 15,
+        "version": "1.0.1",
+        "authors": [
+            "hive"
+        ],
+        "description": "yuh"
+    }
+}
