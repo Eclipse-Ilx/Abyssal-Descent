@@ -1,0 +1,27 @@
+{
+  "feature": "regions_unexplored:giant_blue_bioshroom",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 3
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "regions_unexplored:viridescent_nylium",
+          "regions_unexplored:deepslate_viridescent_nylium"
+        ],
+        "offset": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
