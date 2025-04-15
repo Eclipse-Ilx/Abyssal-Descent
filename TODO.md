@@ -64,6 +64,7 @@
 
 ## Worldgen
 - Drastically increase end island size and height variation
+- Rewrite ceilands dimension, fixes #11 (hopefully), make it feel more ender-y
 
 ## Mobs
 - add alex's mob spawns to spawns in each layer according to the #fill the layers channels in discord
