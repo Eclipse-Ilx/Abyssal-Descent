@@ -28,7 +28,6 @@
 + Add Launch pad structure
 
 ## Delver's Beginning
-+ Regions Unexplored cave biomes (redstone caves,prismachasm,ancient delta,bioshroom cave)
 - Remove galosphere Floor Crystal
 + Custom diamond floor crystal? (requires Spelunkery grindstone)
 
@@ -40,9 +39,9 @@
 ## Infernal Crossing
 + Item to get/craft glider
 + ores? 
-+ Red Crystals
++ add use for Red Crystals
 + boss?
-+ add desolate biomes (Scorching Caves,blackstone basin?)
++ add new desolate biomes
 + Spelunkers Charm 2 Cave stuff
 
 # General
