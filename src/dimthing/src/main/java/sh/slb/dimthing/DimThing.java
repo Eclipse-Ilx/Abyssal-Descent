@@ -65,18 +65,16 @@ public class DimThing {
          return switch (dim) {
             case "aether:the_aether"            -> -320;
             case "minecraft:overworld"          -> 0;
-            case "infinite_abyss:first_layer"   -> 64 + 128;
+            case "delverbegin:dimension"        -> 64 + 128;
             case "undergarden:undergarden"      -> 64 + 128 + 128;
-            case "infinite_abyss:second_layer"  -> 64 + 128 + 128 + 128;
-            case "minecraft:the_nether"         -> 64 + 128 + 128 + 128 + 128;
-            case "infinite_abyss:fourth_layer"  -> 64 + 128 + 128 + 128 + 128 + 128;
-            case "theabyss:the_abyss"           -> 64 + 128 + 128 + 128 + 128 + 128 + 170;
-            case "infinite_abyss:fifth_layer"   -> 64 + 128 + 128 + 128 + 128 + 128 + 170 + 64 + 128;
-            case "infinite_abyss:sixth_layer"   -> 64 + 128 + 128 + 128 + 128 + 128 + 170 + 64 + 128 + 128;
-            case "deeperdarker:otherside"       -> 64 + 128 + 128 + 128 + 128 + 128 + 170 + 64 + 128 + 128 + 128;
-            case "infinite_abyss:seventh_layer" -> 64 + 128 + 128 + 128 + 128 + 128 + 170 + 64 + 128 + 128 + 128 + 128;
-            case "ceilands:the_ceilands"        -> 64 + 128 + 128 + 128 + 128 + 128 + 170 + 64 + 128 + 128 + 128 + 128 + 256;
-            case "minecraft:the_end"            -> 64 + 128 + 128 + 128 + 128 + 128 + 170 + 64 + 128 + 128 + 128 + 128 + 256 + 256;
+            case "infernalcross:dimension"      -> 64 + 128 + 128 + (64 + 64);
+            case "minecraft:the_nether"         -> 64 + 128 + 128 + (64 + 64) + 128;
+            case "dinolayer:dimension"          -> 64 + 128 + 128 + (64 + 64) + 128 + (64 + 64);
+            case "infinite_abyss:fourth_layer"  -> 64 + 128 + 128 + (64 + 64) + 128 + (64 + 64) + 128; // THE VIDEO
+            case "theabyss:the_abyss"           -> 64 + 128 + 128 + (64 + 64) + 128 + (64 + 64) + 128 + 170;
+            case "deeperdarker:otherside"       -> 64 + 128 + 128 + (64 + 64) + 128 + (64 + 64) + 128 + 170 + 128;
+            case "infinite_abyss:sixth_layer"   -> 64 + 128 + 128 + (64 + 64) + 128 + (64 + 64) + 128 + 170 + 128 + 128; // THE VIDEO
+            // TODO: @eclipse get yo shit together
             default                             -> 0;
          };
       }

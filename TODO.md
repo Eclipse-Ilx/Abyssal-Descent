@@ -2,7 +2,6 @@
 
 ## Universal
 + further adjust biome size/frequency in custom dimensions
-+ Fix in house coordinate overlay mod
 + Pathouli or questing support
 + Disable biomes used in each layer from generating in the its normal dimension i.e overworld nether end.
 + Block Bench traveler's titles for every dimension
