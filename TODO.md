@@ -13,6 +13,7 @@
 + Update shader presets
 + Update mods that need to be updated
 + Custom Main menu
++ To make plates place an ingot on anvil and hit with hammer. Plates required to make armor.
 
 ## Aether
 + Aether Redux + Deep Aether
