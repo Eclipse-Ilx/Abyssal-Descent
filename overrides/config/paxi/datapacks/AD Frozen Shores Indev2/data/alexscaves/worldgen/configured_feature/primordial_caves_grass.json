@@ -1,0 +1,100 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "minecraft:grass"
+                },
+                "weight": 8
+              },
+              {
+                "data": {
+                  "Name": "minecraft:fern"
+                },
+                "weight": 20
+              },
+              {
+                "data": {
+                  "Name": "minecraft:large_fern",
+                  "Properties": {
+                    "half": "lower"
+                  }
+                },
+                "weight": 5
+              },
+              {
+                "data": {
+                  "Name": "alexscaves:curly_fern",
+                  "Properties": {
+                    "half": "lower",
+                    "facing": "north"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "alexscaves:curly_fern",
+                  "Properties": {
+                    "half": "lower",
+                    "facing": "east"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "alexscaves:curly_fern",
+                  "Properties": {
+                    "half": "lower",
+                    "facing": "south"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "alexscaves:curly_fern",
+                  "Properties": {
+                    "half": "lower",
+                    "facing": "west"
+                  }
+                },
+                "weight": 1
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:cave_air",
+                  "minecraft:void_air",
+                  "alexscaves:ambersol_light"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "tries": 40,
+    "xz_spread": 7,
+    "y_spread": 3
+  }
+}

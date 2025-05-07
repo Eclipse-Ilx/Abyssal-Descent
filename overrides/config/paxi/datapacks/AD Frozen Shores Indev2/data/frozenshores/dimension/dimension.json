@@ -1,11 +1,11 @@
 {
-  "type": "theabyss:frost_world",
-  "generator": {
-    "type": "minecraft:noise",
-    "settings": "minecraft:overworld",
-    "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "alexscaves:abyssal_chasm"
+    "type": "frozenshores:frozen_shores_type",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "minecraft:overworld",
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "biome": "alexscaves:abyssal_chasm"
+      }
     }
   }
-}

@@ -1,0 +1,62 @@
+{
+ "providers":
+   [
+	 {
+	   "type":"bitmap",
+	   "file":"minecraft:font/overworld.png",
+	   "ascent":4,
+	   "height":12,
+	   "chars":["\u2C00"]
+	 },
+
+	 {
+	   "type":"bitmap",
+	   "file":"minecraft:font/nether.png",
+	   "ascent":4,
+	   "height":12,
+	   "chars":["\u2C02"]
+	 },
+	 {
+	   "type":"bitmap",
+	   "file":"minecraft:font/end.png",
+	   "ascent":4,
+	   "height":17,
+	   "chars":["\u2C04"]
+	 },
+	 {
+	   "type":"bitmap",
+	   "file":"minecraft:font/undergarden.png",
+	   "ascent":4,
+	   "height":14,
+	   "chars":["\u2C14"]
+	 },
+	 {
+	   "type":"bitmap",
+	   "file":"minecraft:font/otherside.png",
+	   "ascent":4,
+	   "height":12,
+	   "chars":["\u2C1C"]
+	 },
+	 {
+	   "type":"bitmap",
+	   "file":"minecraft:font/aether.png",
+	   "ascent":4,
+	   "height":12,
+	   "chars":["\u2C22"]
+	 },
+	 {
+	 "type": "bitmap",
+	 "file": "minecraft:font/delverbegin.png",
+	 "ascent": 4,
+	 "height": 12,
+	 "chars": ["\u2694"]
+	},
+	{
+	 "type": "bitmap",
+	 "file": "minecraft:font/infernalcross.png",
+	 "ascent": 4,
+	 "height": 12,
+	 "chars": ["\u2c24"]
+	}
+	]
+}

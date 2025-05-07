@@ -1,46 +1,67 @@
 {
   "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
   },
-  "downfall": 0.5,
+  "downfall": 0.4,
+  "has_precipitation": true,
   "effects": {
-    "ambient_sound": "alexscaves:abyssal_chasm_ambience",
+    "ambient_sound": "alexscaves:toxic_caves_ambience",
     "additions_sound": {
-      "sound": "alexscaves:abyssal_chasm_ambience_additions",
-      "tick_chance": 0.01
+      "sound": "alexscaves:toxic_caves_ambience_additions",
+      "tick_chance": 0.0111
     },
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
-      "sound": "alexscaves:abyssal_chasm_ambience_mood",
+      "sound": "alexscaves:toxic_caves_ambience_mood",
       "tick_delay": 6000
     },
-    "fog_color": 3884,
     "music": {
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "alexscaves:abyssal_chasm_music"
+      "sound": "alexscaves:toxic_caves_music"
     },
-    "sky_color": 8103167,
-    "water_color": 5451,
-    "water_fog_color": 3623
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "alexscaves:toxic_caves_music"
+    },
+    "particle": {
+      "options": {
+        "type": "alexscaves:fallout"
+      },
+      "probability": 0.001
+    },
+    "fog_color": 8781312,
+    "sky_color": 582913,
+    "water_color": 4944498,
+    "water_fog_color": 4944498
   },
-  "has_precipitation": true,
   "features": [
+    [
+    ],
+    [
+      "alexscaves:acid_lake",
+      "alexscaves:toxic_ruins"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
     [],
     [],
     [
-      "alexscaves:abyssal_boulder"
-    ],
-    [
-      "alexscaves:black_vent",
-      "alexscaves:whalefall"
-    ],
-    [
-      "alexscaves:deep_one_ruins"
-    ],
-    [],
-    [
+      "alexscaves:metal_swarf_replace_mud",
+      "alexscaves:unrefined_waste_replace_mud",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
@@ -64,58 +85,81 @@
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
+      "minecraft:ore_copper_large",
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
-    ],
-    [],
-    [
+      "minecraft:disk_gravel",
+      "alexscaves:radrock_uranium_ore"
     ],
     [
-      "alexscaves:tube_worm",
-      "alexscaves:mussel",
-      "alexscaves:ping_pong_sponge",
-      "alexscaves:dusk_anemone",
-      "alexscaves:twilight_anemone",
-      "alexscaves:midnight_anemone",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_badlands",
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "alexscaves:spring_acid",
+      "alexscaves:acid_vent"
+    ],
+    [
+      "alexscaves:underweed",
+      "minecraft:glow_lichen",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:trees_plains",
+      "minecraft:flower_plains",
+      "minecraft:patch_grass_plain",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin"
     ],
     [
-      "minecraft:freeze_top_layer",
-      "alexscaves:fill_in_bubbles_with_water"
+      "alexscaves:sulfur_stack",
+      "alexscaves:nuclear_siren",
+      "minecraft:freeze_top_layer"
     ]
   ],
-  "spawn_costs": {},
+  "precipitation": "rain",
+  "spawn_costs": {
+  },
+  "creature_spawn_probability": 0.01,
   "spawners": {
-    "ambient": [],
+    "ambient": [
+      {
+        "type": "alexscaves:gammaroach",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 55
+      },
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 10
+      }
+    ],
     "axolotls": [],
+    "alexscaves:cave_creature": [
+      {
+        "type": "alexscaves:raycat",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
     "creature": [],
     "misc": [],
     "monster": [
       {
-        "type": "alexscaves:deep_one_mage",
-        "maxCount": 1,
+        "type": "alexscaves:brainiac",
+        "maxCount": 2,
         "minCount": 1,
-        "weight": 2
+        "weight": 160
       },
       {
-        "type": "alexscaves:deep_one_knight",
+        "type": "alexscaves:nucleeper",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 4
-      },
-      {
-        "type": "alexscaves:deep_one",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 8
+        "weight": 45
       },
       {
         "type": "minecraft:spider",
@@ -154,6 +198,12 @@
         "weight": 100
       },
       {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
         "type": "minecraft:witch",
         "maxCount": 1,
         "minCount": 1,
@@ -161,9 +211,9 @@
       },
       {
         "type": "minecraft:drowned",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 2
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
       }
     ],
     "underground_water_creature": [
@@ -171,57 +221,18 @@
         "type": "minecraft:glow_squid",
         "maxCount": 6,
         "minCount": 4,
-        "weight": 100
-      },
-      {
-        "type": "alexscaves:hullbreaker",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 20
+        "weight": 10
       }
     ],
     "water_ambient": [
       {
-        "type": "alexscaves:lanternfish",
-        "maxCount": 20,
-        "minCount": 15,
-        "weight": 100
+        "type": "alexscaves:radgill",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 10
       }
     ],
-    "water_creature": [
-      {
-        "type": "minecraft:squid",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 1
-      },
-      {
-        "type": "minecraft:dolphin",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 1
-      }
-    ],
-    "alexscaves:deep_sea_creature": [
-      {
-        "type": "alexscaves:tripodfish",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 40
-      },
-      {
-        "type": "alexscaves:sea_pig",
-        "maxCount": 4,
-        "minCount": 3,
-        "weight": 50
-      },
-      {
-        "type": "alexscaves:gossamer_worm",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 20
-      }
-    ]
+    "water_creature": []
   },
   "temperature": 0.5
 }

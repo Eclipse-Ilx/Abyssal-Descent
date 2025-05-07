@@ -30,6 +30,7 @@
 ## Delver's Beginning
 - Remove galosphere Floor Crystal
 + Custom diamond floor crystal? (requires Spelunkery grindstone)
++ Remove all ore gen, replace with ore gen with geode mods geode structure
 
 ## The Undergarden (Subject to change)
 + Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)
