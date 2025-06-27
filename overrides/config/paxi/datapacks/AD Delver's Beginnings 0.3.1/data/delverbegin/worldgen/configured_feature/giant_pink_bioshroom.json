@@ -1,0 +1,28 @@
+{
+  "type": "regions_unexplored:giant_pink_bioshroom",
+  "config": {
+    "cap_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "regions_unexplored:pink_bioshroom_block"
+      }
+    },
+    "glow_block_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "regions_unexplored:glowing_pink_bioshroom_block"
+      }
+    },
+    "minimum_size": 7,
+    "size_variation": 8,
+    "stem_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "regions_unexplored:pink_bioshroom_stem",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  }
+}
