@@ -1,8 +1,0 @@
-{
-  "feature": "alexscaves:fill_in_bubbles_with_water",
-  "placement": [
-    {
-      "type": "minecraft:biome"
-    }
-  ]
-}
