@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 15,
-        "description": "Abyssal Descent Feature: Removes diamond ore from only the Overworld"
+      "pack_format": 15,
+      "description": "Abyssal descent feature - removes vanilla diamond ore feature merge into delvers begin eventually plz"
     }
-}
+  }
