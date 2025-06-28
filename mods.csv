@@ -3,11 +3,11 @@
 # Libs
 patchouli,306770,4966125
 geckolib,388172,6333474
-sinytra_connector,890127,5605667
+sinytra_connector,890127,5761411
 yungs_api,421850,5769971
 bclib,495191,4971470
 iris_oculus_geckolib_compat,959388,5018199
-forgified_fabric_api,889079,5387432
+forgified_fabric_api,889079,6289136
 zeta,968868,5597406
 curios_api,309927,5680164
 moonlightlib,499980,5768751
@@ -27,19 +27,18 @@ jade,324717,5672013
 appleskin,248787,4770828
 mouse_tweaks,60089,5338457
 paxi,515708,4749994
-harvest_level_tweaker,833035,5760642
+harvest_level_tweaker,833035,6461992
 you_shall_not_spawn,628744,5820960
 incontrol,257356,5932870
 
 # Performance
-embeddium,908741,5034486
-lazurite,928687,5070069
+embeddium,908741,5681725
 
 # Visual
-complementary_shaders_unbound,385587,6137622
+complementary_shaders_unbound,385587,6515579
 traveler's_titles,504908,5065825
-oculus,581495,4767500
-euphoria_patches,915902,6137786
+oculus,581495,6020952
+euphoria_patches,915902,6653766
 dynamic_crosshair,623800,5027231
 
 # Biomes/Dimensions
@@ -60,12 +59,12 @@ yungs_cave_biomes,1111586,6304088
 voidscape,251730,5179872
 cavernsandchasms,438005,6040957
 regionsunexplored,659110,5558225
-aetherredux,867237,5872671
-deepaether,852465,6221130
+aetherredux,867237,6596294
+deepaether,852465,6542076
 
 # Other
 grappling_hook:_restitched,820533,5226155
-immersive_portals,332273,4766130
+immersive_portals,355440,6368524
 quark,243121,5594847
 quark_oddities,301051,5070502
 copper_tools,1045055,5472974
