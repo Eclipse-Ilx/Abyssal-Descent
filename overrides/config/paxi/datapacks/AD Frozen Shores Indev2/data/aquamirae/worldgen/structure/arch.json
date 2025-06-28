@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "aquamirae:ice_maze/arch",
+  "size": 2,
+  "max_distance_from_center": 80,
+  "biomes": "#aquamirae:ice_maze",
+  "step": "underground_structures",
+  "start_height": {
+    "surface": "OCEAN_FLOOR_WG"
+  },
+  "project_start_to_heightmap": "OCEAN_FLOOR_WG",
+  "use_expansion_hack": false,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "aquamirae:maw",
+          "weight": 50,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ]
+    },
+    "ambient": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "aquamirae:golden_moth",
+          "weight": 3,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ]
+    }
+  }
+}
