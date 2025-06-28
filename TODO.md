@@ -1,7 +1,6 @@
 # High Priority (Teaser pack MVP)
 
 ## Universal
-+ further adjust biome size/frequency in custom dimensions
 + Pathouli or questing support
 + Disable biomes used in each layer from generating in the its normal dimension i.e overworld nether end.
 + Block Bench traveler's titles for every dimension
@@ -15,40 +14,41 @@
 + Custom Main menu
 + To make plates place an ingot on anvil and hit with hammer. Plates required to make armor.
 
+## ongoing WIP
++ further adjust biome size/frequency in custom dimensions
+
 ## Aether
-+ Aether Redux + Deep Aether
 + curios "sun spirit charm" drop from Sun spirit (curios support)
-+ Block access to Aether via clouds
++ Block access to Aether via suffocation without curios item.
 
 ## Overworld
-- Remove stronghold
+- remove stronghold from generating
 - remove weird regions unexplored biomes (eucalyptus forest,mauve hills,rocky meadow)
+- disable all cave biomes added from mods from generating in the overworld
 + make nether portals explode when someone tries to light one.
-- Remove mob spawns for mobs added to certain layers from overworld
-+ Add Launch pad structure
++ Add Launch pad structure using the campfire updraft feature from Aileron mod that will launch you into the Aether.
++ make new ore gen feature for the overworld to make iron ore as common as diamond ore in the overworld generating in deepslate.
 
 ## Delver's Beginning
 - Remove galosphere Floor Crystal
-+ Custom diamond floor crystal? (requires Spelunkery grindstone)
-+ Remove all ore gen, replace with ore gen with geode mods geode structure
++ Remove all ore gen.
++ Create new ore gen features for copper and coal so it evenly generates across the entire dimension but less common overall than overworld.
++ new ore gen feature making iron more common
++ add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 
 ## The Undergarden (Subject to change)
 + Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)
-+ Trading item from crocodile maze with Stoneborn to get forgotten alloy?
 + Crocidile maze gets special item you can trade along with the forgotten nuggets to get forgotten ingot to then craft forgotten pickaxe. Must also beat void blossom to get acid to weaken the new bedrock floor root block
 
 ## Infernal Crossing
-+ Item to get/craft glider
-+ ores? 
-+ add use for Red Crystals
-+ boss?
++ Curios item to prevent suffocating in the Aether
++ add abudant iron ore generation feature for the infinite abyss biome specifically.
 + add new desolate biomes
-+ Spelunkers Charm 2 Cave stuff
++ sprinkle in some spelunkers Charm 2 Cave features into bottom part of layer.
 
 # General
 
 ## Balance
-- Drastically increase loot table in ceilinglands structures
 
 ## Sound
 - Add audio to play alongside traveler's titles
@@ -61,15 +61,14 @@
 ## Progression
 
 ## Aesthetic
-- Improve the vanilla non shader skybox for The Ceilands & all underground biomes
-- Remove clouds from the Aether and Ceilands
+- Improve the vanilla non shader skybox for layers with vanilla skybox
+- Remove clouds from the Aether.
 
 ## Worldgen
 - Drastically increase end island size and height variation
-- Rewrite ceilands dimension, fixes #11 (hopefully), make it feel more ender-y
+- Recreate ceilands dimension to make it end themed
 
 ## Mobs
-- add alex's mob spawns to spawns in each layer according to the #fill the layers channels in discord
 
 ## Other
 - create a jeresources preset for new ore generation
@@ -79,7 +78,6 @@
 # Bugs/Issues
 
 ## Critical / Game-Breaking
-- #11 Ceiland's ceiling cannot be broken and is transparent for some reason when coming from above.
 
 ## Visual
 - Shader TAA causes artifacting when looking into a immersive portal portal  
