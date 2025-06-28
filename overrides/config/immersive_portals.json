@@ -153,15 +153,6 @@
         "connectsNext": true
       },
       {
-        "dimensionIdStr": "frozenshores:dimension",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
         "dimensionIdStr": "infinite_abyss:seventh_layer",
         "scale": 1.0,
         "flipped": false,
