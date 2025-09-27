@@ -22,7 +22,6 @@
 + Add Launch pad structure using the campfire updraft feature from Aileron mod that will launch you into the Aether.
 
 ## Delver's Beginning
-- Remove galosphere Floor Crystal
 + Remove all ore gen.
 + Create new ore gen features for copper and coal so it evenly generates across the entire dimension but less common overall than overworld.
 + new ore gen feature making iron more common
