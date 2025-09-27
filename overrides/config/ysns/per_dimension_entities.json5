@@ -29,8 +29,33 @@
       "entityId": "alexsmobs:centipede_head",
       "dimension": "minecraft:overworld",
       "spawn_chance": 0.0
+    },
+    {
+      "entityId": "caverns_and_chasms:deeper",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "caverns_and_chasms:lost_goat",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "caverns_and_chasms:mime",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "caverns_and_chasms:peeper",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "quark:forgotten",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
     }
- ],
+  ],
   // Don't touch this!
   "CONFIG_VERSION": 1
 }

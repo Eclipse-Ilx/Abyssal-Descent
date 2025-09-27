@@ -2,7 +2,6 @@
 
 ## Universal
 + Pathouli or questing support
-+ Disable biomes used in each layer from generating in the its normal dimension i.e overworld nether end.
 + Block Bench traveler's titles for every dimension
 + Alloying mod
 + QOL Mods
@@ -17,17 +16,10 @@
 ## ongoing WIP
 + further adjust biome size/frequency in custom dimensions
 
-## Aether
-+ curios "sun spirit charm" drop from Sun spirit (curios support)
-+ Block access to Aether via suffocation without curios item.
-
 ## Overworld
-- remove stronghold from generating
-- remove weird regions unexplored biomes (eucalyptus forest,mauve hills,rocky meadow)
-- disable all cave biomes added from mods from generating in the overworld
++ improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
 + make nether portals explode when someone tries to light one.
 + Add Launch pad structure using the campfire updraft feature from Aileron mod that will launch you into the Aether.
-+ make new ore gen feature for the overworld to make iron ore as common as diamond ore in the overworld generating in deepslate.
 
 ## Delver's Beginning
 - Remove galosphere Floor Crystal
@@ -36,12 +28,11 @@
 + new ore gen feature making iron more common
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 
-## The Undergarden (Subject to change)
+## The Undergarden
 + Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)
-+ Crocidile maze gets special item you can trade along with the forgotten nuggets to get forgotten ingot to then craft forgotten pickaxe. Must also beat void blossom to get acid to weaken the new bedrock floor root block
++ Void blossom drops special item you can trade along with the forgotten nuggets to get forgotten ingot to then craft forgotten pickaxe. Must also beat void blossom to get acid to weaken the new bedrock floor root block
 
 ## Infernal Crossing
-+ Curios item to prevent suffocating in the Aether
 + add abudant iron ore generation feature for the infinite abyss biome specifically.
 + add new desolate biomes
 + sprinkle in some spelunkers Charm 2 Cave features into bottom part of layer.
