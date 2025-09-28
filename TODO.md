@@ -20,19 +20,38 @@
 + improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
 + find a way to disable galosphere biomes without affecting delvers beginning since it uses those biomes.
 + make nether portals explode when someone tries to light one.
-+ Add Launch pad structure using the campfire updraft feature from Aileron mod that will launch you into the Aether.
 + remove organics ore from overworld
 + Add slimes as an overworld mob spawn
 
 ## Delver's Beginning
-+ Remove all ore gen.
++ Remove all ore gen from biome files.
 + Create new ore gen features for copper and coal so it evenly generates across the entire dimension but less common overall than overworld.
 + new ore gen feature making iron more common
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 
 ## The Undergarden
 + Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)
-+ Void blossom drops special item you can trade along with the forgotten nuggets to get forgotten ingot to then craft forgotten pickaxe. Must also beat void blossom to get acid to weaken the new bedrock floor root block
++ Add unbreakable block called Hardened root and set it as the new bedrock floor block
++ Add new block called weakened root block, only mineable by forgotten pickaxe harvest level
++ Make sure forgotten axe has a higher harvest level than every other axe
++ implement the following progression
+Undergarden Prog
+
+1. Beat Forgotten Guardians by raiding catacombs structure
+- Drops forgotten nuggets
+
+2. Beat Void Blossom
+- Drops Acid
+
+3. Trade with stoneborn
+- Give crystal fruit + void thorn to get acid bottle
+- Give 1 Cloggrum axe + 1 Forgotten Ingot to get the forgotten axe (also add other forgotten tools to the list but the axe is what you need for progression)
+
+4. Mining into Infernal Crossing 
+ - Right click hardened root block with acid bottle. 
+ - hardened root block turns into weakened root block
+- Mine weakened root block with forgotten axe
+- Continue mining into Infernal Crossing
 
 ## Infernal Crossing
 + add abudant iron ore generation feature for the infinite abyss biome specifically.
