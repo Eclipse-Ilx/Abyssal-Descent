@@ -22,6 +22,8 @@
 + improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
 + find a way to disable galosphere biomes without affecting delvers beginning since it uses those biomes.
 + make nether portals explode when someone tries to light one.
++ disable darker depths structures from overworld
++ disable darker depths biomes from overworld without affecting infernal crossings use of said biomes.
 
 ## Delver's Beginning
 + Remove all ore gen from biome files.
@@ -30,6 +32,7 @@
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 + Add Terracotta collosus in delvers beginning Ancient Delta
 + add sand catcher to spawn in yungs sand cave biome
++ add glowshroom forest in delvers beginning
 
 ## The Undergarden
 + Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)
@@ -59,6 +62,7 @@ Undergarden Prog
 + add abudant iron ore generation feature for the infinite abyss biome specifically.
 + add new desolate biomes
 + sprinkle in some spelunkers Charm 2 Cave features into bottom part of layer.
++ add darker depths biomes and structures into infernal crossing
 
 # General
 
