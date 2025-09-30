@@ -24,13 +24,15 @@
 + make nether portals explode when someone tries to light one.
 
 ## Delver's Beginning
-+ Remove all ore gen from biome files.
 + Create new ore gen features for copper and coal so it evenly generates across the entire dimension but less common overall than overworld.
 + new ore gen feature making iron more common
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 + Add Terracotta collosus in delvers beginning Ancient Delta
 + add sand catcher to spawn in yungs sand cave biome
 + add glowshroom forest in delvers beginning
++ make sure pink salt shrines loot pool doesnt have stuff it shouldn't
++ fix geodes from generating holes through bedrock replacer blocks
++ make geodes exposed to air more frequently
 
 ## The Undergarden
 + Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)
