@@ -168,14 +168,40 @@
               "type": "minecraft:condition",
               "if_true": {
                 "type": "minecraft:stone_depth",
-                "offset": 2,
+                "offset": 0,
                 "surface_type": "ceiling",
                 "secondary_depth_range": 0,
                 "add_surface_depth": false
               },
               "then_run": {
                 "type": "minecraft:block",
-                "result_state": { "Name": "regions_unexplored:argillite" }
+                "result_state": { "Name": "regions_unexplored:deepslate_viridescent_nylium" }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": ["regions_unexplored:bioshroom_caves"]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "floor",
+                "secondary_depth_range": 0,
+                "add_surface_depth": false
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": { "Name": "regions_unexplored:deepslate_viridescent_nylium" }
               }
             }
           ]

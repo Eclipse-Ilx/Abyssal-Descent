@@ -9,7 +9,7 @@
         {
           "biome": "galosphere:lichen_caves",
           "parameters": {
-            "temperature": 0.25,
+            "temperature": 0.29,
             "humidity": 0.1,
             "continentalness": 0.1,
             "erosion": 0.1,
@@ -21,7 +21,7 @@
         {
           "biome": "yungscavebiomes:lost_caves",
           "parameters": {
-            "temperature": -0.1,
+            "temperature": -0.13,
             "humidity": -0.1,
             "continentalness": -0.1,
             "erosion": -0.1,
@@ -45,7 +45,7 @@
         {
           "biome": "regions_unexplored:ancient_delta",
           "parameters": {
-            "temperature": -0.2,
+            "temperature": -0.1,
             "humidity": -0.2,
             "continentalness": -0.2,
             "erosion": -0.2,
@@ -64,6 +64,18 @@
             "depth": 0.22,
             "weirdness": 0,
             "offset": 0.1
+          }
+        },
+        {
+          "biome": "regions_unexplored:bioshroom_caves",
+          "parameters": {
+            "temperature": 0.19,
+            "humidity": 0.1,
+            "continentalness": 0.1,
+            "erosion": 0.1,
+            "depth": 0.37,
+            "weirdness": 0,
+            "offset": 0
           }
         }
       ]
