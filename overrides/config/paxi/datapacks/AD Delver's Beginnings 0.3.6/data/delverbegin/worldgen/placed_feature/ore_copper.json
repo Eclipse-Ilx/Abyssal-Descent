@@ -1,5 +1,5 @@
 {
-  "feature": "delversbegin:ore_coal",
+  "feature": "minecraft:ore_copper_small",
   "placement": [
     {
       "type": "minecraft:count",
@@ -11,12 +11,12 @@
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:uniform",
+        "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "below_top": 20
+          "absolute": 112
         },
         "min_inclusive": {
-          "absolute": 108
+          "absolute": 12
         }
       }
     },
