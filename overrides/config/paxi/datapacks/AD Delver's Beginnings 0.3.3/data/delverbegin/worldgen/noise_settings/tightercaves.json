@@ -130,11 +130,8 @@
       {
         "type": "minecraft:condition",
         "if_true": {
-          "type": "minecraft:stone_depth",
-          "add_surface_depth": false,
-          "offset": 0,
-          "secondary_depth_range": 0,
-          "surface_type": "floor"
+          "type": "minecraft:biome",
+          "biome_is": ["regions_unexplored:ancient_delta"]
         },
         "then_run": {
           "type": "minecraft:sequence",
@@ -142,61 +139,44 @@
             {
               "type": "minecraft:condition",
               "if_true": {
-                "type": "minecraft:biome",
-                "biome_is": ["galosphere:crystal_canyons"]
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "floor",
+                "secondary_depth_range": 0,
+                "add_surface_depth": false
               },
               "then_run": {
                 "type": "minecraft:block",
-                "result_state": { "Name": "minecraft:deepslate" }
+                "result_state": { "Name": "regions_unexplored:argillite_grass_block" }
               }
             },
             {
               "type": "minecraft:condition",
               "if_true": {
-                "type": "minecraft:biome",
-                "biome_is": ["galosphere:lichen_caves"]
+                "type": "minecraft:stone_depth",
+                "offset": 2,
+                "surface_type": "floor",
+                "secondary_depth_range": 0,
+                "add_surface_depth": true
               },
               "then_run": {
                 "type": "minecraft:block",
-                "result_state": { "Name": "minecraft:deepslate" }
+                "result_state": { "Name": "regions_unexplored:argillite" }
               }
             },
             {
               "type": "minecraft:condition",
               "if_true": {
-                "type": "minecraft:biome",
-                "biome_is": ["galosphere:pink_salt_caves"]
+                "type": "minecraft:stone_depth",
+                "offset": 2,
+                "surface_type": "ceiling",
+                "secondary_depth_range": 0,
+                "add_surface_depth": false
               },
               "then_run": {
                 "type": "minecraft:block",
-                "result_state": { "Name": "minecraft:deepslate" }
+                "result_state": { "Name": "regions_unexplored:argillite" }
               }
-            },
-            {
-              "type": "minecraft:condition",
-              "if_true": {
-                "type": "minecraft:biome",
-                "biome_is": ["regions_unexplored:ancient_delta"]
-              },
-              "then_run": {
-                "type": "minecraft:block",
-                "result_state": { "Name": "minecraft:deepslate" }
-              }
-            },
-            {
-              "type": "minecraft:condition",
-              "if_true": {
-                "type": "minecraft:biome",
-                "biome_is": ["regions_unexplored:prismachasm"]
-              },
-              "then_run": {
-                "type": "minecraft:block",
-                "result_state": { "Name": "minecraft:deepslate" }
-              }
-            },
-            {
-              "type": "minecraft:block",
-              "result_state": { "Name": "minecraft:deepslate" }
             }
           ]
         }
