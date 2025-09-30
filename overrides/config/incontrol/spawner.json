@@ -232,5 +232,23 @@
           "maxheight": 128,
           "maxthis": 3
         }
+      },
+      {
+        "mob": "minecraft:slime",
+        "persecond": 0.05,
+        "attempts": 1,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "norestrictions": true,
+          "mindist": 20,
+          "maxdist": 60,
+          "minheight": 60,
+          "maxheight": 80,
+          "maxthis": 4
+        }
       }
 ]
