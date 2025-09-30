@@ -22,8 +22,6 @@
 + improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
 + find a way to disable galosphere biomes without affecting delvers beginning since it uses those biomes.
 + make nether portals explode when someone tries to light one.
-+ Add slimes as an overworld mob spawn
-+ Disable all organics mobs from spawning in overworld
 
 ## Delver's Beginning
 + Remove all ore gen from biome files.
