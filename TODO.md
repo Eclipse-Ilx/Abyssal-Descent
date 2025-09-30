@@ -12,6 +12,8 @@
 + Update mods that need to be updated
 + Custom Main menu
 + To make plates place an ingot on anvil and hit with hammer. Plates required to make armor.
++ lower copper ore mining level to wood
++ wandering soul to ice layer
 
 ## ongoing WIP
 + further adjust biome size/frequency in custom dimensions
@@ -21,12 +23,15 @@
 + find a way to disable galosphere biomes without affecting delvers beginning since it uses those biomes.
 + make nether portals explode when someone tries to light one.
 + Add slimes as an overworld mob spawn
++ Disable all organics mobs from spawning in overworld
 
 ## Delver's Beginning
 + Remove all ore gen from biome files.
 + Create new ore gen features for copper and coal so it evenly generates across the entire dimension but less common overall than overworld.
 + new ore gen feature making iron more common
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
++ Add Terracotta collosus in delvers beginning Ancient Delta
++ add sand catcher to spawn in yungs sand cave biome
 
 ## The Undergarden
 + Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)

@@ -54,6 +54,46 @@
       "entityId": "quark:forgotten",
       "dimension": "minecraft:overworld",
       "spawn_chance": 0.0
+    },
+    {
+      "entityId": "organics:desert_furtos",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "organics:lava_moloss",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "organics:planks_furtos",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "organics:rocky_furtos",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "organics:sand_catcher",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "organics:terracotta_coloss",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "organics:tundra_furtos",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "organics:wandering_soul",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
     }
   ],
   // Don't touch this!
