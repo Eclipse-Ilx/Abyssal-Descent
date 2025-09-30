@@ -25,14 +25,14 @@
 
 ## Delver's Beginning
 + Create new ore gen features for copper and coal so it evenly generates across the entire dimension but less common overall than overworld.
-+ new ore gen feature making iron more common
++ new iron ore gen feature. Should be more common than overworld
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 + Add Terracotta collosus in delvers beginning Ancient Delta
 + add sand catcher to spawn in yungs sand cave biome
-+ add glowshroom forest in delvers beginning
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
 + fix geodes from generating holes through bedrock replacer blocks
 + make geodes exposed to air more frequently
++ add sparkle mob spawns in Crystal Canyons
 
 ## The Undergarden
 + Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)
