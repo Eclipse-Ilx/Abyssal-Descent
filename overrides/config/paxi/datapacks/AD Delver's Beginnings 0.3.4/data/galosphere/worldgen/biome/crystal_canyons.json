@@ -6,11 +6,9 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.8,
+  "downfall": 0.5,
   "effects": {
     "fog_color": 12638463,
-    "foliage_color": -10118056,
-    "grass_color": 16318340,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -21,10 +19,10 @@
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.lush_caves"
+      "sound": "galosphere:music.biome.crystal_canyons"
     },
-    "sky_color": 7972607,
-    "water_color": -13369345,
+    "sky_color": 8103167,
+    "water_color": 4445678,
     "water_fog_color": 329011
   },
   "features": [
@@ -34,7 +32,11 @@
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "delverbegin:deepslate_diamond_geode",
+      "delverbegin:deepslate_lapis_geode",
+      "delverbegin:deepslate_redstone_geode",
+      "delverbegin:deepslate_emerald_geode"
     ],
     [
       "minecraft:monster_room",
@@ -51,27 +53,7 @@
       "minecraft:ore_diorite_lower",
       "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
-      "minecraft:ore_tuff",
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "minecraft:ore_clay",
-      "regions_unexplored:disk_sand",
-      "regions_unexplored:disk_clay",
-      "regions_unexplored:disk_gravel"
+      "minecraft:ore_tuff"
     ],
     [],
     [
@@ -80,17 +62,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
-      "regions_unexplored:mineral_pool",
-      "regions_unexplored:bladed_grass",
-      "regions_unexplored:corpse_flower",
-      "regions_unexplored:duskmelon",
-      "regions_unexplored:dusktrap",
-      "regions_unexplored:dropleaf"
+      "minecraft:patch_tall_grass_2"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -107,14 +79,7 @@
         "weight": 10
       }
     ],
-    "axolotls": [
-      {
-        "type": "minecraft:axolotl",
-        "maxCount": 6,
-        "minCount": 4,
-        "weight": 10
-      }
-    ],
+    "axolotls": [],
     "creature": [],
     "misc": [],
     "monster": [
@@ -175,15 +140,8 @@
         "weight": 10
       }
     ],
-    "water_ambient": [
-      {
-        "type": "minecraft:tropical_fish",
-        "maxCount": 8,
-        "minCount": 8,
-        "weight": 25
-      }
-    ],
+    "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 1.125
+  "temperature": 0.5
 }
