@@ -1,0 +1,113 @@
+[Biomes]
+
+	#Climate parameters for the sandy_catacombs biome.
+	[Biomes.sandy_catacombs]
+		#Range: -2.0 ~ 2.0
+		temperature_min = -2
+		#Range: -2.0 ~ 2.0
+		temperature_max = -2
+		#Range: -2.0 ~ 2.0
+		humidity_min = -2
+		#Range: -2.0 ~ 2.0
+		humidity_max = -2
+		#Range: -2.0 ~ 2.0
+		continentalness_min = -2
+		#Range: -2.0 ~ 2.0
+		continentalness_max = -2
+		#Range: -2.0 ~ 2.0
+		erosion_min = -2
+		#Range: -2.0 ~ 2.0
+		erosion_max = -2
+		#Range: -2.0 ~ 2.0
+		depth_min = -2
+		#Range: -2.0 ~ 2.0
+		depth_max = -2
+		#Range: -2.0 ~ 2.0
+		weirdness_min = -2
+		#Range: -2.0 ~ 2.0
+		weirdness_max = -2
+		#Range: -2.0 ~ 2.0
+		offset = -2
+
+	#Climate parameters for the glowshroom_forest biome.
+	[Biomes.glowshroom_forest]
+		#Range: -2.0 ~ 2.0
+		temperature_min = -2
+		#Range: -2.0 ~ 2.0
+		temperature_max = -2
+		#Range: -2.0 ~ 2.0
+		humidity_min = -2
+		#Range: -2.0 ~ 2.0
+		humidity_max = -2
+		#Range: -2.0 ~ 2.0
+		continentalness_min = -2
+		#Range: -2.0 ~ 2.0
+		continentalness_max = -2
+		#Range: -2.0 ~ 2.0
+		erosion_min = -2
+		#Range: -2.0 ~ 2.0
+		erosion_max = -2
+		#Range: -2.0 ~ 2.0
+		depth_min = -2
+		#Range: -2.0 ~ 2.0
+		depth_max = -2
+		#Range: -2.0 ~ 2.0
+		weirdness_min = -2
+		#Range: -2.0 ~ 2.0
+		weirdness_max = -2
+		#Range: -2.0 ~ 2.0
+		offset = -2
+
+	#Climate parameters for the molten_cavern biome.
+	[Biomes.molten_cavern]
+		#Range: -2.0 ~ 2.0
+		temperature_min = -2
+		#Range: -2.0 ~ 2.0
+		temperature_max = -2
+		#Range: -2.0 ~ 2.0
+		humidity_min = -2
+		#Range: -2.0 ~ 2.0
+		humidity_max = -2
+		#Range: -2.0 ~ 2.0
+		continentalness_min = -2
+		#Range: -2.0 ~ 2.0
+		continentalness_max = -2
+		#Range: -2.0 ~ 2.0
+		erosion_min = -2
+		#Range: -2.0 ~ 2.0
+		erosion_max = -2
+		#Range: -2.0 ~ 2.0
+		depth_min = -2
+		#Range: -2.0 ~ 2.0
+		depth_max = -2
+		#Range: -2.0 ~ 2.0
+		weirdness_min = -2
+		#Range: -2.0 ~ 2.0
+		weirdness_max = -2
+		#Range: -2.0 ~ 2.0
+		offset = -2
+
+[Supercharges]
+	#Duration of the supercharge buff in minutes
+	#Range: 1 ~ 3600
+	supercharge_minutes = 5
+	#Supercharge Multipliers - Increases in percentage:
+	#Dig speed increase:
+	#Range: 0 ~ 1000
+	supercharge_dig_speed = 20
+	#Attack speed increase:
+	#Range: 0 ~ 1000
+	supercharge_attack_speed = 20
+	#Attack damage increase:
+	#Range: 0 ~ 1000
+	supercharge_attack_damage = 20
+	#Supercharge tool unbreakablity:
+	supercharge_unbreakable = true
+
+["Paranoia Altar"]
+	#Allows players in creative mode to be effected by the Paranoia Altar
+	paranoia_altar_effects_creative = false
+	#Range: 0 ~ 128
+	paranoia_altar_horizontal_range = 72
+	#Range: 0 ~ 128
+	paranoia_altar_vertical_range = 8
