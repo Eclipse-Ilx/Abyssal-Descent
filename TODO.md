@@ -24,13 +24,11 @@
 + make nether portals explode when someone tries to light one.
 
 ## Delver's Beginning
-+ Create new ore gen features for copper and coal so it evenly generates across the entire dimension but less common overall than overworld.
-+ new iron ore gen feature. Should be more common than overworld
++ add new features to biome files
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 + Add Terracotta collosus in delvers beginning Ancient Delta
 + add sand catcher to spawn in yungs sand cave biome
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
-+ fix geodes from generating holes through bedrock replacer blocks
 + make geodes exposed to air more frequently
 + add sparkle mob spawns in Crystal Canyons
 
