@@ -13,7 +13,7 @@
 + Custom Main menu
 + To make plates place an ingot on anvil and hit with hammer. Plates required to make armor.
 + lower copper ore mining level to wood
-+ wandering soul to ice layer
++ add wandering soul to ice layer
 
 ## ongoing WIP
 + further adjust biome size/frequency in custom dimensions
