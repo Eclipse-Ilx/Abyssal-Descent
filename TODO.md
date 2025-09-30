@@ -22,7 +22,6 @@
 + improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
 + find a way to disable galosphere biomes without affecting delvers beginning since it uses those biomes.
 + make nether portals explode when someone tries to light one.
-+ disable darker depths structures from overworld
 + disable darker depths biomes from overworld without affecting infernal crossings use of said biomes.
 
 ## Delver's Beginning
