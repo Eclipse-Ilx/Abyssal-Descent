@@ -1,5 +1,5 @@
 REPO=$(shell pwd)
-VERSION=$(shell echo "dev-0.1.0-$$(git rev-parse --short HEAD)")
+VERSION=$(shell echo "dev-1.0-$$(git rev-parse --short HEAD)")
 
 default:
 	@echo "No target specified"
@@ -24,7 +24,7 @@ copy:
 
 .PHONY: all
 all: build install copy
-	echo "$(VERSION)"> build/release.txt
+	echo "$(VERSION)" > build/release.txt
 
 .PHONY: export
 export:
