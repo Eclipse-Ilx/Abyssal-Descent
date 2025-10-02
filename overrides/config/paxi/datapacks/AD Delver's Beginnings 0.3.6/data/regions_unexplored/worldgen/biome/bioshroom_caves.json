@@ -61,7 +61,11 @@
       "minecraft:underwater_magma",
       "regions_unexplored:disk_sand",
       "regions_unexplored:disk_clay",
-      "regions_unexplored:disk_gravel"
+      "regions_unexplored:disk_gravel",
+      "delverbegin:coal_ore_buried",
+      "delverbegin:ore_coal",
+      "delverbegin:ore_copper",
+      "delverbegin:ore_iron"
     ],
     [],
     [

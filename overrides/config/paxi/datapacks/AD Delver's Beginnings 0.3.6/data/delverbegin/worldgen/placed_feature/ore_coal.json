@@ -1,5 +1,5 @@
 {
-  "feature": "delversbegin:ore_coal",
+  "feature": "delverbegin:coal_ore",
   "placement": [
     {
       "type": "minecraft:count",
