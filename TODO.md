@@ -14,6 +14,9 @@
 + To make plates place an ingot on anvil and hit with hammer. Plates required to make armor.
 + lower copper ore mining level to wood
 + add wandering soul to ice layer
++ add rei and architectury. Remove JEI
++ add Nature X
++ disable Aether tips
 
 ## ongoing WIP
 + further adjust biome size/frequency in custom dimensions
@@ -31,6 +34,7 @@
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
 + make geodes exposed to air more frequently
 + add sparkle mob spawns in Crystal Canyons
++ change water and other biome colors
 
 ## The Undergarden
 + Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)
