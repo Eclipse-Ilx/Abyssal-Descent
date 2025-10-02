@@ -22,7 +22,6 @@ clothconfig,348521,5729105
 
 # Utility
 just_enough_items,238222,5626488
-# just_enough_resources,240630,5057220
 jade,324717,5672013
 appleskin,248787,4770828
 mouse_tweaks,60089,5338457
@@ -41,7 +40,6 @@ complementary_shaders_unbound,385587,6515579
 traveler's_titles,504908,5065825
 oculus,581495,6020952
 euphoria_patches,915902,6987509
-dynamic_crosshair,623800,5027231
 
 # Biomes/Dimensions
 betternether,311377,4971478
@@ -76,6 +74,6 @@ organics,411399,4703550
 
 # mobs
 bomd,941573,5067728
-mowziesmobs,250498,6224182
+# mowziesmobs,250498,6224182
 alexs_mobs,426558,5698791
 # made_in_abyss:_shroombears,1029082,5390423
