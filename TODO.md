@@ -27,7 +27,6 @@
 + make nether portals explode when someone tries to light one.
 
 ## Delver's Beginning
-+ add new features to biome files
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 + Add Terracotta collosus in delvers beginning Ancient Delta
 + add sand catcher to spawn in yungs sand cave biome
