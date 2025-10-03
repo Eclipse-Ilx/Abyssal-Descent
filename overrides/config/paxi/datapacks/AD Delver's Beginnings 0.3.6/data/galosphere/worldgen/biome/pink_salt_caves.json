@@ -8,7 +8,7 @@
   },
   "downfall": 0.5,
   "effects": {
-    "fog_color": 12638463,
+    "fog_color": 13210779,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -21,9 +21,9 @@
       "replace_current_music": false,
       "sound": "galosphere:music.biome.pink_salt_caves"
     },
-    "sky_color": 8103167,
+    "sky_color": 8479591,
     "water_color": 16566222,
-    "water_fog_color": 329011
+    "water_fog_color": 13602711
   },
   "features": [
     [],

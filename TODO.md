@@ -31,7 +31,6 @@
 + Add Terracotta collosus in delvers beginning Ancient Delta
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
 + make geodes exposed to air more frequently
-+ add sparkle mob spawns in Crystal Canyons
 + change water and other biome colors
 
 ## The Undergarden
