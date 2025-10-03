@@ -21,6 +21,12 @@
       "replace_current_music": false,
       "sound": "galosphere:music.biome.lichen_caves"
     },
+    "particle": {
+      "options": {
+        "type": "minecraft:spore_blossom_air"
+      },
+      "probability": 0.01
+    },
     "sky_color": 9554353,
     "water_color": 9228724,
     "water_fog_color": 10544330
