@@ -29,7 +29,6 @@
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 + Add Terracotta collosus in delvers beginning Ancient Delta
-+ add sand catcher to spawn in yungs sand cave biome
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
 + make geodes exposed to air more frequently
 + add sparkle mob spawns in Crystal Canyons
