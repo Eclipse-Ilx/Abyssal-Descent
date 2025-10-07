@@ -1,0 +1,20 @@
+Hello! If you want to edit this shader, you should read the license first. 
+
+This file contains information about how this shader is structured.
+
+The "program" subdirectory contains files that are shared across all 3 minecraft dimensions. 
+All the files in the world-1, world0 and world1 folders do is include their program/ counterpart.
+They also have a #define DIMENSION_whatever directive. This way, if you want something to happen in the overworld only, you can check if DIMENSION_OVERWORLD is defined. 
+
+Most of the lighting is done in gbuffers using the "/global/lighting" files. 
+Composite passes handle post-processing, sky rendering, fog and clouds. You can find information about what each pass does inside the file itself.
+
+Buffer usage:
+At the moment, Mellow uses 3 buffers. This will most likely change in the future.
+colortex0: main buffer
+colortex1: bloom
+colortex2: SMAA main
+colortex3: SMAA area
+gaux1: Reflections & TAA
+colortex5: SMAA search
+
