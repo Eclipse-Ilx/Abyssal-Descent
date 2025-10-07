@@ -175,7 +175,7 @@
               },
               "then_run": {
                 "type": "minecraft:block",
-                "result_state": { "Name": "regions_unexplored:deepslate_viridescent_nylium" }
+                "result_state": { "Name": "regions_unexplored:argillite" }
               }
             }
           ]
