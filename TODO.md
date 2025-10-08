@@ -25,7 +25,7 @@
 + improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
 + find a way to disable galosphere biomes without affecting delvers beginning since it uses those biomes.
 + make nether portals explode when someone tries to light one.
-+ replace bedrock with adresources:bedrock1
++ replace bedrock with adresources:bedrock1 without using block swap mod (not required for MVP)
 
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
