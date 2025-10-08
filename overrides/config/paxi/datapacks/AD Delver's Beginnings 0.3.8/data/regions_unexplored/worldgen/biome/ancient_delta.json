@@ -99,12 +99,6 @@
       }
     ],
     "creature": [
-      {
-        "type": "organics:terracotta_coloss",
-        "maxCount": 100,
-        "minCount": 50,
-        "weight": 100
-      }
     ],
     "misc": [],
     "monster": [
