@@ -95,34 +95,34 @@
         "attempts": 1,
         "amount": {
           "minimum": 1,
-          "maximum": 2
+          "maximum": 1
         },
         "conditions": {
           "dimension": "delverbegin:dimension",
           "norestrictions": true,
-          "mindist": 1,
-          "maxdist": 40,
+          "mindist": 50,
+          "maxdist": 150,
           "minheight": 0,
-          "maxheight": 128,
-          "maxthis": 5
+          "maxheight": 64,
+          "maxthis": 1
         }
       },
       {
         "mob": "alexsmobs:underminer",
         "persecond": 0.05,
-        "attempts": 1,
+        "attempts": 0.2,
         "amount": {
           "minimum": 1,
-          "maximum": 2
+          "maximum": 1
         },
         "conditions": {
           "dimension": "delverbegin:dimension",
           "norestrictions": true,
-          "mindist": 1,
-          "maxdist": 40,
+          "mindist": 35,
+          "maxdist": 150,
           "minheight": 0,
-          "maxheight": 128,
-          "maxthis": 5
+          "maxheight": 64,
+          "maxthis": 1
         }
       },
       {
@@ -249,6 +249,96 @@
           "minheight": 63,
           "maxheight": 100,
           "maxthis": 3
+        }
+      },
+      {
+        "mob": "minecraft:husk" ,
+        "persecond": 0.05,
+        "attempts": 1,
+        "amount": {
+          "minimum": 1,
+          "maximum": 5
+        },
+        "conditions":{
+          "dimension":"delverbegin:dimension"
+          ,"norestrictions":true
+          ,"mindist":35,
+          "maxdist":125,
+          "minheight":5,
+          "maxheight":120,
+          "maxthis":8
+        }
+      },
+      {
+        "mob": "organics:sand_catcher" ,
+        "persecond": 0.05,
+        "attempts": 1,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions":{
+          "dimension":"delverbegin:dimension"
+          ,"norestrictions":true
+          ,"mindist":35,
+          "maxdist":150,
+          "minheight":5,
+          "maxheight":120,
+          "maxthis":3
+        }
+      },
+      {
+        "mob": "alexsmobs:guster" ,
+        "persecond": 0.05,
+        "attempts": 1,
+        "amount": {
+          "minimum": 1,
+          "maximum": 1
+        },
+        "conditions":{
+          "dimension":"delverbegin:dimension"
+          ,"norestrictions":true
+          ,"mindist":50,
+          "maxdist":150,
+          "minheight":5,
+          "maxheight":120,
+          "maxthis":3
+        }
+      },
+      {
+        "mob": "organics:terracotta_coloss" ,
+        "persecond": 0.05,
+        "attempts": 1,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions":{
+          "dimension":"delverbegin:dimension"
+          ,"norestrictions":true
+          ,"mindist":35,
+          "maxdist":150,
+          "minheight":5,
+          "maxheight":120,
+          "maxthis":5
+        }
+      },
+      {
+        "mob": "minecraft:slime",
+        "persecond": 0.05,
+        "attempts": 1,
+        "amount": {
+          "minimum": 1,
+          "maximum": 1
+        },
+        "conditions": {
+          "dimension": "delverbegin:dimension",
+          "norestrictions": true,
+          "mindist": 20,
+          "maxdist": 100,
+          "minheight": 0,
+          "maxheight": 120,
+          "maxthis": 5
         }
       }
 ]

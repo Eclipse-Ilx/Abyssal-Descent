@@ -31,6 +31,7 @@
 + Add Terracotta collosus in delvers beginning Ancient Delta
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
 + make geodes exposed to air more frequently
++ restrict mob spawns to their respective biomes
 
 ## The Undergarden
 + Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)
