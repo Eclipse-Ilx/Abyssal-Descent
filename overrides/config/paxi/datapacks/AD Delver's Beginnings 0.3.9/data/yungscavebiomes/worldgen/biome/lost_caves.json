@@ -41,6 +41,10 @@
     ],
     [
       "minecraft:amethyst_geode",
+      "delverbegin:deepslate_diamond_geode",
+      "delverbegin:deepslate_lapis_geode",
+      "delverbegin:deepslate_redstone_geode",
+      "delverbegin:deepslate_emerald_geode",
       "yungscavebiomes:lost_caves/brittle_sandstone_ceiling_patch",
       "yungscavebiomes:lost_caves/lost_caves_surface_replace",
       "yungscavebiomes:lost_caves/lost_caves_surface_replace_2",
@@ -74,7 +78,11 @@
       "delverbegin:coal_ore_buried",
       "delverbegin:ore_coal",
       "delverbegin:ore_copper",
-      "delverbegin:ore_iron"
+      "delverbegin:ore_iron",
+      "delverbegin:ore_gold_and_silver_lower",
+      "delverbegin:ore_gold_buried_with_silver",
+      "delverbegin:ore_silver_buried_with_gold",
+      "delverbegin:ore_silver_extra"
     ],
     [
     ],
