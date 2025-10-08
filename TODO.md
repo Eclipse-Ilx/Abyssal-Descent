@@ -25,12 +25,11 @@
 + improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
 + find a way to disable galosphere biomes without affecting delvers beginning since it uses those biomes.
 + make nether portals explode when someone tries to light one.
++ replace bedrock with adresources:bedrock1
 
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
-+ Add Terracotta collosus in delvers beginning Ancient Delta
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
-+ make geodes exposed to air more frequently
 
 ## The Undergarden
 + Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)
