@@ -1,1 +1,73 @@
-[]
+[
+  {
+    "mob": "alexsmobs:rocky_roller",
+    "biome": [
+      "yungscavebiomes:lost_caves",
+      "regions_unexplored:ancient_delta",
+      "galosphere:lichen_caves",
+      "galosphere:pink_salt_caves",
+      "regions_unexplored:bioshroom_caves"
+    ],
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:husk",
+    "biome": [
+      "galosphere:crystal_canyons",
+      "regions_unexplored:ancient_delta",
+      "galosphere:lichen_caves",
+      "galosphere:pink_salt_caves",
+      "regions_unexplored:bioshroom_caves"
+    ],
+    "result": "deny"
+  },
+  {
+    "mob": "organics:sand_catcher",
+    "biome": [
+      "galosphere:crystal_canyons",
+      "regions_unexplored:ancient_delta",
+      "galosphere:lichen_caves",
+      "galosphere:pink_salt_caves",
+      "regions_unexplored:bioshroom_caves"
+    ],
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:guster",
+    "biome": [
+      "galosphere:crystal_canyons",
+      "regions_unexplored:ancient_delta",
+      "galosphere:lichen_caves",
+      "galosphere:pink_salt_caves",
+      "regions_unexplored:bioshroom_caves"
+    ],
+    "result": "deny"
+  },
+  {
+    "mob": "organics:terracotta_coloss",
+    "biome": ["regions_unexplored:ancient_delta"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:slime",
+    "biome": [
+      "galosphere:crystal_canyons",
+      "yungscavebiomes:lost_caves",
+      "regions_unexplored:ancient_delta",
+      "galosphere:pink_salt_caves",
+      "regions_unexplored:bioshroom_caves"
+    ],
+    "result": "deny"
+  },
+  {
+    "mob": "galosphere:preserved",
+    "biome": [
+      "galosphere:crystal_canyons",
+      "yungscavebiomes:lost_caves",
+      "regions_unexplored:ancient_delta",
+      "galosphere:lichen_caves",
+      "regions_unexplored:bioshroom_caves"
+    ],
+    "result": "deny"
+  }
+]

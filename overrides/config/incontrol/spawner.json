@@ -1,344 +1,121 @@
 [
-    {
-      "mob": "alexsmobs:centipede_head",
-      "persecond": 0.1,
-      "attempts": 3,
-      "amount": {
-        "minimum": 1,
-        "maximum": 1
-      },
-      "conditions": {
-        "dimension": "infernalcross:dimension",
-        "norestrictions": true,
-        "mindist": 40,
-        "maxdist": 100,
-        "minheight": 0,
-        "maxheight": 50,
-        "maxthis": 2
-      }
+  {
+    "mob": "alexsmobs:rocky_roller",
+    "persecond": 1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
     },
-    {
-      "mob": "alexsmobs:cockroach",
-      "persecond": 0.1,
-      "attempts": 3,
-      "amount": {
-        "minimum": 8,
-        "maximum": 15
-      },
-      "conditions": {
-        "dimension": "infernalcross:dimension",
-        "norestrictions": true,
-        "mindist": 20,
-        "maxdist": 60,
-        "minheight": 0,
-        "maxheight": 50,
-        "maxthis": 50
-      }
+    "conditions": {
+      "dimension": "delverbegin:dimension",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 128,
+      "maxthis": 2
+    }
+  },
+  {
+    "mob": "minecraft:husk",
+    "persecond": 1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
     },
-    {
-        "mob": "alexsmobs:potoo",
-        "persecond": 0.5,
-        "attempts": 2,
-        "amount": {
-          "minimum": 1,
-          "maximum": 1
-        },
-        "conditions": {
-          "dimension": "infernalcross:dimension",
-          "norestrictions": true,
-          "mindist": 50,
-          "maxdist": 100,
-          "minheight": 0,
-          "maxheight": 120,
-          "maxthis": 2
-        }
-      },
-      {
-        "mob": "alexsmobs:fly",
-        "persecond": 0.5,
-        "attempts": 2,
-        "amount": {
-          "minimum": 1,
-          "maximum": 1
-        },
-        "conditions": {
-          "dimension": "infernalcross:dimension",
-          "norestrictions": true,
-          "mindist": 25,
-          "maxdist": 100,
-          "minheight": 0,
-          "maxheight": 40,
-          "maxthis": 1
-        }
-      },
-      {
-        "mob": "alexsmobs:murmur",
-        "persecond": 1,
-        "attempts": 1,
-        "amount": {
-          "minimum": 1,
-          "maximum": 1
-        },
-        "conditions": {
-          "dimension": "infernalcross:dimension",
-          "norestrictions": true,
-          "mindist": 50,
-          "maxdist": 150,
-          "minheight": 0,
-          "maxheight": 50,
-          "maxthis": 1
-        }
-      },
-      {
-        "mob": "alexsmobs:rocky_roller",
-        "persecond": 0.05,
-        "attempts": 1,
-        "amount": {
-          "minimum": 1,
-          "maximum": 1
-        },
-        "conditions": {
-          "dimension": "delverbegin:dimension",
-          "norestrictions": true,
-          "mindist": 50,
-          "maxdist": 150,
-          "minheight": 0,
-          "maxheight": 64,
-          "maxthis": 1
-        }
-      },
-      {
-        "mob": "alexsmobs:underminer",
-        "persecond": 0.05,
-        "attempts": 0.2,
-        "amount": {
-          "minimum": 1,
-          "maximum": 1
-        },
-        "conditions": {
-          "dimension": "delverbegin:dimension",
-          "norestrictions": true,
-          "mindist": 35,
-          "maxdist": 150,
-          "minheight": 0,
-          "maxheight": 64,
-          "maxthis": 1
-        }
-      },
-      {
-        "mob": "caverns_and_chasms:peeper",
-        "persecond": 0.1,
-        "attempts": 1,
-        "amount": {
-          "minimum": 1,
-          "maximum": 1
-        },
-        "conditions": {
-          "dimension": "infernalcross:dimension",
-          "norestrictions": true,
-          "mindist": 50,
-          "maxdist": 100,
-          "minheight": 0,
-          "maxheight": 128,
-          "maxthis": 3
-        }
-      },
-      {
-        "mob": "alexsmobs:dropbear",
-        "persecond": 0.1,
-        "attempts": 5,
-        "amount": {
-          "minimum": 1,
-          "maximum": 3
-        },
-        "conditions": {
-          "dimension": "infernalcross:dimension",
-          "norestrictions": true,
-          "mindist": 50,
-          "maxdist": 100,
-          "minheight": 0,
-          "maxheight": 128,
-          "maxthis": 3
-        }
-      },
-      {
-        "mob": "alexsmobs:crocodile",
-        "persecond": 0.1,
-        "attempts": 20,
-        "amount": {
-          "minimum": 1,
-          "maximum": 10
-        },
-        "conditions": {
-          "dimension": "undergarden:undergarden",
-          "norestrictions": true,
-          "mindist": 50,
-          "maxdist": 100,
-          "minheight": 0,
-          "maxheight": 128,
-          "maxthis": 3
-        }
-      },
-      {
-        "mob": "alexsmobs:mudskipper",
-        "persecond": 0.1,
-        "attempts": 5,
-        "amount": {
-          "minimum": 1,
-          "maximum": 3
-        },
-        "conditions": {
-          "dimension": "undergarden:undergarden",
-          "norestrictions": true,
-          "mindist": 50,
-          "maxdist": 100,
-          "minheight": 0,
-          "maxheight": 128,
-          "maxthis": 3
-        }
-      },
-      {
-        "mob": "alexsmobs:anaconda",
-        "persecond": 0.1,
-        "attempts": 5,
-        "amount": {
-          "minimum": 1,
-          "maximum": 3
-        },
-        "conditions": {
-          "dimension": "undergarden:undergarden",
-          "norestrictions": true,
-          "mindist": 50,
-          "maxdist": 100,
-          "minheight": 0,
-          "maxheight": 128,
-          "maxthis": 3
-        }
-      },
-      {
-        "mob": "alexsmobs:komodo_dragon",
-        "persecond": 0.1,
-        "attempts": 5,
-        "amount": {
-          "minimum": 1,
-          "maximum": 3
-        },
-        "conditions": {
-          "dimension": "undergarden:undergarden",
-          "norestrictions": true,
-          "mindist": 50,
-          "maxdist": 100,
-          "minheight": 0,
-          "maxheight": 128,
-          "maxthis": 3
-        }
-      },
-      {
-        "mob": "minecraft:slime",
-        "persecond": 0.05,
-        "attempts": 1,
-        "amount": {
-          "minimum": 1,
-          "maximum": 3
-        },
-        "conditions": {
-          "dimension": "minecraft:overworld",
-          "norestrictions": true,
-          "mindist": 20,
-          "maxdist": 100,
-          "minheight": 63,
-          "maxheight": 100,
-          "maxthis": 3
-        }
-      },
-      {
-        "mob": "minecraft:husk" ,
-        "persecond": 0.05,
-        "attempts": 1,
-        "amount": {
-          "minimum": 1,
-          "maximum": 5
-        },
-        "conditions":{
-          "dimension":"delverbegin:dimension"
-          ,"norestrictions":true
-          ,"mindist":35,
-          "maxdist":125,
-          "minheight":5,
-          "maxheight":120,
-          "maxthis":8
-        }
-      },
-      {
-        "mob": "organics:sand_catcher" ,
-        "persecond": 0.05,
-        "attempts": 1,
-        "amount": {
-          "minimum": 1,
-          "maximum": 2
-        },
-        "conditions":{
-          "dimension":"delverbegin:dimension"
-          ,"norestrictions":true
-          ,"mindist":35,
-          "maxdist":150,
-          "minheight":5,
-          "maxheight":120,
-          "maxthis":3
-        }
-      },
-      {
-        "mob": "alexsmobs:guster" ,
-        "persecond": 0.05,
-        "attempts": 1,
-        "amount": {
-          "minimum": 1,
-          "maximum": 1
-        },
-        "conditions":{
-          "dimension":"delverbegin:dimension"
-          ,"norestrictions":true
-          ,"mindist":50,
-          "maxdist":150,
-          "minheight":5,
-          "maxheight":120,
-          "maxthis":3
-        }
-      },
-      {
-        "mob": "organics:terracotta_coloss" ,
-        "persecond": 0.05,
-        "attempts": 1,
-        "amount": {
-          "minimum": 1,
-          "maximum": 2
-        },
-        "conditions":{
-          "dimension":"delverbegin:dimension"
-          ,"norestrictions":true
-          ,"mindist":35,
-          "maxdist":150,
-          "minheight":5,
-          "maxheight":120,
-          "maxthis":5
-        }
-      },
-      {
-        "mob": "minecraft:slime",
-        "persecond": 0.05,
-        "attempts": 1,
-        "amount": {
-          "minimum": 1,
-          "maximum": 1
-        },
-        "conditions": {
-          "dimension": "delverbegin:dimension",
-          "norestrictions": true,
-          "mindist": 20,
-          "maxdist": 100,
-          "minheight": 0,
-          "maxheight": 120,
-          "maxthis": 5
-        }
-      }
+    "conditions": {
+      "dimension": "delverbegin:dimension",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 128,
+      "maxthis": 40
+    }
+  },
+  {
+    "mob": "organics:sand_catcher",
+    "persecond": 1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "delverbegin:dimension",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 128,
+      "maxthis": 7
+    }
+  },
+  {
+    "mob": "alexsmobs:guster",
+    "persecond": 1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "delverbegin:dimension",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 128,
+      "maxthis": 10
+    }
+  },
+  {
+    "mob": "organics:terracotta_coloss",
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "delverbegin:dimension",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 128,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": "minecraft:slime",
+    "persecond": 1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "delverbegin:dimension",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 128,
+      "maxthis": 10
+    }
+  },
+  {
+    "mob": "galosphere:preserved",
+    "persecond": 1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "delverbegin:dimension",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": 0,
+      "maxheight": 128,
+      "maxthis": 10
+    }
+  }
 ]
