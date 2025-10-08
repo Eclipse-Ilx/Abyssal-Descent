@@ -32,6 +32,9 @@ incontrol,257356,5932870
 structurify,1087551,6858579
 biomereplacer,910274,6807124
 blockswap,468893,4598162
+itemobliterator,835861,5479898
+custom_item_attributes,965954,5610928
+property_modifier,474822,4661543
 
 # Performance
 embeddium,908741,5681725
@@ -70,9 +73,9 @@ grappling_hook:_restitched,820533,5226155
 immersive_portals,355440,6368524
 quark,243121,5594847
 quark_oddities,301051,5070502
-bettercopperarmorandtools,758284,6059681
 geodeplus,620784,5407755
 organics,411399,4703550
+leafs_copper_backport,1313101,6848603
 
 # mobs
 bomd,941573,5067728
