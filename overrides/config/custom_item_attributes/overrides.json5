@@ -1,0 +1,51 @@
+{
+  // ---------------------------------------------------------------------------------------------------------------------------------
+  //                                            Custom Item Attributes (CIA) by ElocinDev
+  // ---------------------------------------------------------------------------------------------------------------------------------
+  //                                                        Overrides Config 
+  //                                Reloaded via datapack reload (/reload) or by restarting the game
+  // ---------------------------------------------------------------------------------------------------------------------------------
+  // Option Index:
+  //       item        :           The item's identifier. You can get this using the autocomplete of the /give command.
+  //       slot        :           A list of slots where the attributes should be applied.
+  //       attribute   :           The Identifier of the attribute. You can get it using the autocomplete of the /attribute command.
+  //       value       :           The value of the desired attribute. You can use negatives too, must be a decimal number.
+  //       operation   :           The operation to calculate the attribute. Addition or Multiply.
+  //       unbreakable :           Whether or not the item should be unbreakable.
+  //       force_unbreakable :     Force the unbreakable tag over other mods. Setting this to true will break the Hardening Catalyst from Things from being used on that item!
+  // ---------------------------------------------------------------------------------------------------------------------------------
+  // Slots:
+  //       mainhand    :   The main hand slot.
+  //       offhand     :   The off hand slot.
+  //       head        :   The head slot.
+  //       chest       :   The chest slot.
+  //       legs        :   The legs slot.
+  // ------------------------------------------------------------------------------------------------------------------------------
+  // The example showcases a config to add +10 attack damage and +20% attack speed to an "example_item", on both the main hand and off hand.
+  // Each of the attributes are overrides for modifiers of the same attribute type, depending on each slot correspondingly.
+  "items": [
+    {
+      "item": "examplemod:example_item",
+      "affected_slots": [
+        "mainhand",
+        "offhand"
+      ],
+      "attribute_overrides": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        }
+      ],
+      "unbreakable": false,
+      "force_unbreakable": false
+    }
+  ],
+  // Don't touch this!
+  "CONFIG_VERSION": 2
+}
