@@ -2,7 +2,8 @@
   "feature": "geode_plus:deepslate_diamond_geode",
   "placement": [
     {
-      "type": "minecraft:in_square"
+      "type": "minecraft:rarity_filter",
+      "chance": 2
     },
     {
       "type": "minecraft:height_range",
