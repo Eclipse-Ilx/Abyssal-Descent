@@ -64,7 +64,11 @@
       "delverbegin:coal_ore_buried",
       "delverbegin:ore_coal",
       "delverbegin:ore_copper",
-      "delverbegin:ore_iron"
+      "delverbegin:ore_iron",
+      "delverbegin:ore_gold_and_silver_lower",
+      "delverbegin:ore_gold_buried_with_silver",
+      "delverbegin:ore_silver_buried_with_gold",
+      "delverbegin:ore_silver_extra"
     ],
     [],
     [
