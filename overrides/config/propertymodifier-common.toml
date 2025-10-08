@@ -79,6 +79,14 @@
 		"organics:planks_chestplate" = 100
 		"organics:planks_leggings" = 75
 		"organics:planks_boots" = 40
+		"minecraft:golden_helmet" = 100
+		"minecraft:golden_chestplate" = 185
+		"minecraft:golden_leggings" = 160
+		"minecraft:golden_boots" = 100
+		"caverns_and_chasms:silver_helmet" = 150
+		"caverns_and_chasms:silver_chestplate" = 250
+		"caverns_and_chasms:silver_leggings" = 225
+		"caverns_and_chasms:silver_boots" = 2150
 
 	#Set the values for armor.
 	[items.armor]
@@ -90,6 +98,14 @@
 			"organics:planks_chestplate" = 3
 			"organics:planks_leggings" = 2
 			"organics:planks_boots" = 1
+			"minecraft:golden_helmet" = 3
+			"minecraft:golden_chestplate" = 7
+			"minecraft:golden_leggings" = 6
+			"minecraft:golden_boots" = 3
+			"caverns_and_chasms:silver_helmet" = 3
+			"caverns_and_chasms:silver_chestplate" = 7
+			"caverns_and_chasms:silver_leggings" = 6
+			"caverns_and_chasms:silver_boots" = 3
 
 		#Set the toughness value of an armor item. May not work on modded armors, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:golden_boots" = 1
