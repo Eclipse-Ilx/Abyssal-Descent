@@ -19,9 +19,9 @@
           }
         },
         {
-          "biome": "yungscavebiomes:lost_caves",
+          "biome": "galosphere:crystal_canyons",
           "parameters": {
-            "temperature": -0.13,
+            "temperature": 0.13,
             "humidity": -0.1,
             "continentalness": -0.1,
             "erosion": -0.1,
@@ -31,9 +31,9 @@
           }
         },
         {
-          "biome": "galosphere:crystal_canyons",
+          "biome": "yungscavebiomes:lost_caves",
           "parameters": {
-            "temperature": 0.2,
+            "temperature": 0.3,
             "humidity": 0.2,
             "continentalness": 0.2,
             "erosion": 0.2,
@@ -73,6 +73,18 @@
             "humidity": 0.1,
             "continentalness": 0.1,
             "erosion": 0.1,
+            "depth": 0.37,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "darkerdepths:glowshroom_forest",
+          "parameters": {
+            "temperature": 0.17,
+            "humidity": 0.13,
+            "continentalness": 0.17,
+            "erosion": 0.16,
             "depth": 0.37,
             "weirdness": 0,
             "offset": 0
