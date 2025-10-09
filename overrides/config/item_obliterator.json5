@@ -96,20 +96,22 @@
     "organics:blue_obsidian_boots",
     "organics:blue_obsidian_leggings",
     "organics:blue_obsidian_chestplate",
-    "organics:blue_obsidian_helmet"
+    "organics:blue_obsidian_helmet",
 
-    //CNC mod not in pack might add in later
+    // CNC mod not in pack might add in later
     "cnc:buckskin",
     "cnc:buckskin_boots",
     "cnc:buckskin_chestplate",
     "cnc:buckskin_helmet",
     "cnc:buckskin_leggings",
+
     // Galosphere's Silver Armor
     "galosphere:sterling_boots",
     "galosphere:sterling_chestplate",
     "galosphere:sterling_helmet",
     "galosphere:sterling_leggings",
     "galosphere:sterling_horse_armor",
+
     // Infinite Abyss Armors and Tools (regex)
     "!infinite_abyss:.*chestplate",
     "!infinite_abyss:.*helmet",
@@ -119,13 +121,14 @@
     "!infinite_abyss:.*pickaxe",
     "!infinite_abyss:.*axe",
     "!infinite_abyss:.*hoe",
-    "!infinite_abyss:.*shovel"
+    "!infinite_abyss:.*shovel",
+
     // vanilla items
-  "minecraft:stone_sword",
-  "minecraft:stone_pickaxe",
-  "minecraft:stone_axe",
-  "minecraft:stone_shovel",
-  "minecraft:stone_hoe"
+    "minecraft:stone_sword",
+    "minecraft:stone_pickaxe",
+    "minecraft:stone_axe",
+    "minecraft:stone_shovel",
+    "minecraft:stone_hoe"
   ],
   // -----------------------------------------------------------
   "blacklisted_nbt": [],
