@@ -7,7 +7,7 @@ VERSION=$(echo "dev-1.0-$(git rev-parse --short HEAD)")
 function build_java() {
 	mkdir -p "$1/mods"
 	for mod in $(ls "$REPO/src"); do
-		echo "Building $mod.."
+		echo "Building `$mod`.."
 		cd "$REPO/src/$mod" && 
 		sed -e 's/\r//' gradlew | sh -s build --quiet || exit 1
 		mv build/libs/*.jar "$REPO/$1/mods"
@@ -17,7 +17,9 @@ function build_java() {
 
 function package() {
 	echo "Packaging ver $VERSION.."
-	# lil hack but idk zip lol
+	echo "$VERSION" > build/release.txt
+
+	# FIXME: use the proper zip command to archive a dir's contents
 	cd "$REPO/build"
 	zip -r "../Abyssal-Descent-$VERSION.zip" * > /dev/null || exit 1
 	cd "$REPO"
@@ -25,7 +27,7 @@ function package() {
 
 function clean() {
 	echo "Cleaning build dir.."
-	rm -r build
+	rm -r build 2> /dev/null
 }
 
 
@@ -53,7 +55,6 @@ case $1 in
 		awk -v "mode=install" -v "out_dir=build/mods" -f parse-mods.awk mods.csv || exit 1
 		;;
 	"package")
-		echo "$VERSION" > build/release.txt
 		package
 		;;
 	*)
