@@ -1,0 +1,12 @@
+{
+  "replace":true,
+  "values": [
+      "galosphere:crystal_canyons",
+      "regions_unexplored:ancient_delta",
+      "galosphere:lichen_caves",
+      "galosphere:pink_salt_caves",
+      "darkerdepths:glowshroom_forest",
+      "yungscavebiomes:lost_caves",
+      "regions_unexplored:bioshroom_caves"
+  ]
+}
