@@ -30,6 +30,7 @@
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
++ add structures - 
 
 ## The Undergarden
 + Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)
