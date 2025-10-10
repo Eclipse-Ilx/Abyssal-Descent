@@ -11,8 +11,8 @@ PR's and Issues welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md)
 ## Building
 **Dependencies:** `zip`, `curl`, `awk`, JDK 17
 ```bash
-sh build.sh curse  # curseforge zip
-sh build.sh export # manual install zip
+./build.sh curse  # curseforge zip
+./build.sh export # manual install zip
 ```
 
 **Additional Instructions:**
