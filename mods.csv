@@ -76,10 +76,13 @@ quark,243121,5594847
 quark_oddities,301051,5070502
 geodeplus,620784,5407755
 organics,411399,4703550
-leafs_copper_backport,1313101,6848603
+leafs_copper_backport,1313101,7085403
 
 # mobs
 bomd,941573,5067728
 # mowziesmobs,250498,6224182
 alexs_mobs,426558,5698791
 # made_in_abyss:_shroombears,1029082,5390423
+
+# structures
+kobolds,484967,5605622
