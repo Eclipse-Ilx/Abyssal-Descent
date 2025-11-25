@@ -12,7 +12,6 @@
 + Update mods that need to be updated
 + Custom Main menu
 + To make plates place an ingot on anvil and hit with hammer. Plates required to make armor.
-+ lower copper ore mining level to wood
 + add wandering soul to ice layer
 + add rei and architectury. Remove JEI
 + add Nature X
@@ -104,7 +103,7 @@ Undergarden Prog
 - shader bug in top left of screen when irradiated
 
 ## Performance
-- Inexplicit lag spikes lasting few seconds.
+- Inexplicable lag spikes lasting 0.1-3 seconds.
 
 ## Other
 - It's possible to enter a gap between the portal and ceiling of the dimension
