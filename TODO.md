@@ -30,7 +30,7 @@
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
 + add structures - 
-+ make default block for galosphere lichen caves quark shale
++ Change default blocks for biomes if possible. Ideally less deepslate fills this layer.
 + lower coal ore gen
 
 ## The Undergarden
