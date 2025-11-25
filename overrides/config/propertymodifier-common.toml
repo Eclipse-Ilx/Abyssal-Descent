@@ -86,7 +86,7 @@
 		"caverns_and_chasms:silver_helmet" = 150
 		"caverns_and_chasms:silver_chestplate" = 250
 		"caverns_and_chasms:silver_leggings" = 225
-		"caverns_and_chasms:silver_boots" = 2150
+		"caverns_and_chasms:silver_boots" = 215
 
 	#Set the values for armor.
 	[items.armor]
