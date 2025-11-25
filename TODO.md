@@ -25,6 +25,7 @@
 + improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
 + make nether portals explode when someone tries to light one.
 + replace bedrock with adresources:bedrock1 without using block swap mod (not required for MVP)
++ check loot tables for moog's soaring structures
 
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
