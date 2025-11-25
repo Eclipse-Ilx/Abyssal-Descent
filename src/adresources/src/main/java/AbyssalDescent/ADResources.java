@@ -1,7 +1,7 @@
-package sh.slb.adresources;
+package AbyssalDescent.adresources;
 
 import net.minecraftforge.fml.common.Mod;
-import sh.slb.adresources.SemaphoreBlock;
+import AbyssalDescent.adresources.SemaphoreBlock;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.BlockItem;
@@ -9,7 +9,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -44,7 +43,7 @@ public class ADResources {
 	}
 
 	interface BlockFunc {
-		Properties apply();
+		BlockBehaviour.Properties apply();
 	}
 
 	private static void register_block_with(String name, BlockFunc fn) {
