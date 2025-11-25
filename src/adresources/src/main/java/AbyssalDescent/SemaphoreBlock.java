@@ -1,4 +1,4 @@
-package sh.slb.adresources;
+package AbyssalDescent.adresources;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.player.Player;
