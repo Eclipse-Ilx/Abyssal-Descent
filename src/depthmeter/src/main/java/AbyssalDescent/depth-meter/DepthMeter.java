@@ -24,14 +24,14 @@ import java.util.function.Function;
 
 import org.slf4j.Logger;
 
-@Mod(DimThing.MODID)
-public class DimThing {
-   public static final String MODID = "dimthing";
+@Mod(DepthMeter.MODID)
+public class DepthMeter {
+   public static final String MODID = "depthmeter";
    private static final Logger LOGGER = LogUtils.getLogger();
 
    public static final int COLOUR = 0xE0E0E0;
 
-   public DimThing() {
+   public DepthMeter() {
       MinecraftForge.EVENT_BUS.register(this);
       ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, Config.SPEC);
 
@@ -54,7 +54,7 @@ public class DimThing {
             event.getGuiGraphics().drawString(
                inst.font,
                String.format("X: %d, Y: %d, Z: %d", pos.getX(), pos.getY() - get_offset(dim), pos.getZ()),
-               Config.OVERLAY_X.get(), Config.OVERLAY_Y.get(), DimThing.COLOUR
+               Config.OVERLAY_X.get(), Config.OVERLAY_Y.get(), DepthMeter.COLOUR
             );
          } catch (Exception ex) {
             LOGGER.error("Exception thrown: {}", ex.getMessage());
@@ -145,7 +145,7 @@ public class DimThing {
       @Override
       public void render(GuiGraphics context, int mouseX, int mouseY, float ticks) {
          this.renderDirtBackground(context);
-         context.drawCenteredString(this.font, this.title, this.width / 2, 15, DimThing.COLOUR);
+         context.drawCenteredString(this.font, this.title, this.width / 2, 15, DepthMeter.COLOUR);
          super.render(context, mouseX, mouseY, ticks);
       }
 
@@ -155,7 +155,7 @@ public class DimThing {
             Config.OVERLAY_X.set(Integer.valueOf(x_box.getValue()));
             Config.OVERLAY_Y.set(Integer.valueOf(y_box.getValue()));
          } catch (NumberFormatException e) {
-            DimThing.LOGGER.error("Failed to set config: {}", e.getMessage());
+            DepthMeter.LOGGER.error("Failed to set config: {}", e.getMessage());
          }
 
          if (minecraft != null && parent != null) minecraft.setScreen(parent);
@@ -179,7 +179,7 @@ public class DimThing {
       @Override
       public void render(GuiGraphics context, int mouseX, int mouseY, float ticks) {
          var width = font.width(label.getString());
-         context.drawString(font, label.getString(), this.getX(), this.getY() + height / 2 - font.lineHeight / 2, DimThing.COLOUR);
+         context.drawString(font, label.getString(), this.getX(), this.getY() + height / 2 - font.lineHeight / 2, DepthMeter.COLOUR);
          setX(getX() + width + 2);
          super.render(context, mouseX, mouseY, ticks);
          setX(getX() - width - 2);
