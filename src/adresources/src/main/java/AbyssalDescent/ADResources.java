@@ -35,8 +35,7 @@ public class ADResources {
 
 		register_block_with("reddeepstoneironore", () -> 
 			BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)
-				.strength(6.0f)
-		);
+				.strength(6.0f));
 
 		BLOCKS.register(modEventBus);
 		ITEMS.register(modEventBus);
