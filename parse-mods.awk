@@ -8,7 +8,7 @@ function manifest_header() {
 	print "	\"manifestVersion\": 1,"
 	print "	\"name\": \"Abyssal Descent\","
 	print "	\"version\": \"1\","
-	print "	\"author\": \"\","
+	print "	\"author\": \"AbyssalDescent\","
 	print "	\"overrides\": \"overrides\","
 	print "	\"files\": ["
 }
