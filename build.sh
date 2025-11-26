@@ -9,7 +9,7 @@ function build_java() {
 	for mod in $(ls "$REPO/src"); do
 		echo "Building `$mod`.."
 		cd "$REPO/src/$mod" && 
-		sed -e 's/\r//' gradlew | sh -s build --quiet || exit 1
+		./gradlew build --quiet || exit 1
 		mv build/libs/*.jar "$REPO/$1/mods"
 		cd "$REPO"
 	done
