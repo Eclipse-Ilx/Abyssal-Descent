@@ -24,7 +24,7 @@ PR's and Issues welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md)
    **TLDR:** Open PowerShell as admin and run `wsl --install`. This will likely require a reboot.
 2. Open WSL by running `wsl` in the shell, then install `curl`, `git`, `zip`, and `openjdk-17-jdk`:
     ```bash
-    sudo apt update && sudo apt upgrade && sudo apt install make curl git zip openjdk-17-jdk
+    sudo apt update && sudo apt upgrade && sudo apt install curl git zip openjdk-17-jdk
     ```
 3. Clone the repo and `cd` into it
     ```bash
