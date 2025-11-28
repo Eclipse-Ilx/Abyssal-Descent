@@ -5,7 +5,7 @@
 	## Biome Title settings.
 	###########################################################################################################
 	["Traveler's Titles"."Biome Titles"]
-		"Enable Biome Titles" = true
+		"Enable Biome Titles" = false
 		# How long the fade-in text effect lasts, in ticks.
 		# 20 ticks = 1 second.
 		# Default: 10
