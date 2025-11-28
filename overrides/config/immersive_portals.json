@@ -48,15 +48,6 @@
     "gravityTransform": false,
     "entries": [
       {
-        "dimensionIdStr": "aether:the_aether",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
         "dimensionIdStr": "minecraft:overworld",
         "scale": 1.0,
         "flipped": false,
@@ -73,118 +64,6 @@
         "topY": 128,
         "bottomY": 0,
         "bedrockReplacementStr": "adresources:bedrock1",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "undergarden:undergarden",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "adresources:bedrock2",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "infernalcross:dimension",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "topY": 64,
-        "bottomY": -64,
-        "bedrockReplacementStr": "minecraft:obsidian",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "minecraft:the_nether",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "adresources:bedrock3",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "dinolayer:dimension",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "topY": 64,
-        "bottomY": -64,
-        "bedrockReplacementStr": "minecraft:obsidian",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "infinite_abyss:fourth_layer",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "theabyss:the_abyss",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "deeperdarker:otherside",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "infinite_abyss:sixth_layer",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "infinite_abyss:seventh_layer",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "ceilands:the_ceilands",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "minecraft:the_end",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
-        "connectsPrevious": true,
-        "connectsNext": true
-      },
-      {
-        "dimensionIdStr": "voidscape:void",
-        "scale": 1.0,
-        "flipped": false,
-        "horizontalRotation": 0.0,
-        "bedrockReplacementStr": "minecraft:obsidian",
         "connectsPrevious": true,
         "connectsNext": true
       }
