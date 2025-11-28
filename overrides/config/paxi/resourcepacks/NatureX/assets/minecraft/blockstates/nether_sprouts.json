@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/nether_sprouts"},
+            { "model": "block/large_nether_sprouts"}
+        ]
+    }
+}
