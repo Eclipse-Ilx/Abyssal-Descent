@@ -1,5 +1,5 @@
 {
-	"package": "AbyssalDescent.adresources.mixin",
+	"package": "${mod_authors}.${mod_id}.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [ "ItemMixin" ],
 	"injectors": {
