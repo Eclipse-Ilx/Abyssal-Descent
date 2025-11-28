@@ -4,18 +4,17 @@ REPO=$(pwd)
 VERSION=$(echo "dev-1.0-$(git rev-parse --short HEAD)")
 
 # eventually split these mods into their separate repos with versions we can pull from github
-function build_java() {
+build_java() {
 	mkdir -p "$1/mods"
 	for mod in $(ls "$REPO/src"); do
-		echo "Building `$mod`.."
-		cd "$REPO/src/$mod" && 
-		./gradlew build --quiet || exit 1
+		echo "Building $mod.."
+		cd "$REPO/src/$mod" && ./gradlew build --quiet || exit 1
 		mv build/libs/*.jar "$REPO/$1/mods"
 		cd "$REPO"
 	done
 }
 
-function package() {
+package() {
 	echo "Packaging ver $VERSION.."
 	echo "$VERSION" > build/release.txt
 
@@ -25,7 +24,7 @@ function package() {
 	cd "$REPO"
 }
 
-function clean() {
+clean() {
 	echo "Cleaning build dir.."
 	rm -r build 2> /dev/null
 }
