@@ -32,6 +32,11 @@ minecraft {
 		client {
 			property 'forge.enabledGameTestNamespaces', mod_id
 		}
+
+		data {
+			workingDirectory project.file('run-data')
+			args '--mod', mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+		}
 	}
 }
 
@@ -43,7 +48,7 @@ dependencies {
 }
 
 mixin {
-	add sourceSets.main, 'mixins.adresources.refmap.json'
+	add sourceSets.main, 'adresources.refmap.json'
 	config 'mixins.adresources.json'
 
 	quiet
@@ -80,4 +85,8 @@ tasks.named('jar', Jar).configure {
 	}
 
 	finalizedBy 'reobfJar'
+}
+
+tasks.withType(JavaCompile).configureEach {
+	options.encoding = 'UTF-8'
 }
