@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/river_plant0"},
+            { "model": "block/river_plant1"}
+        ]
+    }
+}

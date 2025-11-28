@@ -1,0 +1,9 @@
+{
+   "fog_color": 5892326,
+   "particle": {
+      "options": {
+         "type": "minecraft:custom_warped_spore"
+      },
+      "probability": 0.03
+    }
+}
