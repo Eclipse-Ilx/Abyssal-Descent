@@ -1,30 +1,33 @@
-# High Priority (Teaser pack MVP)
-
 ## Universal
 + Pathouli or questing support
 + Block Bench traveler's titles for every dimension
 + Alloying mod
 + QOL Mods
-+ Resource packs
+	- Skin Layers 3d
+	- sounds
+	- gravestone mod
+	- backpack mod
 + Textures for layer seperator blocks
 + create low, medium, high and ultra shader presets while keeping the current shader settings and look intact
-+ Update shader presets
+	- update complementary+euphoriapatches
+	- we kinda have low already (mellow)
+	- drop high and just have med+ultra?
 + Update mods that need to be updated
 + Custom Main menu
 + To make plates place an ingot on anvil and hit with hammer. Plates required to make armor.
 + add wandering soul to ice layer
-+ add rei and architectury. Remove JEI
-+ add Nature X
 + disable Aether tips
++ fix immersive portals config
 
 ## ongoing WIP
 + further adjust biome size/frequency in custom dimensions
+
+---
 
 ## Overworld
 + improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
 + make nether portals explode when someone tries to light one.
 + replace bedrock with adresources:bedrock1 without using block swap mod (not required for MVP)
-+ check loot tables for moog's soaring structures
 
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
@@ -64,7 +67,7 @@ Undergarden Prog
 + sprinkle in some spelunkers Charm 2 Cave features into bottom part of layer.
 + add darker depths biomes and structures into infernal crossing
 
-# General
+---
 
 ## Balance
 
@@ -91,3 +94,4 @@ Undergarden Prog
 ## Other
 - create a jeresources preset for new ore generation
 - remove the spelunkery dimensional tears from the bottom of the end
+
