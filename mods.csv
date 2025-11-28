@@ -1,7 +1,6 @@
 # filename,projectID,fileID
 
 # Libs
-patchouli,306770,4966125
 geckolib,388172,6333474
 sinytra_connector,890127,5761411
 yungs_api,421850,5769971
@@ -15,18 +14,19 @@ citadel,331936,5633260
 obscure_api,638417,4616364
 terrablender,563928,6290448
 necronomicon_api,586157,5772681
-aeroblender,879879,4789008
+# aeroblender,879879,4789008
 blueprint,382216,6408581
 cerbons,955605,5050080
 clothconfig,348521,5729105
 
 # Utility
 just_enough_items,238222,5626488
+# patchouli,306770,4966125
 jade,324717,5672013
 appleskin,248787,4770828
 mouse_tweaks,60089,5338457
 paxi,515708,4749994
-harvest_level_tweaker,833035,6461992
+# harvest_level_tweaker,833035,6461992
 you_shall_not_spawn,628744,5820960
 incontrol,257356,5932870
 structurify,1087551,6858579
@@ -40,35 +40,33 @@ property_modifier,474822,4661543
 embeddium,908741,5681725
 
 # Visual
-complementary_shaders_unbound,385587,6515579
 travelers_titles,504908,5065825
 continuity,531351,5981334
 oculus,581495,6020952
-euphoria_patches,915902,6987509
 
 # Biomes/Dimensions
 betternether,311377,4971478
-the_abyss_ii_the_other_side,440647,5129404
-the_ceilands,646626,6070357
+# the_abyss_ii_the_other_side,440647,5129404
+# the_ceilands,646626,6070357
 the_undergarden,379849,5182632
-deeper_and_darker,659011,5906086
-the_aether,255308,6134920
+# deeper_and_darker,659011,5906086
+# the_aether,255308,6134920
+# FUCKYOUECLIPSE we're removing this super soon
 infinite_abyss,677576,5951275
-betterend,413596,4971487
+# betterend,413596,4971487
 galosphere,631098,4983871
 spelunkers_charm,886997,5333907
 # spelunkery,790530,5727135
 alexs_caves,924854,5848216
-aquamirae,536254,4616373
+# aquamirae,536254,4616373
 yungs_cave_biomes,1111586,6304088
-voidscape,251730,5179872
+# voidscape,251730,5179872
 cavernsandchasms,438005,6040957
 regionsunexplored,659110,5558225
-aetherredux,867237,6596294
-deepaether,852465,6542076
+# aetherredux,867237,6596294
+# deepaether,852465,6542076
 darker_depths,460681,7238258
 luminous_overworld,909107,6588230
-moogs_soaring_structures,1040210,6079893
 
 # Other
 grappling_hook:_restitched,820533,5226155
@@ -80,10 +78,8 @@ organics,411399,4703550
 leafs_copper_backport,1313101,7085403
 
 # mobs
-bomd,941573,5067728
-# mowziesmobs,250498,6224182
+# bomd,941573,5067728
+mowziesmobs,250498,6224182
 alexs_mobs,426558,5698791
 # made_in_abyss:_shroombears,1029082,5390423
-
-# structures
 kobolds,484967,5605622
