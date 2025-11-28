@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/redstone_ore", "weight": 7},
+            { "model": "block/redstone_ore_3d", "weight": 1}
+        ]
+    }
+}

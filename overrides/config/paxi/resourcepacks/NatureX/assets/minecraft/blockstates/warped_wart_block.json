@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/warped_wart_block", "weight": 5},
+            { "model": "block/warped_wart_block_bushy", "weight": 3}
+        ]
+    }
+}
