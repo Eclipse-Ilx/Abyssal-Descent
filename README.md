@@ -4,7 +4,7 @@ Run on `forge 47.3.10`
 Join the [Discord](https://discord.gg/S43xbbHAe2) for more information  
 
 > **Note:**  
-> This project is still in development, read [Known Issues](KNOWN_ISSUES.md)
+> This project is still in development, read [Known Issues](KNOWN-ISSUES.md)
 
 PR's and Issues welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md)
 
