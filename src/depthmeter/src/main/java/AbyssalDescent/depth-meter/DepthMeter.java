@@ -1,4 +1,4 @@
-package sh.slb.dimthing;
+package AbyssalDescent.depthmeter;
 
 import com.mojang.logging.LogUtils;
 
