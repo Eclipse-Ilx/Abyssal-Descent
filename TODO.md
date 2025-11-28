@@ -32,6 +32,7 @@
 + add structures - 
 + Change default blocks for biomes if possible. Ideally less deepslate fills this layer.
 + lower coal ore gen
++ make small bioshrooms only generate on the right block
 
 ## The Undergarden
 + Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)
