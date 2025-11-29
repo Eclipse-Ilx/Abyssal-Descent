@@ -31,7 +31,6 @@
 + improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
 + replace bedrock with adresources:bedrock1 without using block swap mod (not required for MVP)
 + Potentially descrease spawn rate of slimes
-+ Disable corundum cluster oregen
 
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
