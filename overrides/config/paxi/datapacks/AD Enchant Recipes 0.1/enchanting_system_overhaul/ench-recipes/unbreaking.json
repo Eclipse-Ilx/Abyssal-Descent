@@ -9,11 +9,11 @@
       },
       {
         "id": "minecraft:obsidian",
-        "amount": 6
+        "amount": 16
       },
       {
         "id": "minecraft:diamond",
-        "amount": 2
+        "amount": 10
       }
     ],
     "2": [
@@ -23,11 +23,11 @@
       },
       {
         "id": "minecraft:obsidian",
-        "amount": 12
+        "amount": 24
       },
       {
         "id": "minecraft:diamond",
-        "amount": 3
+        "amount": 12
       }
     ],
     "3": [
@@ -37,11 +37,11 @@
       },
       {
         "id": "minecraft:obsidian",
-        "amount": 24
+        "amount": 48
       },
       {
         "id": "minecraft:diamond",
-        "amount": 7
+        "amount": 16
       }
     ]
   }
