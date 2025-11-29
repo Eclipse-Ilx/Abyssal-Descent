@@ -1,23 +1,27 @@
 ## Universal
-+ Pathouli or questing support
++ Pathouli
+	- grappling hook essential
 + Block Bench traveler's titles for every dimension
 + Alloying mod
 + QOL Mods
 	- Skin Layers 3d
 	- sounds
-	- gravestone mod
 	- backpack mod
 + Textures for layer seperator blocks
-+ create low, medium, high and ultra shader presets while keeping the current shader settings and look intact
++ Create low, medium, high and ultra shader presets while keeping the current shader settings and look intact
 	- update complementary+euphoriapatches
 	- we kinda have low already (mellow)
 	- drop high and just have med+ultra?
 + Update mods that need to be updated
 + Custom Main menu
 + To make plates place an ingot on anvil and hit with hammer. Plates required to make armor.
-+ add wandering soul to ice layer
-+ disable Aether tips
-+ fix immersive portals config
++ Add wandering soul to ice layer
++ Disable Aether tips
++ Fix immersive portals config
++ Make an in-house hammer mod
++ Make an in-house copper tools mod
++ Potentially remove wooden armour
++ increase mining level of silver to iron
 
 ## ongoing WIP
 + further adjust biome size/frequency in custom dimensions
@@ -27,6 +31,8 @@
 ## Overworld
 + improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
 + replace bedrock with adresources:bedrock1 without using block swap mod (not required for MVP)
++ Potentially descrease spawn rate of slimes
++ Disable corundum cluster oregen
 
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
@@ -93,4 +99,3 @@ Undergarden Prog
 ## Other
 - create a jeresources preset for new ore generation
 - remove the spelunkery dimensional tears from the bottom of the end
-
