@@ -1,0 +1,7 @@
+{
+  "color": "gray",
+  "level": 1,
+  "icons": {
+    "minecraft:mineable/pickaxe": "minecraft:stone_pickaxe"
+  }
+}

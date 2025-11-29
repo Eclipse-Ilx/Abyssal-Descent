@@ -1,0 +1,8 @@
+{
+  "caverns_and_chasms:silver_pickaxe": {
+    "minecraft:mineable/pickaxe": "minecraft:iron"
+  },
+  "minecraft:golden_pickaxe": {
+    "minecraft:mineable/pickaxe": "minecraft:iron"
+  }
+}

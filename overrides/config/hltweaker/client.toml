@@ -1,0 +1,22 @@
+#Show tool harvest level in tooltips. NEVER = never shows, ADVANCED = shows when shift is held or advanced tooltips are enabled, ALWAYS = always shows.
+#Allowed Values: NEVER, ADVANCED, ALWAYS
+tool_harvest_levels_display_mode = "ADVANCED"
+#Show harvest level name next to the tool icon
+show_harvest_level_name = true
+#Show block required harvest level in tooltips. NEVER = never shows, ADVANCED = shows when shift is held or advanced tooltips are enabled, ALWAYS = always shows.
+#Allowed Values: NEVER, ADVANCED, ALWAYS
+block_harvest_levels_display_mode = "ADVANCED"
+#Show the closest lower vanilla or HLT harvest level instead of the original level
+show_closest_lower_vanilla_hlt_level = true
+#Colors for harvest levels from other mods. Format: modid:level=color. Example: examplemod:custom_level=#ffffff
+mod_level_colors = []
+
+#Colors for vanilla harvest levels, in hex format or color name
+[vanilla_level_colors]
+	GOLD = "#ecd93f"
+	NETHERITE = "#443a3b"
+	DIAMOND = "#2cbaa8"
+	WOOD = "#8b5a2b"
+	IRON = "#cecaca"
+	STONE = "#808080"
+
