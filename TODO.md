@@ -26,7 +26,6 @@
 
 ## Overworld
 + improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
-+ make nether portals explode when someone tries to light one.
 + replace bedrock with adresources:bedrock1 without using block swap mod (not required for MVP)
 
 ## Delver's Beginning
