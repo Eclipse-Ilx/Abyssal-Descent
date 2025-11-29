@@ -21,7 +21,6 @@
 + Make an in-house hammer mod
 + Make an in-house copper tools mod
 + Potentially remove wooden armour
-+ increase mining level of silver to iron
 
 ## ongoing WIP
 + further adjust biome size/frequency in custom dimensions
