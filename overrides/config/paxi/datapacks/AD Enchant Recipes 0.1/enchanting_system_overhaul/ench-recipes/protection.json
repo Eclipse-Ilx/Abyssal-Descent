@@ -5,69 +5,69 @@
     "1": [
       {
         "id": "minecraft:lapis_lazuli",
-        "amount": 12
+        "amount": 36
       },
       {
         "id": "minecraft:amethyst_shard",
-        "amount": 4
+        "amount": 12
       },
       {
         "id": "minecraft:diamond",
-        "amount": 2
+        "amount": 6
       },
       {
         "id": "minecraft:obsidian",
-        "amount": 4
+        "amount": 12
       }
     ],
     "2": [
       {
-        "id": "minecraft:lapis_lazuli",
-        "amount": 24
+        "id": "minecraft:lapis_block",
+        "amount": 8
       },
       {
-        "id": "minecraft:amethyst_shard",
-        "amount": 6
+        "id": "minecraft:amethyst_block",
+        "amount": 2
       },
       {
         "id": "minecraft:diamond",
-        "amount": 6
+        "amount": 18
       }
     ],
     "3": [
       {
-        "id": "minecraft:lapis_lazuli",
-        "amount": 24
+        "id": "minecraft:lapis_block",
+        "amount": 2
       },
       {
-        "id": "minecraft:amethyst_shard",
-        "amount": 6
+        "id": "minecraft:amethyst_block",
+        "amount": 1
       },
       {
         "id": "minecraft:diamond",
-        "amount": 12
+        "amount": 36
       },
       {
         "id": "minecraft:obsidian",
-        "amount": 8
+        "amount": 24
       }
     ],
     "4": [
       {
-        "id": "minecraft:glowstone_dust",
-        "amount": 32
+        "id": "minecraft:glowstone",
+        "amount": 10
       },
       {
         "id": "minecraft:diamond",
-        "amount": 16
+        "amount": 48
       },
       {
-        "id": "minecraft:amethyst_shard",
-        "amount": 12
+        "id": "minecraft:amethyst_block",
+        "amount": 4
       },
       {
         "id": "minecraft:obsidian",
-        "amount": 12
+        "amount": 36
       }
     ]
   }
