@@ -97,3 +97,9 @@ Undergarden Prog
 ## Other
 - create a jeresources preset for new ore generation
 - remove the spelunkery dimensional tears from the bottom of the end
+
+## High Priority Slab stuff
+- find a hammer/excavator mod where you can easily add new hammers/excavators
+- add a copper and silver hammer
+- add a plate making system
+- 
