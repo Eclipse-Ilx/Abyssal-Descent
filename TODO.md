@@ -41,10 +41,15 @@
 + make small bioshrooms only generate on the right block
 
 ## The Undergarden
-+ Void blossom structure (Add in the default structure see how it looks, if bad replace structure with new one contact DovahFruit for build?)
++ find a way to edit the void blossom structure. it has no .nbt data and cannot be edited by data pack. it is hard coded.
+	- 1. replace minecraft:moss_block with undergarden:depthrock
+	- 2. replace minecraft:cave_vine with undergarden:droopvine_plant
+	- 3. replace minecraft:stone with undergarden:depthrock
+	- 4. replace minecraft:budding_amethyst with geode_plus:budding_deepslate_diamond
+	- 5. replace minecraft:amethyst with 50 % minecraft:deepslate 40% deepslate diamond ore and 10% geode_plus:diamond_crystal_block
+	- 6. if you can just get me the structures NBT data I can doo all of this myself but you will need to reinject it with a mixin or something. 
 + Add unbreakable block called Hardened root and set it as the new bedrock floor block
 + Add new block called weakened root block, only mineable by forgotten pickaxe harvest level
-+ Make sure forgotten axe has a higher harvest level than every other axe
 + implement the following progression
 Undergarden Prog
 
