@@ -102,4 +102,4 @@ Undergarden Prog
 - find a hammer/excavator mod where you can easily add new hammers/excavators
 - add a copper and silver hammer
 - add a plate making system
-- 
+- achievement when you try to mine adbedrock1 suggesting you cannot mine this yet until you get an iron pickaxe
