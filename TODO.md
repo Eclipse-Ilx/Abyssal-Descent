@@ -41,13 +41,6 @@
 + make small bioshrooms only generate on the right block
 
 ## The Undergarden
-+ find a way to edit the void blossom structure. it has no .nbt data and cannot be edited by data pack. it is hard coded.
-	- 1. replace minecraft:moss_block with undergarden:depthrock
-	- 2. replace minecraft:cave_vine with undergarden:droopvine_plant
-	- 3. replace minecraft:stone with undergarden:depthrock
-	- 4. replace minecraft:budding_amethyst with geode_plus:budding_deepslate_diamond
-	- 5. replace minecraft:amethyst with 50 % minecraft:deepslate 40% deepslate diamond ore and 10% geode_plus:diamond_crystal_block
-	- 6. if you can just get me the structures NBT data I can doo all of this myself but you will need to reinject it with a mixin or something. 
 + Add unbreakable block called Hardened root and set it as the new bedrock floor block
 + Add new block called weakened root block, only mineable by forgotten pickaxe harvest level
 + implement the following progression
@@ -105,7 +98,13 @@ Undergarden Prog
 
 ## High Priority Slab stuff (in order)
 - find out how to edit trades for "undergarden:stoneborn". You can right click and trade with them like a villager and we need custom trades
-- find a way to edit the blocks for "bosses_of_mass_destruction:void_blossom" as it is hard coded unlike every other structure in the mod for some reason.
++ find a way to edit the void blossom structure. it has no .nbt data and cannot be edited by data pack. it is hard coded.
+	- 1. replace minecraft:moss_block with undergarden:depthrock
+	- 2. replace minecraft:cave_vine with undergarden:droopvine_plant
+	- 3. replace minecraft:stone with undergarden:depthrock
+	- 4. replace minecraft:budding_amethyst with geode_plus:budding_deepslate_diamond
+	- 5. replace minecraft:amethyst with 50 % minecraft:deepslate 40% deepslate diamond ore and 10% geode_plus:diamond_crystal_block
+	- 6. if you can just get me the structures NBT data I can doo all of this myself but you will need to reinject it with a mixin or something. 
 - find a hammer/excavator mod where you can easily add new hammers/excavators
 - add a copper and silver hammer
 - add a plate making system
