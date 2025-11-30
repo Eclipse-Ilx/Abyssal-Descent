@@ -41,6 +41,14 @@ polytone,958094,7261243
 
 # Performance
 embeddium,908741,5681725
+embeddium_extras,558905,6041697
+ferrite_core,429235,4810975
+immediatelyfast,686911,6997261
+entity_culling,448233,7167800
+Embeddium_Dynamic_Lights,551736,6044481
+fastsuite,475117,6318054
+fastfurnace,299540,5181098
+fastworkbench,288885,5101229
 
 # Visual
 travelers_titles,504908,5065825
@@ -87,3 +95,10 @@ mowziesmobs,250498,6224182
 alexs_mobs,426558,5698791
 # made_in_abyss:_shroombears,1029082,5390423
 kobolds,484967,5605622
+
+# quality of life
+xaeros_minimap,263420,6778028
+configurable keepinventory,960027,5026355
+
+# debugging
+crash_assistant,1154099,7246894
