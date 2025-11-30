@@ -30,12 +30,12 @@
 ## Overworld
 + improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
 + replace bedrock with adresources:bedrock1 without using block swap mod (not required for MVP)
-+ Potentially descrease spawn rate of slimes
++ Potentially descrease spawn rate of slimes?
 
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
-+ add structures - 
++ add more structures
 + Change default blocks for biomes if possible. Ideally less deepslate fills this layer.
 + lower coal ore gen
 + make small bioshrooms only generate on the right block
@@ -104,7 +104,7 @@ Undergarden Prog
 - remove the spelunkery dimensional tears from the bottom of the end
 
 ## High Priority Slab stuff (in order)
-- find out how to edit the entity names "undergarden:stoneborn" trades. You can right click and trade with them like a villager and we need custom trades
+- find out how to edit trades for "undergarden:stoneborn". You can right click and trade with them like a villager and we need custom trades
 - find a way to edit the blocks for "bosses_of_mass_destruction:void_blossom" as it is hard coded unlike every other structure in the mod for some reason.
 - find a hammer/excavator mod where you can easily add new hammers/excavators
 - add a copper and silver hammer
