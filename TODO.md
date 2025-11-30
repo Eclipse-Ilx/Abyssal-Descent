@@ -98,8 +98,9 @@ Undergarden Prog
 - create a jeresources preset for new ore generation
 - remove the spelunkery dimensional tears from the bottom of the end
 
-## High Priority Slab stuff
+## High Priority Slab stuff (in order)
 - find out how to edit the entity names "undergarden:stoneborn" trades. You can right click and trade with them like a villager and we need custom trades
+- find a way to edit the blocks for "bosses_of_mass_destruction:void_blossom" as it is hard coded unlike every other structure in the mod for some reason.
 - find a hammer/excavator mod where you can easily add new hammers/excavators
 - add a copper and silver hammer
 - add a plate making system
