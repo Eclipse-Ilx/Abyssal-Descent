@@ -21,6 +21,7 @@
 + Make an in-house hammer mod
 + Make an in-house copper tools mod
 + Potentially remove wooden armour
++ disable mobs - mammutilation, deepfish
 
 ## ongoing WIP
 + further adjust biome size/frequency in custom dimensions
@@ -35,16 +36,16 @@
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
-+ add more structures
++ add more structures - species spectre sword in stone thing
 + Change default blocks for biomes if possible. Ideally less deepslate fills this layer.
 + lower coal ore gen
 + make small bioshrooms only generate on the right block
++ add mob spawns for - limpet
 
 ## The Undergarden
 + Add unbreakable block called Hardened root and set it as the new bedrock floor block
 + Add new block called weakened root block, only mineable by forgotten pickaxe harvest level
-+ implement the following progression
-Undergarden Prog
++ add mob spawns for - leaf hanger,
 
 1. Beat Forgotten Guardians by raiding catacombs structure
 - Drops forgotten nuggets
@@ -67,6 +68,7 @@ Undergarden Prog
 + add new desolate biomes
 + sprinkle in some spelunkers Charm 2 Cave features into bottom part of layer.
 + add darker depths biomes and structures into infernal crossing
++ add mob spawns for - Cliff Hanger, Quake
 
 ---
 
