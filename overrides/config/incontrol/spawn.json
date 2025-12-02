@@ -101,5 +101,51 @@
       "yungscavebiomes:lost_caves"
     ],
     "result":"deny"
+  },
+  {
+  "dimension": "infernalcross:dimension",
+  "minheight": 63,
+  "result": "deny"
+  },
+  {
+  "dimension": "delverbegin:dimension",
+  "minheight": 127,
+  "result": "deny"
+  },
+  {
+    "mob":[
+      "species:deepfish",
+      "species:leaf_hanger"
+    ],
+    "dimension":[
+      "minecraft:overworld",
+      "delverbegin:dimension",
+      "infernalcross:dimension"
+    ],
+    "result":"deny"
+  },
+  {
+    "mob":[
+      "species:ghoul",
+      "species:quake",
+      "species:cliff_hanger"
+
+    ],
+    "dimension":[
+      "minecraft:overworld",
+      "delverbegin:dimension"
+    ],
+    "result":"deny"
+  },
+  {
+    "mob":[
+      "species:limpet",
+      "species:wicked"
+    ],
+    "dimension":[
+      "minecraft:overworld",
+      "infernalcross:dimension"
+    ],
+    "result":"deny"
   }
 ]

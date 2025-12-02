@@ -108,10 +108,10 @@
           "type": "minecraft:vertical_gradient",
           "random_name": "minecraft:bedrock_floor",
           "true_at_and_below": {
-            "above_bottom": -64
+            "above_bottom": 0
           },
           "false_at_and_above": {
-            "above_bottom": -59
+            "above_bottom": 3
           }
         },
         "then_run": {
@@ -129,10 +129,10 @@
             "type": "minecraft:vertical_gradient",
             "random_name": "minecraft:bedrock_roof",
             "true_at_and_below": {
-              "below_top": -59
+              "below_top": 3
             },
             "false_at_and_above": {
-              "below_top": -64
+              "below_top": 0
             }
           }
         },
@@ -168,12 +168,12 @@
                 "result_state": {
                   "Name": "infinite_abyss:red_deepstone"
                 }
-              }            
+              }
             }
           }
         ]
       },
-                  {
+      {
         "type": "minecraft:sequence",
         "sequence": [
           {
@@ -198,7 +198,7 @@
                 "result_state": {
                   "Name": "infinite_abyss:red_deepstone"
                 }
-              }            
+              }
             }
           }
         ]
