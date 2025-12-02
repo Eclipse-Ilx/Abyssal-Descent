@@ -20,6 +20,8 @@
   //  
   // Regex works on both entity and dimension entries.
   "dimensions": [
+
+  // OVERWORLD bans
     {
       "entityId": "minecraft:zombie",
       "dimension": "minecraft:overworld",
@@ -94,8 +96,93 @@
       "entityId": "organics:wandering_soul",
       "dimension": "minecraft:overworld",
       "spawn_chance": 0.0
+    },
+    {
+      "entityId": "species:deepfish",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "species:leaf_hanger",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "species:ghoul",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "species:quake",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "species:cliff_hanger",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "species:limpet",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "species:wicked",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 0.0
+    },
+
+    // DELVERBEGIN bans
+    {
+      "entityId": "species:deepfish",
+      "dimension": "delverbegin:dimension",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "species:leaf_hanger",
+      "dimension": "delverbegin:dimension",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "species:ghoul",
+      "dimension": "delverbegin:dimension",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "species:quake",
+      "dimension": "delverbegin:dimension",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "species:cliff_hanger",
+      "dimension": "delverbegin:dimension",
+      "spawn_chance": 0.0
+    },
+
+    // INFERNALCROSS bans
+    {
+      "entityId": "species:deepfish",
+      "dimension": "infernalcross:dimension",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "species:leaf_hanger",
+      "dimension": "infernalcross:dimension",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "species:limpet",
+      "dimension": "infernalcross:dimension",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "species:wicked",
+      "dimension": "infernalcross:dimension",
+      "spawn_chance": 0.0
     }
   ],
+
   // Don't touch this!
   "CONFIG_VERSION": 1
 }
