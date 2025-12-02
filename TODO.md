@@ -17,11 +17,10 @@
 + To make plates place an ingot on anvil and hit with hammer. Plates required to make armor.
 + Add wandering soul to ice layer
 + Disable Aether tips
-+ Fix immersive portals config
 + Make an in-house hammer mod
 + Make an in-house copper tools mod
 + Potentially remove wooden armour
-+ disable mobs - mammutilation, deepfish
++ disable mobs - mammutilation
 
 ## ongoing WIP
 + further adjust biome size/frequency in custom dimensions
@@ -40,7 +39,6 @@
 + Change default blocks for biomes if possible. Ideally less deepslate fills this layer.
 + lower coal ore gen
 + make small bioshrooms only generate on the right block
-+ add mob spawns for - limpet
 
 ## The Undergarden
 + Add unbreakable block called Hardened root and set it as the new bedrock floor block
@@ -67,8 +65,6 @@
 + add abudant iron ore generation feature for the infinite abyss biome specifically.
 + add new desolate biomes
 + sprinkle in some spelunkers Charm 2 Cave features into bottom part of layer.
-+ add darker depths biomes and structures into infernal crossing
-+ add mob spawns for - Cliff Hanger, Quake
 
 ---
 
