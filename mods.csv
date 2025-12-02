@@ -16,7 +16,7 @@ terrablender,563928,6290448
 necronomicon_api,586157,5772681
 # aeroblender,879879,4789008
 blueprint,382216,6408581
-cerbons,955605,5050080
+cerbons,955605,4992038
 clothconfig,348521,5729105
 yetanotherconfiglib,667299,6336646
 placebo,283644,6274231
@@ -92,11 +92,12 @@ leafs_copper_backport,1313101,7085403
 enchanting_overhaul,960121,5463023
 
 # mobs
-# bomd,941573,5067728
+bomd,941573,5067728
 mowziesmobs,250498,6224182
 alexs_mobs,426558,5698791
 # made_in_abyss:_shroombears,1029082,5390423
 kobolds,484967,5605622
+species,857737,6886321
 
 # quality of life
 xaeros_minimap,263420,6778028
