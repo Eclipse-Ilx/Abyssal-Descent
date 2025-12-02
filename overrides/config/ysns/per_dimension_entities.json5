@@ -180,6 +180,31 @@
       "entityId": "species:wicked",
       "dimension": "infernalcross:dimension",
       "spawn_chance": 0.0
+    },
+    {
+      "entityId": "minecraft:skeleton",
+      "dimension": "infernalcross:dimension",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "minecraft:zombie",
+      "dimension": "infernalcross:dimension",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "minecraft:creeper",
+      "dimension": "infernalcross:dimension",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "minecraft:cave_spider",
+      "dimension": "infernalcross:dimension",
+      "spawn_chance": 0.0
+    },
+    {
+      "entityId": "minecraft:husk",
+      "dimension": "infernalcross:dimension",
+      "spawn_chance": 0.0
     }
   ],
 
