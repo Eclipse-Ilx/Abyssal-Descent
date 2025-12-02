@@ -168,5 +168,39 @@
       "maxheight": 128,
       "maxthis": 10
     }
+  },
+  {
+    "mob": "species:cliff_hanger",
+    "persecond": 1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "infernalcrossing:dimension",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": -54,
+      "maxheight": 54,
+      "maxthis": 5
+    }
+  },
+  {
+    "mob": "species:ghoul" ,
+    "persecond": 1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "infernalcrossing:dimension",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": -54,
+      "maxheight": 54,
+      "maxthis": 10
+    }
   }
 ]
