@@ -21,6 +21,7 @@
 + Make an in-house copper tools mod
 + Potentially remove wooden armour
 + disable mobs - mammutilation
++ fix a million pop ups upon world creation
 
 ## ongoing WIP
 + further adjust biome size/frequency in custom dimensions
