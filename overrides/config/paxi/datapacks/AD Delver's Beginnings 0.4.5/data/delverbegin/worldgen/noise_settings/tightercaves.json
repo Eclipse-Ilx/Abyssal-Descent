@@ -117,7 +117,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "adresources:bedrock1"
+            "Name": "adresources:bedrock2"
           }
         }
       },
