@@ -25,8 +25,9 @@ package() {
 }
 
 clean() {
-	echo "Cleaning build dir.."
-	rm -r build 2> /dev/null
+	echo "Preparing build dir.."
+	rm -r "$REPO/build" 2> /dev/null
+	mkdir -p "$REPO/build" 2> /dev/null
 }
 
 
@@ -37,7 +38,6 @@ case $1 in
 		cp -r overrides/* build/overrides
 		awk -v "mode=curse" -f parse-mods.awk mods.csv > build/manifest.json || exit 1
 		package
-		clean
 		;;
 	"export")
 		clean
@@ -45,7 +45,6 @@ case $1 in
 		cp -r overrides/* build
 		awk -v "mode=install" -v "out_dir=build/mods" -f parse-mods.awk mods.csv || exit 1
 		package
-		clean
 		;;
 	"export-no-pack")
 		clean
@@ -57,11 +56,11 @@ case $1 in
 		package
 		;;
 	*)
-		echo -e "\x1b[1mOptions:\x1b[0m"
+		printf "\x1b[1mOptions:\x1b[0m"
 		echo "   curse           Export the modpack for CurseForge"
 		echo "   export          Export the modpack for manual installation"
 		echo
-		echo -e "\x1b[1mDev Options:\x1b[0m (prob not needed for normal use)"
+		printf "\x1b[1mDev Options:\x1b[0m (prob not needed for normal use)"
 		echo "   export-no-pack  Export the modpack without zipping it"
 		echo "   package         Package from build directory"
 		;;
