@@ -1,7 +1,8 @@
 ## Universal
 + Pathouli
 	- grappling hook essential
-+ Block Bench traveler's titles for every dimension
+	- make a mention of bedrock1 being breakable only with iron
+	- name book item "We're sorry but you'll need this :)"
 + Alloying mod
 + QOL Mods
 	- Skin Layers 3d
@@ -15,13 +16,17 @@
 + Update mods that need to be updated
 + Custom Main menu
 + To make plates place an ingot on anvil and hit with hammer. Plates required to make armor.
-+ Add wandering soul to ice layer
-+ Disable Aether tips
 + Make an in-house hammer mod
 + Make an in-house copper tools mod
 + Potentially remove wooden armour
 + disable mobs - mammutilation
+- keepinventory only keep: curios, armour, pickaxe, grappling hook
+
+## Polish
++ Disable Aether tips
 + fix a million pop ups upon world creation
+- Stop the alex's mobs book being given upon world creation
++ Block Bench traveler's titles for every dimension
 
 ## ongoing WIP
 + further adjust biome size/frequency in custom dimensions
@@ -91,6 +96,7 @@
 - Recreate ceilands dimension to make it end themed
 
 ## Mobs
++ Add wandering soul to ice layer
 
 ## Other
 - create a jeresources preset for new ore generation
@@ -108,4 +114,3 @@
 - find a hammer/excavator mod where you can easily add new hammers/excavators
 - add a copper and silver hammer
 - add a plate making system
-- achievement when you try to mine adbedrock1 suggesting you cannot mine this yet until you get an iron pickaxe
