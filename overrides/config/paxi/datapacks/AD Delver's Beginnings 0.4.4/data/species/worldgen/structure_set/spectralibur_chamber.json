@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "species:spectralibur_chamber",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 12345678,
+    "spacing": 80,
+    "separation": 15,
+    "type": "random_spread",
+    "spread_type": "triangular"
+  }
+}

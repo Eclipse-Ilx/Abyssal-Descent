@@ -39,6 +39,7 @@
 + Change default blocks for biomes if possible. Ideally less deepslate fills this layer.
 + lower coal ore gen
 + make small bioshrooms only generate on the right block
+- fix species sword structure so it generates underground
 
 ## The Undergarden
 + Add unbreakable block called Hardened root and set it as the new bedrock floor block

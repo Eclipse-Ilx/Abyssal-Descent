@@ -1,0 +1,16 @@
+{
+  "type": "species:spectralibur_chamber",
+  "biomes": "#delverbegin:is_delversbegin",
+  "spawn_overrides": {},
+  "step": "underground_structures",
+  "terrain_adaptation": "bury",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 20
+    },
+    "max_inclusive": {
+      "absolute": 80
+    }
+  }
+}
