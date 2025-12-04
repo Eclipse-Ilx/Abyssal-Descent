@@ -7,3 +7,6 @@
 [submodule "src/iintentionalgamedesign"]
 	path = src/intentionalgamedesign
 	url = ssh://git@github.com/abyssal-descent/intentionalgamedesign
+[submodule "src/undergarden"]
+	path = src/undergarden
+	url = ssh://git@github.com/abyssal-descent/undergarden-fork
