@@ -1,0 +1,3 @@
+[submodule "src/undergarden"]
+	path = src/undergarden
+	url = ssh://git@github.com/abyssal-descent/undergarden-fork
