@@ -28,8 +28,8 @@ PR's and Issues welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md)
     ```
 3. Clone the repo and `cd` into it
     ```bash
-    git clone https://github.com/Eclipse-Ilx/Abyssal-Descent
-    cd Abyssal-Descent
+    git clone https://github.com/abyssal-descent/abyssal-descent
+    cd abyssal-descent
     ```
 4. Run one of the build commands from above.
 
@@ -50,8 +50,8 @@ PR's and Issues welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md)
 4. Download the MSI Installer for the [JDK 17](https://www.oracle.com/java/technologies/downloads/) and skip through the wizard.
 5. Open `Cygwin64 Terminal`, then run the following commands.
    ```bash
-   git clone https://github.com/Eclipse-Ilx/Abyssal-Descent
-   cd Abyssal-Descent
+   git clone https://github.com/abyssal-descent/abyssal-descent
+   cd abyssal-descent
    ```
 6. Run one of the build commands from above.
 
