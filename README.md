@@ -11,6 +11,8 @@ PR's and Issues welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md)
 ## Building
 **Dependencies:** `zip`, `curl`, `awk`, JDK 17
 ```bash
+git clone --recursive https://github.com/abyssal-descent/abyssal-descent
+cd abyssal-descent
 ./build.sh curse  # curseforge zip
 ./build.sh export # manual install zip
 ```
@@ -25,11 +27,6 @@ PR's and Issues welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md)
 2. Open WSL by running `wsl` in the shell, then install `curl`, `git`, `zip`, and `openjdk-17-jdk`:
     ```bash
     sudo apt update && sudo apt upgrade && sudo apt install curl git zip openjdk-17-jdk
-    ```
-3. Clone the repo and `cd` into it
-    ```bash
-    git clone https://github.com/abyssal-descent/abyssal-descent
-    cd abyssal-descent
     ```
 4. Run one of the build commands from above.
 
@@ -48,12 +45,7 @@ PR's and Issues welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md)
    Hit next, next, then finish.
    Be sure to make a shortcut when it asks you to, unless you're already familiar with Cygwin.
 4. Download the MSI Installer for the [JDK 17](https://www.oracle.com/java/technologies/downloads/) and skip through the wizard.
-5. Open `Cygwin64 Terminal`, then run the following commands.
-   ```bash
-   git clone https://github.com/abyssal-descent/abyssal-descent
-   cd abyssal-descent
-   ```
-6. Run one of the build commands from above.
+5. Open `Cygwin64 Terminal`, then run the build commands listed above.
 
 </details>
 
