@@ -37,15 +37,34 @@ public class ADResources {
 			BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)
 				.strength(6.0f));
 
+		// TODO: particles and sound :)
+		register_block_with("hardened_root_block", () -> 
+			BlockBehaviour.Properties.copy(Blocks.BEDROCK));
+
+		// TODO: hardened_root_block + right-click with item -> bedrock3
+
+		register_item_with("empty_forgotten_bottle", () -> new Item.Properties());
+		register_item_with("acid_bottle", () -> new Item.Properties());
+
 		BLOCKS.register(modEventBus);
 		ITEMS.register(modEventBus);
 	}
 
-	interface BlockFunc {
+
+	interface ItemFn {
+		Item.Properties apply();
+	}
+
+	private static void register_item_with(String name, ItemFn fn) {
+		ITEMS.register(name, () -> new Item(fn.apply()));
+	}
+
+
+	interface BlockFn {
 		BlockBehaviour.Properties apply();
 	}
 
-	private static void register_block_with(String name, BlockFunc fn) {
+	private static void register_block_with(String name, BlockFn fn) {
 		var block = BLOCKS.register(name, () -> new Block(fn.apply()));
 		ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
 	}
