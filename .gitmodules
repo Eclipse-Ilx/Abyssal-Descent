@@ -1,0 +1,9 @@
+[submodule "src/adresources"]
+	path = src/adresources
+	url = ssh://git@github.com/abyssal-descent/adresources
+[submodule "src/depthmeter"]
+	path = src/depthmeter
+	url = ssh://git@github.com/abyssal-descent/depthmeter
+[submodule "src/iintentionalgamedesign"]
+	path = src/intentionalgamedesign
+	url = ssh://git@github.com/abyssal-descent/intentionalgamedesign
