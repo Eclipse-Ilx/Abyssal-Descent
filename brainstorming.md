@@ -23,6 +23,19 @@
 # Future (changes worth noting due to above changes)
 - Buff nether gold ore to drop raw gold instead of gold nuggets
 
+# Mining master implementation concept
+- Concept: increase ore gen rates overall, include normal materials in the recipe with the gem in the overhauled enchantment table
+- ore gen
+    - Overworld: all default overworld gems but extremely rare
+        - remove: Unbreaking Lolite 
+    - Delvers Beginning: Same but more common
+    - The Undergarden: 
+        - More common: Divine Beryl, Unbreaking Lolite
+    - Infernal Crossing: 
+    - The Nether: Power Pyrite
+    - The Aether: Air Malachite, Heart Rhodonite
+- Paragon armor obtainable after beating nether boss?
+
 ## Quest/guide
 
 1. better than stone!
