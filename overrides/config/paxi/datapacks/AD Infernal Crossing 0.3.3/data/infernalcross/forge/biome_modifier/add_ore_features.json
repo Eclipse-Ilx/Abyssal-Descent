@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features", 
+  "biomes": "#infernalcross:is_infernal_crossing",
+  "features": [
+    "infernalcross:deepslate_iron_ore"
+  ],
+  "step": "underground_ores"
+}
