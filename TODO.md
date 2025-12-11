@@ -20,7 +20,8 @@
 + Make an in-house copper tools mod
 + Potentially remove wooden armour
 + disable mobs - mammutilation
-- keepinventory only keep: curios, armour, pickaxe, grappling hook
++ keepinventory only keep: curios, armour, pickaxe, grappling hook
++ disable random hammer and excavator variants for playtest
 - fix kobold trades, add modded ones perhaps
 - fix coal emmision being white, NatureX L
 - possibly move NatureX to a submodule
@@ -31,6 +32,7 @@
 - Stop the alex's mobs book being given upon world creation
 + Block Bench traveler's titles for every dimension
 + fix a million pop ups upon world creation
+- ensure stone pickaxe is not viewable in rei or whatever
 
 ## ongoing WIP
 + further adjust biome size/frequency in custom dimensions
@@ -41,6 +43,8 @@
 + improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
 + replace bedrock with adresources:bedrock1 without using block swap mod (not required for MVP)
 + Potentially descrease spawn rate of slimes?
+- make villages and loot related structures not spawn near 0,0
+- remove diamonds and other things from village chest loot pool
 
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
@@ -107,6 +111,9 @@
 - remove the spelunkery dimensional tears from the bottom of the end
 
 ## High Priority Slab stuff (in order)
+- find a hammer/excavator mod where you can easily add new hammers/excavators
+- add a copper and silver hammer
+- add a plate making system
 + find a way to edit the void blossom structure. it has no .nbt data and cannot be edited by data pack. it is hard coded.
 	- 1. replace minecraft:moss_block with undergarden:depthrock
 	- 2. replace minecraft:cave_vine with undergarden:droopvine_plant
@@ -114,6 +121,3 @@
 	- 4. replace minecraft:budding_amethyst with geode_plus:budding_deepslate_diamond
 	- 5. replace minecraft:amethyst with 50 % minecraft:deepslate 40% deepslate diamond ore and 10% geode_plus:diamond_crystal_block
 	- 6. if you can just get me the structures NBT data I can doo all of this myself but you will need to reinject it with a mixin or something. 
-- find a hammer/excavator mod where you can easily add new hammers/excavators
-- add a copper and silver hammer
-- add a plate making system
