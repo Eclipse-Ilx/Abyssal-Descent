@@ -38,7 +38,7 @@
               }
             },
             {
-              "weight": 20,
+              "weight": 10,
               "data": {
                 "Name": "minecraft:raw_iron_block"
               }
