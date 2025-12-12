@@ -112,8 +112,15 @@
 - remove the spelunkery dimensional tears from the bottom of the end
 
 ## High Priority Slab stuff (in order)
-- find a hammer/excavator mod where you can easily add new hammers/excavators
-- add a copper and silver hammer
++ add the following hammers
+	- 1. Copper Hammer
+	- 2. Iron Hammer
+	- 3. Silver Hammer
+	- 4. Gold Hammer
+	- 5. Diamond Hammer
+	- 6. Cloggrum Hammer
+	- 7. Froststeel Hammer
+	- 8. Utherium Hammer
 - add a plate making system
 + find a way to edit the void blossom structure. it has no .nbt data and cannot be edited by data pack. it is hard coded.
 	- 1. replace minecraft:moss_block with undergarden:depthrock
