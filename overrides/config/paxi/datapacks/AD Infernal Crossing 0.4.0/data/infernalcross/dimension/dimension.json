@@ -2,7 +2,7 @@
   "type": "infernalcross:dimension",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "infernalcross:infernalnoise",
+    "settings": "infernalcross:overworld_cave_thing_attempt_lol",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
