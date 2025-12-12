@@ -77,9 +77,10 @@
 - Continue mining into Infernal Crossing
 
 ## Infernal Crossing
-+ add abudant iron ore generation feature for the infinite abyss biome specifically.
-+ add new desolate biomes
 + sprinkle in some spelunkers Charm 2 Cave features into bottom part of layer.
++ add more ores and things to mine
++ add structures
++ balance mob spawn rates based on playtesting
 
 ---
 
