@@ -23,6 +23,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.function.Supplier;
 
 public class Registry {
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ADResources.MODID);
@@ -94,11 +95,8 @@ public class Registry {
 	}
 
 
-
-	interface BlockFn { Block apply(); }
-
-	private static RegistryObject<Block> register_block_with(String name, BlockFn fn) {
-		var block = BLOCKS.register(name, () -> fn.apply());
+	private static RegistryObject<Block> register_block_with(String name, Supplier<Block> fn) {
+		var block = BLOCKS.register(name, fn);
 		ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
 		return block;
 	}
