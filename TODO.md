@@ -51,7 +51,7 @@
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
-+ add more structures - species spectre sword in stone thing
++ add more structures - feur skull camp
 + Change default blocks for biomes if possible. Ideally less deepslate fills this layer.
 + lower coal ore gen
 + make small bioshrooms only generate on the right block
@@ -78,9 +78,8 @@
 - Continue mining into Infernal Crossing
 
 ## Infernal Crossing
-+ sprinkle in some spelunkers Charm 2 Cave features into bottom part of layer.
 + add more ores and things to mine
-+ add structures
++ add structures -  feur bone tree, feur bone arc+ other pieces, feur fossil fang
 + balance mob spawn rates based on playtesting
 
 ---
