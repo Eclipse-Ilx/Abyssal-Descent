@@ -57,7 +57,6 @@
 ## The Undergarden
 + Add unbreakable block called Hardened root and set it as the new bedrock floor block
 + Add new block called weakened root block, only mineable by forgotten pickaxe harvest level
-+ add mob spawns for - leaf hanger,
 
 1. Beat Forgotten Guardians by raiding catacombs structure
 - Drops forgotten nuggets
