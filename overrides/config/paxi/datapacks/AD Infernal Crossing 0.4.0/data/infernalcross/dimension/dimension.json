@@ -2,15 +2,15 @@
   "type": "infernalcross:dimension",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "infernalcross:overworld_cave_thing_attempt_lol",
+    "settings": "minecraft:overworld",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
         {
           "biome": "infinite_abyss:second_layer_cavern",
           "parameters": {
-            "temperature": -0.8,
-            "humidity": -0.8,
+            "temperature": -0.1,
+            "humidity": -0.73,
             "continentalness": -0.8,
             "erosion": -0.1,
             "depth": 0,
@@ -33,8 +33,8 @@
         {
           "biome": "darkerdepths:molten_cavern",
           "parameters": {
-            "temperature": 0.8,
-            "humidity": 0.6,
+            "temperature": 0.5,
+            "humidity": 0.3,
             "continentalness": -0.5,
             "erosion": 0.3,
             "depth": 0.32,
