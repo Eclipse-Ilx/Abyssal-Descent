@@ -44,7 +44,6 @@
 + replace bedrock with adresources:bedrock1 without using block swap mod (not required for MVP)
 + Potentially descrease spawn rate of slimes?
 - make villages and loot related structures not spawn near 0,0
-- remove diamonds and other things from village chest loot pool
 
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
