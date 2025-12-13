@@ -202,5 +202,22 @@
       "maxheight": 54,
       "maxthis": 10
     }
-  }
+  },
+  {
+    "mob":"species:leaf_hanger",
+    "persecond":1,
+    "attempts":1,
+    "amount":{
+      "maximum":1,
+      "minimum":4
+  },
+    "conditions": {
+      "dimension": "undergarden:undergarden",
+      "mindist": 35,
+      "maxdist": 126,
+      "minheight": 15,
+      "maxheight": 32,
+      "maxthis": 15
+    }
+}
 ]
