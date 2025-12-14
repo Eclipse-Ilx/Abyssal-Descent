@@ -4,7 +4,7 @@
   "spawners":
   {
     "type": "species:wicked",
-    "weight": 100,
+    "weight": 25,
     "minCount": 1,
     "maxCount": 2
   }

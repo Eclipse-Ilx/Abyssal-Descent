@@ -6,6 +6,6 @@
     "type": "species:quake",
     "maxCount": 1,
     "minCount": 1,
-    "weight": 25
+    "weight": 5
   }
 }
