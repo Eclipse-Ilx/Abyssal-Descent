@@ -4,7 +4,8 @@
   "features": [
     "infernalcross:deepslate_iron_ore",
     "infernalcross:diamond_ore_lava",
-    "infernalcross:diamond_ore_stripe"
+    "infernalcross:diamond_ore_stripe",
+    "infernalcross:silver_ore_stripe"
   ],
   "step": "underground_ores"
 }
