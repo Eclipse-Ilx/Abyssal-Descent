@@ -46,7 +46,7 @@
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
-+ add more structures - feur skull camp
++ add more structures - 
 + Change default blocks for biomes if possible. Ideally less deepslate fills this layer.
 + lower coal ore gen
 + make small bioshrooms only generate on the right block
@@ -96,3 +96,17 @@
 	-  Cloggrum Hammer
 	-  Froststeel Hammer
 	-  Utherium Hammer
+
+
+## mods to look into
+- ascended quark
+- aether lost content addon
+- crawl on demand
+- every compat
+- extra compat
+- farsight
+- pack analytics
+- all BMC4 Performance mods
+- shield expansion (fork?)
+- ui polish
+- xaerosplus
