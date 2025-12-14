@@ -3,6 +3,8 @@
     "minecraft:deepslate",
     "darkerdepths:darkslate",
     "alexscaves:guanostone",
-    "alexscaves:coprolith"
+    "alexscaves:coprolith",
+    "infinite_abyss:red_deepstone",
+    "minecraft:dripstone:block"
   ]
 }
