@@ -139,12 +139,20 @@
   },
   {
     "mob":[
-      "species:limpet",
-      "species:wicked"
+      "species:limpet"
+    ],
+    "dimension":[
+      "minecraft:overworld",
+      "infernalcross:dimension"
+    ],
+    "result":"deny"
+  },
+  {
+    "mob":[
+    "species:wicked"
     ],
     "dimension":[
       "minecraft:overworld"
-    ],
-    "result":"deny"
+    ]
   }
 ]
