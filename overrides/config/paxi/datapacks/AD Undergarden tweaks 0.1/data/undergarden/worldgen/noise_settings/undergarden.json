@@ -134,7 +134,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "adresources:bedrock3"
+            "Name": "adresources:hardened_root_block"
           }
         }
       },
