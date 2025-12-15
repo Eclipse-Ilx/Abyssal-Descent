@@ -27,8 +27,8 @@ public class AnvilBE extends BlockEntity {
 		@Override
 		protected void onContentsChanged(int slot) {
 			setChanged();
-			if (!level.isClientSide())
-				level.sendBlockUpdated(getBlockPos(), getBlockState(), getBlockState(), 3);
+			if (level.isClientSide()) return;
+			level.sendBlockUpdated(getBlockPos(), getBlockState(), getBlockState(), 3);
 		}
 	};
 
