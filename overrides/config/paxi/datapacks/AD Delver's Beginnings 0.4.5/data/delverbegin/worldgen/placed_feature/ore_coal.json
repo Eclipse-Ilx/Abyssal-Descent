@@ -2,8 +2,8 @@
   "feature": "delverbegin:coal_ore",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": 3
+      "type": "minecraft:rarity_filter",
+      "chance": 15
     },
     {
       "type": "minecraft:in_square"

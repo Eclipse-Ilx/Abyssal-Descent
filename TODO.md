@@ -47,7 +47,6 @@
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
 + add more structures - 
 + Change default blocks for biomes if possible. Ideally less deepslate fills this layer.
-+ lower coal ore gen
 + make small bioshrooms only generate on the right block
 
 ## The Undergarden
