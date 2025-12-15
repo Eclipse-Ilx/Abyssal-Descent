@@ -56,11 +56,11 @@ case $1 in
 		package
 		;;
 	*)
-		printf "\x1b[1mOptions:\x1b[0m"
+		printf "\x1b[1mOptions:\x1b[0m\n"
 		echo "   curse           Export the modpack for CurseForge"
 		echo "   export          Export the modpack for manual installation"
 		echo
-		printf "\x1b[1mDev Options:\x1b[0m (prob not needed for normal use)"
+		printf "\x1b[1mDev Options:\x1b[0m (prob not needed for normal use)\n"
 		echo "   export-no-pack  Export the modpack without zipping it"
 		echo "   package         Package from build directory"
 		;;
