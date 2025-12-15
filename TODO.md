@@ -30,7 +30,6 @@
 + ensure stone pickaxe is not viewable in rei or whatever
 
 ## Sequence Breaks
-- make iron golem drop nuggets so its not worth killing
 
 ## ongoing WIP
 + further adjust biome size/frequency in custom dimensions
