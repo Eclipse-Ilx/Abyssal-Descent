@@ -63,18 +63,13 @@ public class DepthMeter {
 
 		static int get_offset(String dim) {
 			return switch (dim) {
-				case "aether:the_aether"            -> -320;
-				case "minecraft:overworld"          -> 0;
-				case "delverbegin:dimension"        -> 64 + 128;
-				case "undergarden:undergarden"      -> 64 + 128 + 128;
-				case "infernalcross:dimension"      -> 64 + 128 + 128 + (64 + 64);
-				case "minecraft:the_nether"         -> 64 + 128 + 128 + (64 + 64) + 128;
-				case "dinolayer:dimension"          -> 64 + 128 + 128 + (64 + 64) + 128 + (64 + 64);
-				case "infinite_abyss:fourth_layer"  -> 64 + 128 + 128 + (64 + 64) + 128 + (64 + 64) + 128;
-				case "theabyss:the_abyss"           -> 64 + 128 + 128 + (64 + 64) + 128 + (64 + 64) + 128 + 170;
-				case "deeperdarker:otherside"       -> 64 + 128 + 128 + (64 + 64) + 128 + (64 + 64) + 128 + 170 + 128;
-				case "infinite_abyss:sixth_layer"   -> 64 + 128 + 128 + (64 + 64) + 128 + (64 + 64) + 128 + 170 + 128 + 128;
-				default                             -> 0;
+				case "aether:the_aether"       -> -320;
+				case "minecraft:overworld"     -> 0;
+				case "delverbegin:dimension"   -> 64 + 128;
+				case "undergarden:undergarden" -> 64 + 128 + 128;
+				case "infernalcross:dimension" -> 64 + 128 + 128 + (64 + 64);
+				case "minecraft:the_nether"    -> 64 + 128 + 128 + (64 + 64) + 128;
+				default                        -> 0;
 			};
 		}
 	}
