@@ -53,7 +53,6 @@
 + fix new missing item textures
 
 ## Infernal Crossing
-+ add more ores and things to mine
 + add structures -  feur bone tree, feur bone arc+ other pieces, feur fossil fang
 + balance mob spawn rates based on playtesting
 
