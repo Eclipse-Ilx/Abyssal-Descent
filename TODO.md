@@ -1,13 +1,14 @@
-## Universal
+## Guide
 + Pathouli
 	- grappling hook essential
 	- make a mention of bedrock1 being breakable only with iron
 	- name book item "We're sorry but you'll need this :)"
-+ Alloying mod
 + QOL Mods
 	- Skin Layers 3d
 	- sounds
 	- backpack mod
+
+## Universal
 + Textures for layer seperator blocks
 + Create low, medium, high and ultra shader presets while keeping the current shader settings and look intact
 	- update complementary+euphoriapatches
@@ -16,9 +17,8 @@
 + Update mods that need to be updated
 + Custom Main menu
 + Potentially remove wooden armour
-+ disable mobs - mammutilation
 + keepinventory only keep: curios, armour, pickaxe, grappling hook
-- fix kobold trades, add modded ones perhaps
++ balance kobold trades, add modded ones perhaps
 
 ## Polish
 + Disable Aether tips
@@ -26,7 +26,6 @@
 + Stop the alex's mobs book being given upon world creation
 + Block Bench traveler's titles for every dimension
 + fix a million pop ups upon world creation
-+ ensure stone pickaxe is not viewable in rei or whatever
 
 ## Sequence Breaks
 
@@ -40,6 +39,7 @@
 + replace bedrock with adresources:bedrock1 without using block swap mod (not required for MVP)
 + Potentially descrease spawn rate of slimes?
 + make villages and loot related structures not spawn near 0,0
++ disable mobs - mammutilation
 
 ## Delver's Beginning
 + add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
