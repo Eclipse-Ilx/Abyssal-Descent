@@ -85,15 +85,6 @@
 - remove the spelunkery dimensional tears from the bottom of the end
 - rewrite current in-house mods to kotlin or clojure (hopefully clojure :L)
 
-## High Priority Slab stuff (in order)
-+ add the following hammers
-	-  Silver Hammer
-	-  Gold Hammer
-	-  Cloggrum Hammer
-	-  Froststeel Hammer
-	-  Utherium Hammer
-
-
 ## mods to look into
 - ascended quark
 - aether lost content addon
