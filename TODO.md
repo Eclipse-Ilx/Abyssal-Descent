@@ -19,7 +19,6 @@
 + disable mobs - mammutilation
 + keepinventory only keep: curios, armour, pickaxe, grappling hook
 - fix kobold trades, add modded ones perhaps
-- fix coal emmision being white, NatureX L
 
 ## Polish
 + Disable Aether tips
