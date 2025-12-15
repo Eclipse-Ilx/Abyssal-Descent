@@ -18,7 +18,7 @@ public class Hammer extends DiggerItem {
 	public static final int RADIUS = 1;
 
 	public Hammer(Tier tier, float damage) {
-		super(damage, -3.3F, tier, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().stacksTo(1));
+		super(damage, -3.5F, tier, BlockTags.MINEABLE_WITH_PICKAXE, new Item.Properties().stacksTo(1));
 	}
 
 	public static List<BlockPos> blocks_in_radius(BlockPos init, ServerPlayer player) {
