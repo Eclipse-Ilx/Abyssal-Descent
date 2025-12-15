@@ -2,3 +2,4 @@ build/
 *.jar
 *.zip
 .gradle/
+spyglass.json
