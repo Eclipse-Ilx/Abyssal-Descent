@@ -61,26 +61,25 @@ oculus,581495,6020952
 
 # Biomes/Dimensions
 betternether,311377,4971478
-# the_abyss_ii_the_other_side,440647,5129404
-# the_ceilands,646626,6070357
 the_undergarden,379849,5182632
-# deeper_and_darker,659011,5906086
-# the_aether,255308,6134920
 # FUCKYOUECLIPSE we're removing this super soon
 infinite_abyss,677576,5951275
-# betterend,413596,4971487
 galosphere,631098,4983871
 spelunkers_charm,886997,5333907
 spelunkery,790530,6122072
 spelunkery_plus,1307013,7291975
 alexs_caves,924854,5848216
-# aquamirae,536254,4616373
 yungs_cave_biomes,1111586,6304088
+# deeper_and_darker,659011,5906086
+# the_aether,255308,6134920
+# the_abyss_ii_the_other_side,440647,5129404
+# betterend,413596,4971487
+# aquamirae,536254,4616373
 # voidscape,251730,5179872
-cavernsandchasms,438005,6040957
-regionsunexplored,659110,5558225
 # aetherredux,867237,6596294
 # deepaether,852465,6542076
+cavernsandchasms,438005,6040957
+regionsunexplored,659110,5558225
 darker_depths,460681,7238258
 luminous_overworld,909107,6588230
 
@@ -108,6 +107,3 @@ alexs_mobs,426558,5698791
 # made_in_abyss:_shroombears,1029082,5390423
 kobolds,484967,5605622
 species,857737,6886321
-
-# debug
-crash_assistant,1154099,7246894
