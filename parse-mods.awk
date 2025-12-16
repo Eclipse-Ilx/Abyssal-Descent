@@ -25,9 +25,8 @@ BEGIN {
 				print "\x1b[31;1mERROR:\x1b[0m Output directory unspecified."
 				exit 1
 			}
-			cmd = "curl -sslo \""out_dir"/"$1".jar\" \"https://www.curseforge.com/api/v1/mods/"$2"/files/"$3"/download""\""
-			print cmd
-			system(cmd)
+			print "Downloading " $1
+			system("curl -sSLo \""out_dir"/"$1".jar\" \"https://www.curseforge.com/api/v1/mods/"$2"/files/"$3"/download""\"")
 			break
 		case "curse":
 			if (!started++) manifest_header()

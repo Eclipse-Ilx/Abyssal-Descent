@@ -7,7 +7,7 @@ VERSION=$(echo "dev-1.0-$(git rev-parse --short HEAD)")
 build_java() {
 	mkdir -p "$1/mods"
 	for mod in $(ls "$REPO/src"); do
-		echo "Building $mod.."
+		echo "Building $mod"
 		cd "$REPO/src/$mod" && ./gradlew build --quiet || exit 1
 		mv build/libs/*.jar "$REPO/$1/mods"
 		cd "$REPO"
@@ -15,7 +15,7 @@ build_java() {
 }
 
 package() {
-	echo "Packaging ver $VERSION.."
+	echo "Packaging ver $VERSION"
 	echo "$VERSION" > build/release.txt
 
 	# FIXME: use the proper zip command to archive a dir's contents
@@ -25,7 +25,7 @@ package() {
 }
 
 clean() {
-	echo "Preparing build dir.."
+	echo "Preparing build dir"
 	rm -r "$REPO/build" 2> /dev/null
 	mkdir -p "$REPO/build" 2> /dev/null
 }
