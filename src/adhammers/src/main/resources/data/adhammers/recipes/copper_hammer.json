@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:copper_ingot"
+    },
+    "B": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "pattern": [
+    "XBX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "adhammers:copper_hammer"
+  },
+  "show_notification": true
+}

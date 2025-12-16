@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "undergarden:cloggrum_ingot"
+    },
+    "B": {
+      "item": "undergarden:cloggrum_block"
+    }
+  },
+  "pattern": [
+    "XBX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "adhammers:cloggrum_hammer"
+  },
+  "show_notification": true
+}

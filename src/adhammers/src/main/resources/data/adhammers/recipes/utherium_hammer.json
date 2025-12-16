@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "undergarden:utherium_crystal"
+    },
+    "B": {
+      "item": "undergarden:utherium_block"
+    }
+  },
+  "pattern": [
+    "XBX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "adhammers:utherium_hammer"
+  },
+  "show_notification": true
+}

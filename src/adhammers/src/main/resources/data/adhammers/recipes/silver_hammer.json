@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "caverns_and_chasms:silver_ingot"
+    },
+    "B": {
+      "item": "caverns_and_chasms:silver_block"
+    }
+  },
+  "pattern": [
+    "XBX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "adhammers:silver_hammer"
+  },
+  "show_notification": true
+}
