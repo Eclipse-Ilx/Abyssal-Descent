@@ -52,10 +52,10 @@ public class Registry {
 
 
 	public static final RegistryObject<Item> EMPTY_FORGOTTEN_BOTTLE =
-		ITEMS.register("empty_forgotten_bottle", () -> new Item(new Item.Properties()));
+		ITEMS.register("empty_forgotten_bottle", () -> new Item(new Item.Properties().fireResistant()));
 
 	public static final RegistryObject<Item> ACID_BOTTLE =
-		ITEMS.register("acid_bottle", () -> new Item(new Item.Properties().durability(32)));
+		ITEMS.register("acid_bottle", () -> new Item(new Item.Properties().fireResistant().durability(32)));
 
 
 
