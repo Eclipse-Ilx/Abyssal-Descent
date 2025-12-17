@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "X": {
-      "tag": "adhammers:silver_plate"
+      "item": "adhammers:silver_plate"
     }
   },
   "pattern": [
