@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "undergarden:forgotten_nugget"
+    },
+    "y":{
+    "item":"undergarden:regalium_crystal"
+    }
+  },
+  "pattern": [
+    "yyy",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "count": 3,
+    "item": "adresources:empty_forgotten_bottle"
+  },
+  "show_notification": true
+}
