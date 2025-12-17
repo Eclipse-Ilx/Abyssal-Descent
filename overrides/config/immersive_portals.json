@@ -66,6 +66,24 @@
         "bedrockReplacementStr": "adresources:bedrock1",
         "connectsPrevious": true,
         "connectsNext": true
+      },
+      {
+        "dimensionIdStr": "undergarden:undergarden",
+        "scale": 1.0,
+        "flipped": false,
+        "horizontalRotation": 0.0,
+        "bedrockReplacementStr": "minecraft:obsidian",
+        "connectsPrevious": true,
+        "connectsNext": true
+      },
+      {
+        "dimensionIdStr": "infernalcross:dimension",
+        "scale": 1.0,
+        "flipped": false,
+        "horizontalRotation": 0.0,
+        "bedrockReplacementStr": "minecraft:obsidian",
+        "connectsPrevious": true,
+        "connectsNext": true
       }
     ]
   }
