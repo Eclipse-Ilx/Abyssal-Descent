@@ -41,7 +41,8 @@ public abstract class ItemMixin {
 	private static Optional<Integer> map_id_level(String id) {
 		return switch (id) {
 			case 
-				"minecraft:copper_ore"
+				"minecraft:copper_ore",
+				"spelunkery:granite_copper_ore"
 				-> Optional.of(0);
 			case
 				"minecraft:deepslate",
