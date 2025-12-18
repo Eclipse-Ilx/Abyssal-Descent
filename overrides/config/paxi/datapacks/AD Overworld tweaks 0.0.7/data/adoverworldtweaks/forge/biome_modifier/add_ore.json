@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "adoverworldtweaks:copper_granite_stripe"
+  ],
+  "step": "underground_ores"
+}
