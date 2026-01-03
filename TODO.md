@@ -51,11 +51,7 @@
 
 ## The Undergarden
 + fix new missing item textures
-+ new items for spelunkery compat
-	- rough utherium crystal
-	- rough regalium crystal
-+ update block drops
-	- rough diamond
++ update drops for geodes to drop its rough version rather than its default counterpart
 
 ## Infernal Crossing
 + add structures -  feur bone tree, feur bone arc+ other pieces, feur fossil fang
