@@ -49,8 +49,7 @@
 
 
 ## The Undergarden
-+ fix new missing item textures
-+ update drops for geodes to drop its rough version rather than its default counterpart
++ add textures for rough utherium and rough regalium
 
 ## Infernal Crossing
 + add structures -  feur bone tree, feur bone arc+ other pieces, feur fossil fang
